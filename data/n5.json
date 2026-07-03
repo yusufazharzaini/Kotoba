@@ -1,17 +1,7652 @@
 [
-  { "kanji": "猫", "hiragana": "ねこ", "meaning": "Kucing", "type": "名詞", "level": "N5", "theme": "Hewan", "example": "猫が好きです。" },
-  { "kanji": "犬", "hiragana": "いぬ", "meaning": "Anjing", "type": "名詞", "level": "N5", "theme": "Hewan", "example": "犬と散歩する。" },
-  { "kanji": "水", "hiragana": "みず", "meaning": "Air", "type": "名詞", "level": "N5", "theme": "Alam", "example": "水を飲みます。" },
-  { "kanji": "友達", "hiragana": "ともだち", "meaning": "Teman", "type": "名詞", "level": "N5", "theme": "Manusia", "example": "友達と遊ぶ。" },
-  { "kanji": "学校", "hiragana": "がっこう", "meaning": "Sekolah", "type": "名詞", "level": "N5", "theme": "Tempat", "example": "学校へ行きます。" },
-  { "kanji": "食べる", "hiragana": "たべる", "meaning": "Makan", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "ご飯を食べる。" },
-  { "kanji": "飲む", "hiragana": "のむ", "meaning": "Minum", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "水を飲む。" },
-  { "kanji": "行く", "hiragana": "いく", "meaning": "Pergi", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "学校へ行く。" },
-  { "kanji": "見る", "hiragana": "みる", "meaning": "Melihat", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "テレビを見る。" },
-  { "kanji": "大きい", "hiragana": "おおきい", "meaning": "Besar", "type": "形容詞", "level": "N5", "theme": "Sifat", "example": "大きい家。" },
-  { "kanji": "小さい", "hiragana": "ちいさい", "meaning": "Kecil", "type": "形容詞", "level": "N5", "theme": "Sifat", "example": "小さい猫。" },
-  { "kanji": "空", "hiragana": "そら", "meaning": "Langit", "type": "名詞", "level": "N5", "theme": "Alam", "example": "空が青い。" },
-  { "kanji": "山", "hiragana": "やま", "meaning": "Gunung", "type": "名詞", "level": "N5", "theme": "Alam", "example": "山に登る。" },
-  { "kanji": "川", "hiragana": "かわ", "meaning": "Sungai", "type": "名詞", "level": "N5", "theme": "Alam", "example": "川で泳ぐ。" },
-  { "kanji": "花", "hiragana": "はな", "meaning": "Bunga", "type": "名詞", "level": "N5", "theme": "Alam", "example": "花がきれい。" }
+  {
+    "kanji": "私",
+    "hiragana": "わたし",
+    "meaning": "Saya",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "私は学生です。 (Watashi wa gakusei desu.) - Saya adalah pelajar."
+  },
+  {
+    "kanji": "あなた",
+    "hiragana": "あなた",
+    "meaning": "Kamu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "あなたは誰ですか？ (Anata wa dare desu ka?) - Kamu siapa?"
+  },
+  {
+    "kanji": "彼",
+    "hiragana": "かれ",
+    "meaning": "Dia (laki-laki)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "彼は先生です。 (Kare wa sensei desu.) - Dia (laki-laki) adalah guru."
+  },
+  {
+    "kanji": "彼女",
+    "hiragana": "かのじょ",
+    "meaning": "Dia (perempuan)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "彼女は学生です。 (Kanojo wa gakusei desu.) - Dia (perempuan) adalah pelajar."
+  },
+  {
+    "kanji": "私達",
+    "hiragana": "わたしたち",
+    "meaning": "Kami",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "私達は日本人です。 (Watashitachi wa nihonjin desu.) - Kami adalah orang Jepang."
+  },
+  {
+    "kanji": "皆さん",
+    "hiragana": "みなさん",
+    "meaning": "Semuanya",
+    "type": "noun",
+    "level": "n5",
+    "theme": "pronoun",
+    "example": "皆さん、こんにちは。 (Minasan, konnichiwa.) - Halo semuanya."
+  },
+  {
+    "kanji": "人",
+    "hiragana": "ひと",
+    "meaning": "Orang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "あそこに人がいます。 (Asoko ni hito ga imasu.) - Ada orang di sana."
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ",
+    "meaning": "Laki-laki",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "あの男は誰ですか？ (Ano otoko wa dare desu ka?) - Siapa laki-laki itu?"
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな",
+    "meaning": "Perempuan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "あの女は先生です。 (Ano onna wa sensei desu.) - Perempuan itu adalah guru."
+  },
+  {
+    "kanji": "子供",
+    "hiragana": "こども",
+    "meaning": "Anak",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "子供が公園で遊んでいます。 (Kodomo ga kouen de asonde imasu.) - Anak-anak bermain di taman."
+  },
+  {
+    "kanji": "男の子",
+    "hiragana": "おとこのこ",
+    "meaning": "Anak laki-laki",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "男の子が走っています。 (Otoko no ko ga hashitte imasu.) - Anak laki-laki sedang berlari."
+  },
+  {
+    "kanji": "女の子",
+    "hiragana": "おんなのこ",
+    "meaning": "Anak perempuan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "女の子が笑っています。 (Onna no ko ga waratte imasu.) - Anak perempuan sedang tertawa."
+  },
+  {
+    "kanji": "赤ちゃん",
+    "hiragana": "あかちゃん",
+    "meaning": "Bayi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "赤ちゃんが寝ています。 (Akachan ga nete imasu.) - Bayi sedang tidur."
+  },
+  {
+    "kanji": "お父さん",
+    "hiragana": "おとうさん",
+    "meaning": "Ayah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "お父さんは会社員です。 (Otousan wa kaishain desu.) - Ayah adalah karyawan perusahaan."
+  },
+  {
+    "kanji": "お母さん",
+    "hiragana": "おかあさん",
+    "meaning": "Ibu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "お母さんは主婦です。 (Okaasan wa shufu desu.) - Ibu adalah ibu rumah tangga."
+  },
+  {
+    "kanji": "兄",
+    "hiragana": "あに",
+    "meaning": "Kakak laki-laki (sendiri)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "兄は大学生です。 (Ani wa daigakusei desu.) - Kakak laki-laki saya adalah mahasiswa."
+  },
+  {
+    "kanji": "姉",
+    "hiragana": "あね",
+    "meaning": "Kakak perempuan (sendiri)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "姉は看護師です。 (Ane wa kangoshi desu.) - Kakak perempuan saya adalah perawat."
+  },
+  {
+    "kanji": "弟",
+    "hiragana": "おとうと",
+    "meaning": "Adik laki-laki",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "弟は小学生です。 (Otouto wa shougakusei desu.) - Adik laki-laki saya adalah murid SD."
+  },
+  {
+    "kanji": "妹",
+    "hiragana": "いもうと",
+    "meaning": "Adik perempuan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "妹は中学生です。 (Imouto wa chuugakusei desu.) - Adik perempuan saya adalah murid SMP."
+  },
+  {
+    "kanji": "お兄さん",
+    "hiragana": "おにいさん",
+    "meaning": "Kakak laki-laki (orang lain)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "お兄さんは優しいです。 (Oniisan wa yasashii desu.) - Kakak laki-laki (Anda) baik."
+  },
+  {
+    "kanji": "お姉さん",
+    "hiragana": "おねえさん",
+    "meaning": "Kakak perempuan (orang lain)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "お姉さんはきれいです。 (Oneesan wa kirei desu.) - Kakak perempuan (Anda) cantik."
+  },
+  {
+    "kanji": "おじいさん",
+    "hiragana": "おじいさん",
+    "meaning": "Kakek",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "おじいさんは元気です。 (Ojiisan wa genki desu.) - Kakek sehat."
+  },
+  {
+    "kanji": "おばあさん",
+    "hiragana": "おばあさん",
+    "meaning": "Nenek",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "おばあさんは料理が上手です。 (Obaasan wa ryouri ga jouzu desu.) - Nenek pandai memasak."
+  },
+  {
+    "kanji": "家族",
+    "hiragana": "かぞく",
+    "meaning": "Keluarga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "family",
+    "example": "私の家族は四人です。 (Watashi no kazoku wa yonin desu.) - Keluarga saya berempat."
+  },
+  {
+    "kanji": "友達",
+    "hiragana": "ともだち",
+    "meaning": "Teman",
+    "type": "noun",
+    "level": "n5",
+    "theme": "relationship",
+    "example": "友達と映画を見ました。 (Tomodachi to eiga wo mimashita.) - Saya menonton film dengan teman."
+  },
+  {
+    "kanji": "先生",
+    "hiragana": "せんせい",
+    "meaning": "Guru",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "先生は教室にいます。 (Sensei wa kyoushitsu ni imasu.) - Guru ada di ruang kelas."
+  },
+  {
+    "kanji": "学生",
+    "hiragana": "がくせい",
+    "meaning": "Mahasiswa/Pelajar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "私は学生です。 (Watashi wa gakusei desu.) - Saya adalah pelajar."
+  },
+  {
+    "kanji": "生徒",
+    "hiragana": "せいと",
+    "meaning": "Murid",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "生徒は図書館で勉強します。 (Seito wa toshokan de benkyou shimasu.) - Murid belajar di perpustakaan."
+  },
+  {
+    "kanji": "会社員",
+    "hiragana": "かいしゃいん",
+    "meaning": "Karyawan perusahaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "父は会社員です。 (Chichi wa kaishain desu.) - Ayah saya adalah karyawan perusahaan."
+  },
+  {
+    "kanji": "医者",
+    "hiragana": "いしゃ",
+    "meaning": "Dokter",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "彼は医者です。 (Kare wa isha desu.) - Dia adalah dokter."
+  },
+  {
+    "kanji": "店員",
+    "hiragana": "てんいん",
+    "meaning": "Pegawai toko",
+    "type": "noun",
+    "level": "n5",
+    "theme": "occupation",
+    "example": "店員が商品を並べています。 (Ten'in ga shouhin wo narabete imasu.) - Pegawai toko sedang menata barang."
+  },
+  {
+    "kanji": "名前",
+    "hiragana": "なまえ",
+    "meaning": "Nama",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "あなたの名前は何ですか？ (Anata no namae wa nan desu ka?) - Siapa nama Anda?"
+  },
+  {
+    "kanji": "年",
+    "hiragana": "とし",
+    "meaning": "Tahun/Umur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "私は20歳です。 (Watashi wa hatachi desu.) - Umur saya 20 tahun."
+  },
+  {
+    "kanji": "今",
+    "hiragana": "いま",
+    "meaning": "Sekarang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今何時ですか？ (Ima nanji desu ka?) - Sekarang jam berapa?"
+  },
+  {
+    "kanji": "今日",
+    "hiragana": "きょう",
+    "meaning": "Hari ini",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今日は暑いです。 (Kyou wa atsui desu.) - Hari ini panas."
+  },
+  {
+    "kanji": "明日",
+    "hiragana": "あした",
+    "meaning": "Besok",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "明日は休みです。 (Ashita wa yasumi desu.) - Besok libur."
+  },
+  {
+    "kanji": "昨日",
+    "hiragana": "きのう",
+    "meaning": "Kemarin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "昨日は雨でした。 (Kinou wa ame deshita.) - Kemarin hujan."
+  },
+  {
+    "kanji": "朝",
+    "hiragana": "あさ",
+    "meaning": "Pagi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "朝ご飯を食べます。 (Asagohan wo tabemasu.) - Saya makan sarapan."
+  },
+  {
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "meaning": "Siang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "昼に友達と会います。 (Hiru ni tomodachi to aimasu.) - Saya bertemu teman pada siang."
+  },
+  {
+    "kanji": "夜",
+    "hiragana": "よる",
+    "meaning": "Malam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "夜は静かです。 (Yoru wa shizuka desu.) - Malam sepi."
+  },
+  {
+    "kanji": "夕方",
+    "hiragana": "ゆうがた",
+    "meaning": "Sore",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "夕方に散歩します。 (Yuugata ni sanpo shimasu.) - Saya jalan-jalan sore."
+  },
+  {
+    "kanji": "午前",
+    "hiragana": "ごぜん",
+    "meaning": "Sebelum siang (AM)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "午前9時です。 (Gozen kuji desu.) - Jam 9 pagi."
+  },
+  {
+    "kanji": "午後",
+    "hiragana": "ごご",
+    "meaning": "Setelah siang (PM)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "午後3時に会いましょう。 (Gogo sanji ni aimashou.) - Mari bertemu jam 3 sore."
+  },
+  {
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "meaning": "Setiap hari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎日日本語を勉強します。 (Mainichi nihongo wo benkyou shimasu.) - Saya belajar bahasa Jepang setiap hari."
+  },
+  {
+    "kanji": "毎朝",
+    "hiragana": "まいあさ",
+    "meaning": "Setiap pagi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎朝ジョギングをします。 (Maiasa jogingu wo shimasu.) - Saya jogging setiap pagi."
+  },
+  {
+    "kanji": "毎晩",
+    "hiragana": "まいばん",
+    "meaning": "Setiap malam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎晩本を読みます。 (Maiban hon wo yomimasu.) - Saya membaca buku setiap malam."
+  },
+  {
+    "kanji": "毎週",
+    "hiragana": "まいしゅう",
+    "meaning": "Setiap minggu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎週日曜日に映画を見ます。 (Maishuu nichiyoubi ni eiga wo mimasu.) - Saya menonton film setiap Minggu."
+  },
+  {
+    "kanji": "毎月",
+    "hiragana": "まいつき",
+    "meaning": "Setiap bulan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎月家賃を払います。 (Maitsuki yachin wo haraimasu.) - Saya membayar sewa setiap bulan."
+  },
+  {
+    "kanji": "毎年",
+    "hiragana": "まいとし",
+    "meaning": "Setiap tahun",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "毎年夏に海へ行きます。 (Maitoshi natsu ni umi e ikimasu.) - Saya pergi ke laut setiap tahun pada musim panas."
+  },
+  {
+    "kanji": "時",
+    "hiragana": "とき",
+    "meaning": "Waktu/Saat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "この時、彼は家にいました。 (Kono toki, kare wa ie ni imashita.) - Pada saat ini, dia ada di rumah."
+  },
+  {
+    "kanji": "時間",
+    "hiragana": "じかん",
+    "meaning": "Jam/Waktu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "時間がありません。 (Jikan ga arimasen.) - Tidak ada waktu."
+  },
+  {
+    "kanji": "分",
+    "hiragana": "ふん",
+    "meaning": "Menit",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "10分待ってください。 (Juppun matte kudasai.) - Tolong tunggu 10 menit."
+  },
+  {
+    "kanji": "秒",
+    "hiragana": "びょう",
+    "meaning": "Detik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "3秒で終わります。 (Sanbyou de owari masu.) - Selesai dalam 3 detik."
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "meaning": "Setengah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "30分半です。 (Sanjuppun han desu.) - 30 setengah menit."
+  },
+  {
+    "kanji": "月曜日",
+    "hiragana": "げつようび",
+    "meaning": "Senin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "月曜日は忙しいです。 (Getsuyoubi wa isogashii desu.) - Senin sibuk."
+  },
+  {
+    "kanji": "火曜日",
+    "hiragana": "かようび",
+    "meaning": "Selasa",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "火曜日にテストがあります。 (Kayoubi ni tesuto ga arimasu.) - Ada ujian pada Selasa."
+  },
+  {
+    "kanji": "水曜日",
+    "hiragana": "すいようび",
+    "meaning": "Rabu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "水曜日は休みです。 (Suiyoubi wa yasumi desu.) - Rabu libur."
+  },
+  {
+    "kanji": "木曜日",
+    "hiragana": "もくようび",
+    "meaning": "Kamis",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "木曜日に会議があります。 (Mokuyoubi ni kaigi ga arimasu.) - Ada rapat pada Kamis."
+  },
+  {
+    "kanji": "金曜日",
+    "hiragana": "きんようび",
+    "meaning": "Jumat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "金曜日にパーティーがあります。 (Kinyoubi ni paatii ga arimasu.) - Ada pesta pada Jumat."
+  },
+  {
+    "kanji": "土曜日",
+    "hiragana": "どようび",
+    "meaning": "Sabtu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "土曜日は買い物に行きます。 (Doyoubi wa kaimono ni ikimasu.) - Saya pergi belanja pada Sabtu."
+  },
+  {
+    "kanji": "日曜日",
+    "hiragana": "にちようび",
+    "meaning": "Minggu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "日曜日は家族と過ごします。 (Nichiyoubi wa kazoku to sugoshimasu.) - Saya menghabiskan waktu dengan keluarga pada Minggu."
+  },
+  {
+    "kanji": "週",
+    "hiragana": "しゅう",
+    "meaning": "Minggu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今週は忙しいです。 (Konshuu wa isogashii desu.) - Minggu ini sibuk."
+  },
+  {
+    "kanji": "週末",
+    "hiragana": "しゅうまつ",
+    "meaning": "Akhir pekan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "週末に何をしますか？ (Shuumatsu ni nani wo shimasu ka?) - Apa yang Anda lakukan pada akhir pekan?"
+  },
+  {
+    "kanji": "先週",
+    "hiragana": "せんしゅう",
+    "meaning": "Minggu lalu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "先週、京都に行きました。 (Senshuu, Kyoto ni ikimashita.) - Saya pergi ke Kyoto minggu lalu."
+  },
+  {
+    "kanji": "今週",
+    "hiragana": "こんしゅう",
+    "meaning": "Minggu ini",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今週は試験があります。 (Konshuu wa shiken ga arimasu.) - Ada ujian minggu ini."
+  },
+  {
+    "kanji": "来週",
+    "hiragana": "らいしゅう",
+    "meaning": "Minggu depan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "来週、引っ越します。 (Raishuu, hikkoshimasu.) - Saya pindah minggu depan."
+  },
+  {
+    "kanji": "先月",
+    "hiragana": "せんげつ",
+    "meaning": "Bulan lalu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "先月、誕生日でした。 (Sengetsu, tanjoubi deshita.) - Bulan lalu adalah ulang tahun."
+  },
+  {
+    "kanji": "今月",
+    "hiragana": "こんげつ",
+    "meaning": "Bulan ini",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今月は忙しいです。 (Kongetsu wa isogashii desu.) - Bulan ini sibuk."
+  },
+  {
+    "kanji": "来月",
+    "hiragana": "らいげつ",
+    "meaning": "Bulan depan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "来月、旅行に行きます。 (Raigetsu, ryokou ni ikimasu.) - Saya pergi wisata bulan depan."
+  },
+  {
+    "kanji": "去年",
+    "hiragana": "きょねん",
+    "meaning": "Tahun lalu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "去年、日本に行きました。 (Kyonen, Nihon ni ikimashita.) - Saya pergi ke Jepang tahun lalu."
+  },
+  {
+    "kanji": "今年",
+    "hiragana": "ことし",
+    "meaning": "Tahun ini",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "今年はオリンピックがあります。 (Kotoshi wa orinpikku ga arimasu.) - Tahun ini ada Olimpiade."
+  },
+  {
+    "kanji": "来年",
+    "hiragana": "らいねん",
+    "meaning": "Tahun depan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "来年、大学を卒業します。 (Rainen, daigaku wo sotsugyou shimasu.) - Saya lulus universitas tahun depan."
+  },
+  {
+    "kanji": "一月",
+    "hiragana": "いちがつ",
+    "meaning": "Januari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "一月は寒いです。 (Ichigatsu wa samui desu.) - Januari dingin."
+  },
+  {
+    "kanji": "二月",
+    "hiragana": "にがつ",
+    "meaning": "Februari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "二月にバレンタインデーがあります。 (Nigatsu ni barentain dee ga arimasu.) - Ada Hari Valentine di Februari."
+  },
+  {
+    "kanji": "三月",
+    "hiragana": "さんがつ",
+    "meaning": "Maret",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "三月に桜が咲きます。 (Sangatsu ni sakura ga sakimasu.) - Bunga sakura mekar di Maret."
+  },
+  {
+    "kanji": "四月",
+    "hiragana": "しがつ",
+    "meaning": "April",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "四月から新学期です。 (Shigatsu kara shingakki desu.) - Semester baru mulai April."
+  },
+  {
+    "kanji": "五月",
+    "hiragana": "ごがつ",
+    "meaning": "Mei",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "五月にゴールデンウィークがあります。 (Gogatsu ni goolden wiiku ga arimasu.) - Ada Golden Week di Mei."
+  },
+  {
+    "kanji": "六月",
+    "hiragana": "ろくがつ",
+    "meaning": "Juni",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "六月は雨が多いです。 (Rokugatsu wa ame ga ooi desu.) - Juni banyak hujan."
+  },
+  {
+    "kanji": "七月",
+    "hiragana": "しちがつ",
+    "meaning": "Juli",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "七月に海開きがあります。 (Shichigatsu ni umibiraki ga arimasu.) - Pembukaan pantai di Juli."
+  },
+  {
+    "kanji": "八月",
+    "hiragana": "はちがつ",
+    "meaning": "Agustus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "八月は暑いです。 (Hachigatsu wa atsui desu.) - Agustus panas."
+  },
+  {
+    "kanji": "九月",
+    "hiragana": "くがつ",
+    "meaning": "September",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "九月に運動会があります。 (Kugatsu ni undoukai ga arimasu.) - Ada festival olahraga di September."
+  },
+  {
+    "kanji": "十月",
+    "hiragana": "じゅうがつ",
+    "meaning": "Oktober",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "十月はハロウィンがあります。 (Juugatsu ni harouin ga arimasu.) - Ada Halloween di Oktober."
+  },
+  {
+    "kanji": "十一月",
+    "hiragana": "じゅういちがつ",
+    "meaning": "November",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "十一月は紅葉がきれいです。 (Juuiichigatsu wa kouyou ga kirei desu.) - Daun musim gugur indah di November."
+  },
+  {
+    "kanji": "十二月",
+    "hiragana": "じゅうにがつ",
+    "meaning": "Desember",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "十二月はクリスマスがあります。 (Juunigatsu wa kurisumasu ga arimasu.) - Ada Natal di Desember."
+  },
+  {
+    "kanji": "一",
+    "hiragana": "いち",
+    "meaning": "Satu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "一つください。 (Hitotsu kudasai.) - Tolong beri satu."
+  },
+  {
+    "kanji": "二",
+    "hiragana": "に",
+    "meaning": "Dua",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "二つあります。 (Futatsu arimasu.) - Ada dua."
+  },
+  {
+    "kanji": "三",
+    "hiragana": "さん",
+    "meaning": "Tiga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "三つ食べました。 (Mittsu tabemashita.) - Saya makan tiga."
+  },
+  {
+    "kanji": "四",
+    "hiragana": "し/よん",
+    "meaning": "Empat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "四つ目は何ですか？ (Yottsume wa nan desu ka?) - Apa yang keempat?"
+  },
+  {
+    "kanji": "五",
+    "hiragana": "ご",
+    "meaning": "Lima",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "五つあります。 (Itsutsu arimasu.) - Ada lima."
+  },
+  {
+    "kanji": "六",
+    "hiragana": "ろく",
+    "meaning": "Enam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "六つください。 (Muttsu kudasai.) - Tolong beri enam."
+  },
+  {
+    "kanji": "七",
+    "hiragana": "しち/なな",
+    "meaning": "Tujuh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "七つあります。 (Nanatsu arimasu.) - Ada tujuh."
+  },
+  {
+    "kanji": "八",
+    "hiragana": "はち",
+    "meaning": "Delapan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "八つあります。 (Yattsu arimasu.) - Ada delapan."
+  },
+  {
+    "kanji": "九",
+    "hiragana": "きゅう/く",
+    "meaning": "Sembilan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "九つあります。 (Kokonotsu arimasu.) - Ada sembilan."
+  },
+  {
+    "kanji": "十",
+    "hiragana": "じゅう",
+    "meaning": "Sepuluh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "十個ください。 (Jukko kudasai.) - Tolong beri sepuluh."
+  },
+  {
+    "kanji": "百",
+    "hiragana": "ひゃく",
+    "meaning": "Seratus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "百円です。 (Hyaku en desu.) - Seratus yen."
+  },
+  {
+    "kanji": "千",
+    "hiragana": "せん",
+    "meaning": "Seribu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "千円です。 (Sen en desu.) - Seribu yen."
+  },
+  {
+    "kanji": "万",
+    "hiragana": "まん",
+    "meaning": "Sepuluh ribu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "一万円です。 (Ichiman en desu.) - Sepuluh ribu yen."
+  },
+  {
+    "kanji": "円",
+    "hiragana": "えん",
+    "meaning": "Yen",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "これは五百円です。 (Kore wa gohyaku en desu.) - Ini lima ratus yen."
+  },
+  {
+    "kanji": "何",
+    "hiragana": "なに/なん",
+    "meaning": "Apa",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "これは何ですか？ (Kore wa nan desu ka?) - Apa ini?"
+  },
+  {
+    "kanji": "誰",
+    "hiragana": "だれ",
+    "meaning": "Siapa",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "あの人は誰ですか？ (Ano hito wa dare desu ka?) - Siapa orang itu?"
+  },
+  {
+    "kanji": "どこ",
+    "hiragana": "どこ",
+    "meaning": "Di mana",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "トイレはどこですか？ (Toire wa doko desu ka?) - Di mana toilet?"
+  },
+  {
+    "kanji": "いつ",
+    "hiragana": "いつ",
+    "meaning": "Kapan",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "パーティーはいつですか？ (Paatii wa itsu desu ka?) - Kapan pestanya?"
+  },
+  {
+    "kanji": "どう",
+    "hiragana": "どう",
+    "meaning": "Bagaimana",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "お元気ですか？ - どうですか？ (Ogenki desu ka? - Dou desu ka?) - Bagaimana kabar?"
+  },
+  {
+    "kanji": "どうして",
+    "hiragana": "どうして",
+    "meaning": "Mengapa",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "どうして遅れましたか？ (Doushite okuremashita ka?) - Mengapa Anda terlambat?"
+  },
+  {
+    "kanji": "なぜ",
+    "hiragana": "なぜ",
+    "meaning": "Mengapa",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "なぜ来ませんでしたか？ (Naze kimasen deshita ka?) - Mengapa tidak datang?"
+  },
+  {
+    "kanji": "どれ",
+    "hiragana": "どれ",
+    "meaning": "Yang mana",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "どれがあなたの傘ですか？ (Dore ga anata no kasa desu ka?) - Yang mana payung Anda?"
+  },
+  {
+    "kanji": "どの",
+    "hiragana": "どの",
+    "meaning": "Yang mana (adj)",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "どの本がいいですか？ (Dono hon ga ii desu ka?) - Buku yang mana yang bagus?"
+  },
+  {
+    "kanji": "どちら",
+    "hiragana": "どちら",
+    "meaning": "Mana (sopan)",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "どちらがお好きですか？ (Dochira ga osuki desu ka?) - Yang mana yang Anda suka?"
+  },
+  {
+    "kanji": "いくつ",
+    "hiragana": "いくつ",
+    "meaning": "Berapa banyak",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "いくつありますか？ (Ikutsu arimasu ka?) - Ada berapa?"
+  },
+  {
+    "kanji": "いくら",
+    "hiragana": "いくら",
+    "meaning": "Berapa harga",
+    "type": "interrogative",
+    "level": "n5",
+    "theme": "question",
+    "example": "これはいくらですか？ (Kore wa ikura desu ka?) - Berapa harga ini?"
+  },
+  {
+    "kanji": "家",
+    "hiragana": "いえ/うち",
+    "meaning": "Rumah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "私の家はここです。 (Watashi no ie wa koko desu.) - Rumah saya di sini."
+  },
+  {
+    "kanji": "部屋",
+    "hiragana": "へや",
+    "meaning": "Kamar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "この部屋は広いです。 (Kono heya wa hiroi desu.) - Kamar ini luas."
+  },
+  {
+    "kanji": "台所",
+    "hiragana": "だいどころ",
+    "meaning": "Dapur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "台所で料理をします。 (Daidokoro de ryouri wo shimasu.) - Saya masak di dapur."
+  },
+  {
+    "kanji": "トイレ",
+    "hiragana": "トイレ",
+    "meaning": "Toilet",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "トイレはどこですか？ (Toire wa doko desu ka?) - Di mana toilet?"
+  },
+  {
+    "kanji": "お風呂",
+    "hiragana": "おふろ",
+    "meaning": "Kamar mandi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "お風呂に入ります。 (Ofuro ni hairimasu.) - Saya mandi."
+  },
+  {
+    "kanji": "玄関",
+    "hiragana": "げんかん",
+    "meaning": "Pintu depan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "玄関で靴を脱ぎます。 (Genkan de kutsu wo nugimasu.) - Saya melepas sepatu di pintu depan."
+  },
+  {
+    "kanji": "庭",
+    "hiragana": "にわ",
+    "meaning": "Halaman",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "庭に花があります。 (Niwa ni hana ga arimasu.) - Ada bunga di halaman."
+  },
+  {
+    "kanji": "窓",
+    "hiragana": "まど",
+    "meaning": "Jendela",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "窓を開けます。 (Mado wo akemasu.) - Saya membuka jendela."
+  },
+  {
+    "kanji": "ドア",
+    "hiragana": "ドア",
+    "meaning": "Pintu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "ドアを閉めてください。 (Doa wo shimete kudasai.) - Tolong tutup pintu."
+  },
+  {
+    "kanji": "階段",
+    "hiragana": "かいだん",
+    "meaning": "Tangga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "階段を上がります。 (Kaidan wo agarimasu.) - Saya naik tangga."
+  },
+  {
+    "kanji": "エレベーター",
+    "hiragana": "エレベーター",
+    "meaning": "Lift",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "エレベーターで行きます。 (Erebeetaa de ikimasu.) - Saya pergi dengan lift."
+  },
+  {
+    "kanji": "学校",
+    "hiragana": "がっこう",
+    "meaning": "Sekolah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "学校に行きます。 (Gakkou ni ikimasu.) - Saya pergi ke sekolah."
+  },
+  {
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "meaning": "Universitas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "大学で勉強します。 (Daigaku de benkyou shimasu.) - Saya belajar di universitas."
+  },
+  {
+    "kanji": "病院",
+    "hiragana": "びょういん",
+    "meaning": "Rumah sakit",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "病院へ行きます。 (Byouin e ikimasu.) - Saya pergi ke rumah sakit."
+  },
+  {
+    "kanji": "銀行",
+    "hiragana": "ぎんこう",
+    "meaning": "Bank",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "銀行でお金を下ろします。 (Ginkou de okane wo oroshimasu.) - Saya mengambil uang di bank."
+  },
+  {
+    "kanji": "郵便局",
+    "hiragana": "ゆうびんきょく",
+    "meaning": "Kantor pos",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "郵便局で手紙を出します。 (Yuubinkyoku de tegami wo dashimasu.) - Saya mengirim surat di kantor pos."
+  },
+  {
+    "kanji": "駅",
+    "hiragana": "えき",
+    "meaning": "Stasiun",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "駅で電車に乗ります。 (Eki de densha ni norimasu.) - Saya naik kereta di stasiun."
+  },
+  {
+    "kanji": "空港",
+    "hiragana": "くうこう",
+    "meaning": "Bandara",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "空港へ行きます。 (Kuukou e ikimasu.) - Saya pergi ke bandara."
+  },
+  {
+    "kanji": "店",
+    "hiragana": "みせ",
+    "meaning": "Toko",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "この店は安いです。 (Kono mise wa yasui desu.) - Toko ini murah."
+  },
+  {
+    "kanji": "レストラン",
+    "hiragana": "レストラン",
+    "meaning": "Restoran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "レストランで食事をします。 (Resutoran de shokuji wo shimasu.) - Saya makan di restoran."
+  },
+  {
+    "kanji": "喫茶店",
+    "hiragana": "きっさてん",
+    "meaning": "Kafe",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "喫茶店でコーヒーを飲みます。 (Kissaten de koohii wo nomimasu.) - Saya minum kopi di kafe."
+  },
+  {
+    "kanji": "図書館",
+    "hiragana": "としょかん",
+    "meaning": "Perpustakaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "図書館で本を読みます。 (Toshokan de hon wo yomimasu.) - Saya membaca buku di perpustakaan."
+  },
+  {
+    "kanji": "公園",
+    "hiragana": "こうえん",
+    "meaning": "Taman",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "公園で遊びます。 (Kouen de asobimasu.) - Saya bermain di taman."
+  },
+  {
+    "kanji": "映画館",
+    "hiragana": "えいがかん",
+    "meaning": "Bioskop",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "映画館で映画を見ます。 (Eigakan de eiga wo mimasu.) - Saya menonton film di bioskop."
+  },
+  {
+    "kanji": "会社",
+    "hiragana": "かいしゃ",
+    "meaning": "Perusahaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "会社で働きます。 (Kaisha de hatarakimasu.) - Saya bekerja di perusahaan."
+  },
+  {
+    "kanji": "工場",
+    "hiragana": "こうじょう",
+    "meaning": "Pabrik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "工場で製品を作ります。 (Koujou de seihin wo tsukurimasu.) - Saya membuat produk di pabrik."
+  },
+  {
+    "kanji": "交番",
+    "hiragana": "こうばん",
+    "meaning": "Pos polisi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "交番で道を聞きます。 (Kouban de michi wo kikimasu.) - Saya bertanya jalan di pos polisi."
+  },
+  {
+    "kanji": "ホテル",
+    "hiragana": "ホテル",
+    "meaning": "Hotel",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "ホテルに泊まります。 (Hoteru ni tomarimasu.) - Saya menginap di hotel."
+  },
+  {
+    "kanji": "デパート",
+    "hiragana": "デパート",
+    "meaning": "Department store",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "デパートで買い物をします。 (Depaato de kaimono wo shimasu.) - Saya belanja di department store."
+  },
+  {
+    "kanji": "スーパー",
+    "hiragana": "スーパー",
+    "meaning": "Supermarket",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "スーパーで野菜を買います。 (Suupaa de yasai wo kaimasu.) - Saya membeli sayur di supermarket."
+  },
+  {
+    "kanji": "コンビニ",
+    "hiragana": "コンビニ",
+    "meaning": "Minimarket",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "コンビニでおにぎりを買います。 (Konbini de onigiri wo kaimasu.) - Saya membeli onigiri di minimarket."
+  },
+  {
+    "kanji": "道",
+    "hiragana": "みち",
+    "meaning": "Jalan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "この道をまっすぐ行きます。 (Kono michi wo massugu ikimasu.) - Saya pergi lurus di jalan ini."
+  },
+  {
+    "kanji": "橋",
+    "hiragana": "はし",
+    "meaning": "Jembatan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "橋を渡ります。 (Hashi wo watarimasu.) - Saya menyeberangi jembatan."
+  },
+  {
+    "kanji": "川",
+    "hiragana": "かわ",
+    "meaning": "Sungai",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "川で泳ぎます。 (Kawa de oyogimasu.) - Saya berenang di sungai."
+  },
+  {
+    "kanji": "山",
+    "hiragana": "やま",
+    "meaning": "Gunung",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "山に登ります。 (Yama ni noborimasu.) - Saya mendaki gunung."
+  },
+  {
+    "kanji": "海",
+    "hiragana": "うみ",
+    "meaning": "Laut",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "海が見えます。 (Umi ga miemasu.) - Saya bisa melihat laut."
+  },
+  {
+    "kanji": "池",
+    "hiragana": "いけ",
+    "meaning": "Kolam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "池に鯉がいます。 (Ike ni koi ga imasu.) - Ada ikan mas di kolam."
+  },
+  {
+    "kanji": "国",
+    "hiragana": "くに",
+    "meaning": "Negara",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "あなたの国はどこですか？ (Anata no kuni wa doko desu ka?) - Negara Anda di mana?"
+  },
+  {
+    "kanji": "町",
+    "hiragana": "まち",
+    "meaning": "Kota kecil",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "この町は静かです。 (Kono machi wa shizuka desu.) - Kota ini tenang."
+  },
+  {
+    "kanji": "村",
+    "hiragana": "むら",
+    "meaning": "Desa",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "村に住んでいます。 (Mura ni sunde imasu.) - Saya tinggal di desa."
+  },
+  {
+    "kanji": "外",
+    "hiragana": "そと",
+    "meaning": "Luar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "外で遊びます。 (Soto de asobimasu.) - Saya bermain di luar."
+  },
+  {
+    "kanji": "中",
+    "hiragana": "なか",
+    "meaning": "Dalam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "箱の中に何がありますか？ (Hako no naka ni nani ga arimasu ka?) - Ada apa di dalam kotak?"
+  },
+  {
+    "kanji": "上",
+    "hiragana": "うえ",
+    "meaning": "Atas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "机の上に本があります。 (Tsukue no ue ni hon ga arimasu.) - Ada buku di atas meja."
+  },
+  {
+    "kanji": "下",
+    "hiragana": "した",
+    "meaning": "Bawah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "椅子の下に猫がいます。 (Isu no shita ni neko ga imasu.) - Ada kucing di bawah kursi."
+  },
+  {
+    "kanji": "前",
+    "hiragana": "まえ",
+    "meaning": "Depan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "学校の前にバス停があります。 (Gakkou no mae ni basutei ga arimasu.) - Ada halte bus di depan sekolah."
+  },
+  {
+    "kanji": "後ろ",
+    "hiragana": "うしろ",
+    "meaning": "Belakang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "家の後ろに庭があります。 (Ie no ushiro ni niwa ga arimasu.) - Ada halaman di belakang rumah."
+  },
+  {
+    "kanji": "右",
+    "hiragana": "みぎ",
+    "meaning": "Kanan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "右に曲がってください。 (Migi ni magatte kudasai.) - Tolong belok kanan."
+  },
+  {
+    "kanji": "左",
+    "hiragana": "ひだり",
+    "meaning": "Kiri",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "左に曲がります。 (Hidari ni magarimasu.) - Saya belok kiri."
+  },
+  {
+    "kanji": "隣",
+    "hiragana": "となり",
+    "meaning": "Sebelah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "私の隣に友達が座っています。 (Watashi no tonari ni tomodachi ga suwatte imasu.) - Teman duduk di sebelah saya."
+  },
+  {
+    "kanji": "近く",
+    "hiragana": "ちかく",
+    "meaning": "Dekat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "駅の近くにコンビニがあります。 (Eki no chikaku ni konbini ga arimasu.) - Ada minimarket di dekat stasiun."
+  },
+  {
+    "kanji": "遠く",
+    "hiragana": "とおく",
+    "meaning": "Jauh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "遠くに山が見えます。 (Tooku ni yama ga miemasu.) - Saya bisa melihat gunung di kejauhan."
+  },
+  {
+    "kanji": "間",
+    "hiragana": "あいだ",
+    "meaning": "Antara",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "机と椅子の間には何がありますか？ (Tsukue to isu no aida ni wa nani ga arimasu ka?) - Apa yang ada di antara meja dan kursi?"
+  },
+  {
+    "kanji": "横",
+    "hiragana": "よこ",
+    "meaning": "Samping",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "私の横に彼がいます。 (Watashi no yoko ni kare ga imasu.) - Dia ada di samping saya."
+  },
+  {
+    "kanji": "側",
+    "hiragana": "そば",
+    "meaning": "Sisi/Dekat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "私の側にいてください。 (Watashi no soba ni ite kudasai.) - Tolong di sisi saya."
+  },
+  {
+    "kanji": "東",
+    "hiragana": "ひがし",
+    "meaning": "Timur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "東に太陽が昇ります。 (Higashi ni taiyou ga noborimasu.) - Matahari terbit di timur."
+  },
+  {
+    "kanji": "西",
+    "hiragana": "にし",
+    "meaning": "Barat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "西に太陽が沈みます。 (Nishi ni taiyou ga shizumimasu.) - Matahari terbenam di barat."
+  },
+  {
+    "kanji": "南",
+    "hiragana": "みなみ",
+    "meaning": "Selatan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "南の方へ行きます。 (Minami no hou e ikimasu.) - Saya pergi ke arah selatan."
+  },
+  {
+    "kanji": "北",
+    "hiragana": "きた",
+    "meaning": "Utara",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "北は寒いです。 (Kita wa samui desu.) - Utara dingin."
+  },
+  {
+    "kanji": "本",
+    "hiragana": "ほん",
+    "meaning": "Buku",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "この本は面白いです。 (Kono hon wa omoshiroi desu.) - Buku ini menarik."
+  },
+  {
+    "kanji": "雑誌",
+    "hiragana": "ざっし",
+    "meaning": "Majalah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "雑誌を読みます。 (Zasshi wo yomimasu.) - Saya membaca majalah."
+  },
+  {
+    "kanji": "新聞",
+    "hiragana": "しんぶん",
+    "meaning": "Koran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "新聞を毎日読みます。 (Shinbun wo mainichi yomimasu.) - Saya membaca koran setiap hari."
+  },
+  {
+    "kanji": "辞書",
+    "hiragana": "じしょ",
+    "meaning": "Kamus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "辞書で意味を調べます。 (Jisho de imi wo shirabemasu.) - Saya mencari arti di kamus."
+  },
+  {
+    "kanji": "手紙",
+    "hiragana": "てがみ",
+    "meaning": "Surat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "手紙を書きます。 (Tegami wo kakimasu.) - Saya menulis surat."
+  },
+  {
+    "kanji": "紙",
+    "hiragana": "かみ",
+    "meaning": "Kertas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "紙に名前を書きます。 (Kami ni namae wo kakimasu.) - Saya menulis nama di kertas."
+  },
+  {
+    "kanji": "鉛筆",
+    "hiragana": "えんぴつ",
+    "meaning": "Pensil",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "鉛筆で書きます。 (Enpitsu de kakimasu.) - Saya menulis dengan pensil."
+  },
+  {
+    "kanji": "ペン",
+    "hiragana": "ペン",
+    "meaning": "Pulpen",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "ペンで書いてください。 (Pen de kaite kudasai.) - Tolong tulis dengan pulpen."
+  },
+  {
+    "kanji": "ノート",
+    "hiragana": "ノート",
+    "meaning": "Buku catatan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "ノートにメモを取ります。 (Nooto ni memo wo torimasu.) - Saya mengambil catatan di buku catatan."
+  },
+  {
+    "kanji": "机",
+    "hiragana": "つくえ",
+    "meaning": "Meja",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "机の上にパソコンがあります。 (Tsukue no ue ni pasokon ga arimasu.) - Ada komputer di atas meja."
+  },
+  {
+    "kanji": "椅子",
+    "hiragana": "いす",
+    "meaning": "Kursi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "椅子に座ります。 (Isu ni suwarimasu.) - Saya duduk di kursi."
+  },
+  {
+    "kanji": "カバン",
+    "hiragana": "カバン",
+    "meaning": "Tas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "カバンに本を入れます。 (Kaban ni hon wo iremasu.) - Saya memasukkan buku ke dalam tas."
+  },
+  {
+    "kanji": "傘",
+    "hiragana": "かさ",
+    "meaning": "Payung",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "傘を持って行きます。 (Kasa wo motte ikimasu.) - Saya membawa payung."
+  },
+  {
+    "kanji": "財布",
+    "hiragana": "さいふ",
+    "meaning": "Dompet",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "財布を忘れました。 (Saifu wo wasuremashita.) - Saya lupa dompet."
+  },
+  {
+    "kanji": "鍵",
+    "hiragana": "かぎ",
+    "meaning": "Kunci",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "鍵をかけます。 (Kagi wo kakemasu.) - Saya mengunci."
+  },
+  {
+    "kanji": "時計",
+    "hiragana": "とけい",
+    "meaning": "Jam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "時計を見ます。 (Tokei wo mimasu.) - Saya melihat jam."
+  },
+  {
+    "kanji": "電話",
+    "hiragana": "でんわ",
+    "meaning": "Telepon",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "電話をかけます。 (Denwa wo kakemasu.) - Saya menelepon."
+  },
+  {
+    "kanji": "テレビ",
+    "hiragana": "テレビ",
+    "meaning": "Televisi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "テレビを見ます。 (Terebi wo mimasu.) - Saya menonton televisi."
+  },
+  {
+    "kanji": "ラジオ",
+    "hiragana": "ラジオ",
+    "meaning": "Radio",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "ラジオを聞きます。 (Rajio wo kikimasu.) - Saya mendengar radio."
+  },
+  {
+    "kanji": "カメラ",
+    "hiragana": "カメラ",
+    "meaning": "Kamera",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "カメラで写真を撮ります。 (Kamera de shashin wo torimasu.) - Saya mengambil foto dengan kamera."
+  },
+  {
+    "kanji": "パソコン",
+    "hiragana": "パソコン",
+    "meaning": "Komputer",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "パソコンを使います。 (Pasokon wo tsukaimasu.) - Saya menggunakan komputer."
+  },
+  {
+    "kanji": "写真",
+    "hiragana": "しゃしん",
+    "meaning": "Foto",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "写真を撮ります。 (Shashin wo torimasu.) - Saya mengambil foto."
+  },
+  {
+    "kanji": "絵",
+    "hiragana": "え",
+    "meaning": "Gambar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "絵を描きます。 (E wo kakimasu.) - Saya menggambar."
+  },
+  {
+    "kanji": "地図",
+    "hiragana": "ちず",
+    "meaning": "Peta",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "地図を見ます。 (Chizu wo mimasu.) - Saya melihat peta."
+  },
+  {
+    "kanji": "切符",
+    "hiragana": "きっぷ",
+    "meaning": "Tiket",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "切符を買います。 (Kippu wo kaimasu.) - Saya membeli tiket."
+  },
+  {
+    "kanji": "お金",
+    "hiragana": "おかね",
+    "meaning": "Uang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "お金を払います。 (Okane wo haraimasu.) - Saya membayar uang."
+  },
+  {
+    "kanji": "車",
+    "hiragana": "くるま",
+    "meaning": "Mobil",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "車で行きます。 (Kuruma de ikimasu.) - Saya pergi dengan mobil."
+  },
+  {
+    "kanji": "電車",
+    "hiragana": "でんしゃ",
+    "meaning": "Kereta listrik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "電車で通勤します。 (Densha de tsuukin shimasu.) - Saya pergi kerja dengan kereta listrik."
+  },
+  {
+    "kanji": "バス",
+    "hiragana": "バス",
+    "meaning": "Bus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "バスに乗ります。 (Basu ni norimasu.) - Saya naik bus."
+  },
+  {
+    "kanji": "タクシー",
+    "hiragana": "タクシー",
+    "meaning": "Taksi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "タクシーを呼びます。 (Takushii wo yobimasu.) - Saya memanggil taksi."
+  },
+  {
+    "kanji": "自転車",
+    "hiragana": "じてんしゃ",
+    "meaning": "Sepeda",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "自転車に乗ります。 (Jitensha ni norimasu.) - Saya naik sepeda."
+  },
+  {
+    "kanji": "飛行機",
+    "hiragana": "ひこうき",
+    "meaning": "Pesawat terbang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "飛行機で日本へ行きます。 (Hikouki de Nihon e ikimasu.) - Saya pergi ke Jepang dengan pesawat."
+  },
+  {
+    "kanji": "船",
+    "hiragana": "ふね",
+    "meaning": "Kapal",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "船で島へ渡ります。 (Fune de shima e watarimasu.) - Saya menyeberang ke pulau dengan kapal."
+  },
+  {
+    "kanji": "地下鉄",
+    "hiragana": "ちかてつ",
+    "meaning": "Kereta bawah tanah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "transport",
+    "example": "地下鉄で行きます。 (Chikatetsu de ikimasu.) - Saya pergi dengan kereta bawah tanah."
+  },
+  {
+    "kanji": "食べ物",
+    "hiragana": "たべもの",
+    "meaning": "Makanan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "食べ物を買います。 (Tabemono wo kaimasu.) - Saya membeli makanan."
+  },
+  {
+    "kanji": "飲み物",
+    "hiragana": "のみもの",
+    "meaning": "Minuman",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "飲み物をください。 (Nomimono wo kudasai.) - Tolong beri minuman."
+  },
+  {
+    "kanji": "ご飯",
+    "hiragana": "ごはん",
+    "meaning": "Nasi/Makanan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ご飯を食べます。 (Gohan wo tabemasu.) - Saya makan nasi."
+  },
+  {
+    "kanji": "朝ご飯",
+    "hiragana": "あさごはん",
+    "meaning": "Sarapan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "朝ご飯を食べます。 (Asagohan wo tabemasu.) - Saya sarapan."
+  },
+  {
+    "kanji": "昼ご飯",
+    "hiragana": "ひるごはん",
+    "meaning": "Makan siang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "昼ご飯は何を食べましたか？ (Hirugohan wa nani wo tabemashita ka?) - Apa yang Anda makan siang?"
+  },
+  {
+    "kanji": "晩ご飯",
+    "hiragana": "ばんごはん",
+    "meaning": "Makan malam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "晩ご飯を食べました。 (Bangohan wo tabemashita.) - Saya sudah makan malam."
+  },
+  {
+    "kanji": "パン",
+    "hiragana": "パン",
+    "meaning": "Roti",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "パンを食べます。 (Pan wo tabemasu.) - Saya makan roti."
+  },
+  {
+    "kanji": "卵",
+    "hiragana": "たまご",
+    "meaning": "Telur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "卵を買います。 (Tamago wo kaimasu.) - Saya membeli telur."
+  },
+  {
+    "kanji": "肉",
+    "hiragana": "にく",
+    "meaning": "Daging",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "肉を食べます。 (Niku wo tabemasu.) - Saya makan daging."
+  },
+  {
+    "kanji": "魚",
+    "hiragana": "さかな",
+    "meaning": "Ikan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "魚が好きです。 (Sakana ga suki desu.) - Saya suka ikan."
+  },
+  {
+    "kanji": "野菜",
+    "hiragana": "やさい",
+    "meaning": "Sayuran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "野菜を食べます。 (Yasai wo tabemasu.) - Saya makan sayuran."
+  },
+  {
+    "kanji": "果物",
+    "hiragana": "くだもの",
+    "meaning": "Buah-buahan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "果物を買いました。 (Kudamono wo kaimashita.) - Saya membeli buah-buahan."
+  },
+  {
+    "kanji": "りんご",
+    "hiragana": "りんご",
+    "meaning": "Apel",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "りんごを一つください。 (Ringo wo hitotsu kudasai.) - Tolong beri satu apel."
+  },
+  {
+    "kanji": "みかん",
+    "hiragana": "みかん",
+    "meaning": "Jeruk mandarin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "みかんを食べます。 (Mikan wo tabemasu.) - Saya makan jeruk."
+  },
+  {
+    "kanji": "バナナ",
+    "hiragana": "バナナ",
+    "meaning": "Pisang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "バナナを買います。 (Banana wo kaimasu.) - Saya membeli pisang."
+  },
+  {
+    "kanji": "水",
+    "hiragana": "みず",
+    "meaning": "Air",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "水を飲みます。 (Mizu wo nomimasu.) - Saya minum air."
+  },
+  {
+    "kanji": "お茶",
+    "hiragana": "おちゃ",
+    "meaning": "Teh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "お茶を飲みます。 (Ocha wo nomimasu.) - Saya minum teh."
+  },
+  {
+    "kanji": "コーヒー",
+    "hiragana": "コーヒー",
+    "meaning": "Kopi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "コーヒーを飲みます。 (Koohii wo nomimasu.) - Saya minum kopi."
+  },
+  {
+    "kanji": "牛乳",
+    "hiragana": "ぎゅうにゅう",
+    "meaning": "Susu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "牛乳を飲みます。 (Gyūnyū wo nomimasu.) - Saya minum susu."
+  },
+  {
+    "kanji": "ジュース",
+    "hiragana": "ジュース",
+    "meaning": "Jus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ジュースをください。 (Juusu wo kudasai.) - Tolong beri jus."
+  },
+  {
+    "kanji": "お酒",
+    "hiragana": "おさけ",
+    "meaning": "Sake/Minuman beralkohol",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "お酒を飲みます。 (Osake wo nomimasu.) - Saya minum sake."
+  },
+  {
+    "kanji": "ビール",
+    "hiragana": "ビール",
+    "meaning": "Bir",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ビールを飲みます。 (Biiru wo nomimasu.) - Saya minum bir."
+  },
+  {
+    "kanji": "砂糖",
+    "hiragana": "さとう",
+    "meaning": "Gula",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "砂糖を入れます。 (Satou wo iremasu.) - Saya memasukkan gula."
+  },
+  {
+    "kanji": "塩",
+    "hiragana": "しお",
+    "meaning": "Garam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "塩を少し入れます。 (Shio wo sukoshi iremasu.) - Saya memasukkan sedikit garam."
+  },
+  {
+    "kanji": "醤油",
+    "hiragana": "しょうゆ",
+    "meaning": "Kecap asin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "醤油をかけます。 (Shouyu wo kakemasu.) - Saya menuang kecap asin."
+  },
+  {
+    "kanji": "料理",
+    "hiragana": "りょうり",
+    "meaning": "Masakan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "料理を作ります。 (Ryouri wo tsukurimasu.) - Saya membuat masakan."
+  },
+  {
+    "kanji": "服",
+    "hiragana": "ふく",
+    "meaning": "Pakaian",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "服を買います。 (Fuku wo kaimasu.) - Saya membeli pakaian."
+  },
+  {
+    "kanji": "シャツ",
+    "hiragana": "シャツ",
+    "meaning": "Kemeja",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "シャツを着ます。 (Shatsu wo kimasu.) - Saya memakai kemeja."
+  },
+  {
+    "kanji": "ズボン",
+    "hiragana": "ズボン",
+    "meaning": "Celana",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "ズボンを履きます。 (Zubon wo hakimasu.) - Saya memakai celana."
+  },
+  {
+    "kanji": "スカート",
+    "hiragana": "スカート",
+    "meaning": "Rok",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "スカートを履きます。 (Sukaato wo hakimasu.) - Saya memakai rok."
+  },
+  {
+    "kanji": "靴",
+    "hiragana": "くつ",
+    "meaning": "Sepatu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "靴を履きます。 (Kutsu wo hakimasu.) - Saya memakai sepatu."
+  },
+  {
+    "kanji": "靴下",
+    "hiragana": "くつした",
+    "meaning": "Kaos kaki",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "靴下を履きます。 (Kutsushita wo hakimasu.) - Saya memakai kaos kaki."
+  },
+  {
+    "kanji": "帽子",
+    "hiragana": "ぼうし",
+    "meaning": "Topi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "帽子をかぶります。 (Boushi wo kaburimasu.) - Saya memakai topi."
+  },
+  {
+    "kanji": "コート",
+    "hiragana": "コート",
+    "meaning": "Mantel",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "コートを着ます。 (Kooto wo kimasu.) - Saya memakai mantel."
+  },
+  {
+    "kanji": "セーター",
+    "hiragana": "セーター",
+    "meaning": "Sweater",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "セーターを着ます。 (Seetaa wo kimasu.) - Saya memakai sweater."
+  },
+  {
+    "kanji": "ネクタイ",
+    "hiragana": "ネクタイ",
+    "meaning": "Dasi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "ネクタイを締めます。 (Nekutai wo shimemasu.) - Saya memakai dasi."
+  },
+  {
+    "kanji": "眼鏡",
+    "hiragana": "めがね",
+    "meaning": "Kacamata",
+    "type": "noun",
+    "level": "n5",
+    "theme": "clothes",
+    "example": "眼鏡をかけます。 (Megane wo kakemasu.) - Saya memakai kacamata."
+  },
+  {
+    "kanji": "体",
+    "hiragana": "からだ",
+    "meaning": "Tubuh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "体を動かします。 (Karada wo ugokashimasu.) - Saya menggerakkan tubuh."
+  },
+  {
+    "kanji": "頭",
+    "hiragana": "あたま",
+    "meaning": "Kepala",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "頭が痛いです。 (Atama ga itai desu.) - Kepala saya sakit."
+  },
+  {
+    "kanji": "顔",
+    "hiragana": "かお",
+    "meaning": "Wajah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "顔を洗います。 (Kao wo araimasu.) - Saya mencuci wajah."
+  },
+  {
+    "kanji": "目",
+    "hiragana": "め",
+    "meaning": "Mata",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "目が悪いです。 (Me ga warui desu.) - Mata saya buruk."
+  },
+  {
+    "kanji": "耳",
+    "hiragana": "みみ",
+    "meaning": "Telinga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "耳が聞こえます。 (Mimi ga kikoemasu.) - Telinga saya bisa mendengar."
+  },
+  {
+    "kanji": "鼻",
+    "hiragana": "はな",
+    "meaning": "Hidung",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "鼻が高いです。 (Hana ga takai desu.) - Hidungnya tinggi."
+  },
+  {
+    "kanji": "口",
+    "hiragana": "くち",
+    "meaning": "Mulut",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "口を開けます。 (Kuchi wo akemasu.) - Saya membuka mulut."
+  },
+  {
+    "kanji": "歯",
+    "hiragana": "は",
+    "meaning": "Gigi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "歯を磨きます。 (Ha wo migakimasu.) - Saya menggosok gigi."
+  },
+  {
+    "kanji": "手",
+    "hiragana": "て",
+    "meaning": "Tangan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "手を挙げます。 (Te wo agemasu.) - Saya mengangkat tangan."
+  },
+  {
+    "kanji": "指",
+    "hiragana": "ゆび",
+    "meaning": "Jari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "指を怪我しました。 (Yubi wo kega shimashita.) - Saya cedera jari."
+  },
+  {
+    "kanji": "足",
+    "hiragana": "あし",
+    "meaning": "Kaki",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "足が痛いです。 (Ashi ga itai desu.) - Kaki saya sakit."
+  },
+  {
+    "kanji": "背",
+    "hiragana": "せ",
+    "meaning": "Punggung/Tinggi badan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "背が高いです。 (Se ga takai desu.) - Tinggi badannya tinggi."
+  },
+  {
+    "kanji": "お腹",
+    "hiragana": "おなか",
+    "meaning": "Perut",
+    "type": "noun",
+    "level": "n5",
+    "theme": "body",
+    "example": "お腹が空きました。 (Onaka ga sukimashita.) - Saya lapar."
+  },
+  {
+    "kanji": "犬",
+    "hiragana": "いぬ",
+    "meaning": "Anjing",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "犬が好きです。 (Inu ga suki desu.) - Saya suka anjing."
+  },
+  {
+    "kanji": "猫",
+    "hiragana": "ねこ",
+    "meaning": "Kucing",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "猫を飼っています。 (Neko wo katte imasu.) - Saya memelihara kucing."
+  },
+  {
+    "kanji": "鳥",
+    "hiragana": "とり",
+    "meaning": "Burung",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "鳥が飛んでいます。 (Tori ga tonde imasu.) - Burung terbang."
+  },
+  {
+    "kanji": "花",
+    "hiragana": "はな",
+    "meaning": "Bunga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "花が咲いています。 (Hana ga saite imasu.) - Bunga sedang mekar."
+  },
+  {
+    "kanji": "木",
+    "hiragana": "き",
+    "meaning": "Pohon",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "木の下に座ります。 (Ki no shita ni suwarimasu.) - Saya duduk di bawah pohon."
+  },
+  {
+    "kanji": "天気",
+    "hiragana": "てんき",
+    "meaning": "Cuaca",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "天気がいいです。 (Tenki ga ii desu.) - Cuaca bagus."
+  },
+  {
+    "kanji": "雨",
+    "hiragana": "あめ",
+    "meaning": "Hujan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "雨が降っています。 (Ame ga futte imasu.) - Sedang hujan."
+  },
+  {
+    "kanji": "雪",
+    "hiragana": "ゆき",
+    "meaning": "Salju",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "雪が降っています。 (Yuki ga futte imasu.) - Sedang turun salju."
+  },
+  {
+    "kanji": "風",
+    "hiragana": "かぜ",
+    "meaning": "Angin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "風が強いです。 (Kaze ga tsuyoi desu.) - Angin kencang."
+  },
+  {
+    "kanji": "空",
+    "hiragana": "そら",
+    "meaning": "Langit",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "空が青いです。 (Sora ga aoi desu.) - Langit biru."
+  },
+  {
+    "kanji": "太陽",
+    "hiragana": "たいよう",
+    "meaning": "Matahari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "太陽が昇ります。 (Taiyou ga noborimasu.) - Matahari terbit."
+  },
+  {
+    "kanji": "月",
+    "hiragana": "つき",
+    "meaning": "Bulan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "月がきれいです。 (Tsuki ga kirei desu.) - Bulan indah."
+  },
+  {
+    "kanji": "星",
+    "hiragana": "ほし",
+    "meaning": "Bintang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "星が光っています。 (Hoshi ga hikatte imasu.) - Bintang bersinar."
+  },
+  {
+    "kanji": "色",
+    "hiragana": "いろ",
+    "meaning": "Warna",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "色が好きです。 (Iro ga suki desu.) - Saya suka warna."
+  },
+  {
+    "kanji": "赤",
+    "hiragana": "あか",
+    "meaning": "Merah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "赤い車です。 (Akai kuruma desu.) - Mobil merah."
+  },
+  {
+    "kanji": "青",
+    "hiragana": "あお",
+    "meaning": "Biru",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "青い空です。 (Aoi sora desu.) - Langit biru."
+  },
+  {
+    "kanji": "白",
+    "hiragana": "しろ",
+    "meaning": "Putih",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "白い服です。 (Shiroi fuku desu.) - Pakaian putih."
+  },
+  {
+    "kanji": "黒",
+    "hiragana": "くろ",
+    "meaning": "Hitam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "黒い猫です。 (Kuroi neko desu.) - Kucing hitam."
+  },
+  {
+    "kanji": "黄色",
+    "hiragana": "きいろ",
+    "meaning": "Kuning",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "黄色い花です。 (Kiiroi hana desu.) - Bunga kuning."
+  },
+  {
+    "kanji": "緑",
+    "hiragana": "みどり",
+    "meaning": "Hijau",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "緑の葉です。 (Midori no ha desu.) - Daun hijau."
+  },
+  {
+    "kanji": "茶色",
+    "hiragana": "ちゃいろ",
+    "meaning": "Coklat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "color",
+    "example": "茶色の机です。 (Chairo no tsukue desu.) - Meja coklat."
+  },
+  {
+    "kanji": "大きい",
+    "hiragana": "おおきい",
+    "meaning": "Besar",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "大きい家です。 (Ookii ie desu.) - Rumah besar."
+  },
+  {
+    "kanji": "小さい",
+    "hiragana": "ちいさい",
+    "meaning": "Kecil",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "小さい猫です。 (Chiisai neko desu.) - Kucing kecil."
+  },
+  {
+    "kanji": "長い",
+    "hiragana": "ながい",
+    "meaning": "Panjang",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "長い川です。 (Nagai kawa desu.) - Sungai panjang."
+  },
+  {
+    "kanji": "短い",
+    "hiragana": "みじかい",
+    "meaning": "Pendek",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "短い鉛筆です。 (Mijikai enpitsu desu.) - Pensil pendek."
+  },
+  {
+    "kanji": "高い",
+    "hiragana": "たかい",
+    "meaning": "Tinggi/Mahal",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "高い山です。 (Takai yama desu.) - Gunung tinggi."
+  },
+  {
+    "kanji": "低い",
+    "hiragana": "ひくい",
+    "meaning": "Rendah",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "低い声です。 (Hikui koe desu.) - Suara rendah."
+  },
+  {
+    "kanji": "安い",
+    "hiragana": "やすい",
+    "meaning": "Murah",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "安い店です。 (Yasui mise desu.) - Toko murah."
+  },
+  {
+    "kanji": "新しい",
+    "hiragana": "あたらしい",
+    "meaning": "Baru",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "新しい車です。 (Atarashii kuruma desu.) - Mobil baru."
+  },
+  {
+    "kanji": "古い",
+    "hiragana": "ふるい",
+    "meaning": "Lama/Tua",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "古い本です。 (Furui hon desu.) - Buku lama."
+  },
+  {
+    "kanji": "良い",
+    "hiragana": "いい/よい",
+    "meaning": "Baik",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "良い天気です。 (Ii tenki desu.) - Cuaca baik."
+  },
+  {
+    "kanji": "悪い",
+    "hiragana": "わるい",
+    "meaning": "Buruk",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "悪い人です。 (Warui hito desu.) - Orang buruk."
+  },
+  {
+    "kanji": "多い",
+    "hiragana": "おおい",
+    "meaning": "Banyak",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "人が多いです。 (Hito ga ooi desu.) - Banyak orang."
+  },
+  {
+    "kanji": "少ない",
+    "hiragana": "すくない",
+    "meaning": "Sedikit",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "お金が少ないです。 (Okane ga sukunai desu.) - Uang sedikit."
+  },
+  {
+    "kanji": "広い",
+    "hiragana": "ひろい",
+    "meaning": "Luas",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "広い部屋です。 (Hiroi heya desu.) - Kamar luas."
+  },
+  {
+    "kanji": "狭い",
+    "hiragana": "せまい",
+    "meaning": "Sempit",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "狭い道です。 (Semai michi desu.) - Jalan sempit."
+  },
+  {
+    "kanji": "重い",
+    "hiragana": "おもい",
+    "meaning": "Berat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "重い荷物です。 (Omoi nimotsu desu.) - Barang berat."
+  },
+  {
+    "kanji": "軽い",
+    "hiragana": "かるい",
+    "meaning": "Ringan",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "軽い本です。 (Karui hon desu.) - Buku ringan."
+  },
+  {
+    "kanji": "厚い",
+    "hiragana": "あつい",
+    "meaning": "Tebal",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "厚い辞書です。 (Atsui jisho desu.) - Kamus tebal."
+  },
+  {
+    "kanji": "薄い",
+    "hiragana": "うすい",
+    "meaning": "Tipis",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "薄い紙です。 (Usui kami desu.) - Kertas tipis."
+  },
+  {
+    "kanji": "暑い",
+    "hiragana": "あつい",
+    "meaning": "Panas (cuaca)",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "今日は暑いです。 (Kyou wa atsui desu.) - Hari ini panas."
+  },
+  {
+    "kanji": "寒い",
+    "hiragana": "さむい",
+    "meaning": "Dingin (cuaca)",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "冬は寒いです。 (Fuyu wa samui desu.) - Musim dingin dingin."
+  },
+  {
+    "kanji": "熱い",
+    "hiragana": "あつい",
+    "meaning": "Panas (benda)",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "熱いお茶です。 (Atsui ocha desu.) - Teh panas."
+  },
+  {
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "meaning": "Dingin (benda)",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "冷たい水です。 (Tsumetai mizu desu.) - Air dingin."
+  },
+  {
+    "kanji": "暖かい",
+    "hiragana": "あたたかい",
+    "meaning": "Hangat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "暖かい部屋です。 (Atatakai heya desu.) - Kamar hangat."
+  },
+  {
+    "kanji": "涼しい",
+    "hiragana": "すずしい",
+    "meaning": "Sejuk",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "涼しい風です。 (Suzushii kaze desu.) - Angin sejuk."
+  },
+  {
+    "kanji": "甘い",
+    "hiragana": "あまい",
+    "meaning": "Manis",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "甘いケーキです。 (Amai keeki desu.) - Kue manis."
+  },
+  {
+    "kanji": "辛い",
+    "hiragana": "からい",
+    "meaning": "Pedas",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "辛いカレーです。 (Karai karee desu.) - Kari pedas."
+  },
+  {
+    "kanji": "苦い",
+    "hiragana": "にがい",
+    "meaning": "Pahit",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この薬は苦いです。 (Kono kusuri wa nigai desu.) - Obat ini pahit."
+  },
+  {
+    "kanji": "酸っぱい",
+    "hiragana": "すっぱい",
+    "meaning": "Asam",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "このレモンは酸っぱいです。 (Kono remon wa suppai desu.) - Lemon ini asam."
+  },
+  {
+    "kanji": "美味しい",
+    "hiragana": "おいしい",
+    "meaning": "Enak",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "このケーキは美味しいです。 (Kono keeki wa oishii desu.) - Kue ini enak."
+  },
+  {
+    "kanji": "不味い",
+    "hiragana": "まずい",
+    "meaning": "Tidak enak",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この料理はまずいです。 (Kono ryouri wa mazui desu.) - Masakan ini tidak enak."
+  },
+  {
+    "kanji": "早い",
+    "hiragana": "はやい",
+    "meaning": "Cepat/Pagi",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "今日は早く起きました。 (Kyou wa hayaku okimashita.) - Saya bangun pagi hari ini."
+  },
+  {
+    "kanji": "遅い",
+    "hiragana": "おそい",
+    "meaning": "Lambat/Terlambat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "電車が遅いです。 (Densha ga osoi desu.) - Kereta lambat."
+  },
+  {
+    "kanji": "速い",
+    "hiragana": "はやい",
+    "meaning": "Cepat (kecepatan)",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この車は速いです。 (Kono kuruma wa hayai desu.) - Mobil ini cepat."
+  },
+  {
+    "kanji": "近い",
+    "hiragana": "ちかい",
+    "meaning": "Dekat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "駅は近いです。 (Eki wa chikai desu.) - Stasiun dekat."
+  },
+  {
+    "kanji": "遠い",
+    "hiragana": "とおい",
+    "meaning": "Jauh",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "ここから遠いです。 (Koko kara tooi desu.) - Jauh dari sini."
+  },
+  {
+    "kanji": "難しい",
+    "hiragana": "むずかしい",
+    "meaning": "Sulit",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この問題は難しいです。 (Kono mondai wa muzukashii desu.) - Soal ini sulit."
+  },
+  {
+    "kanji": "易しい",
+    "hiragana": "やさしい",
+    "meaning": "Mudah",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "このテストは易しいです。 (Kono tesuto wa yasashii desu.) - Tes ini mudah."
+  },
+  {
+    "kanji": "優しい",
+    "hiragana": "やさしい",
+    "meaning": "Baik hati",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼は優しい人です。 (Kare wa yasashii hito desu.) - Dia orang yang baik hati."
+  },
+  {
+    "kanji": "面白い",
+    "hiragana": "おもしろい",
+    "meaning": "Menarik",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この本は面白いです。 (Kono hon wa omoshiroi desu.) - Buku ini menarik."
+  },
+  {
+    "kanji": "つまらない",
+    "hiragana": "つまらない",
+    "meaning": "Membosankan",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この映画はつまらないです。 (Kono eiga wa tsumaranai desu.) - Film ini membosankan."
+  },
+  {
+    "kanji": "楽しい",
+    "hiragana": "たのしい",
+    "meaning": "Menyenangkan",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "パーティーは楽しかったです。 (Paatii wa tanoshikatta desu.) - Pestanya menyenangkan."
+  },
+  {
+    "kanji": "嬉しい",
+    "hiragana": "うれしい",
+    "meaning": "Senang",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "プレゼントをもらって嬉しいです。 (Purezento wo moratte ureshii desu.) - Saya senang menerima hadiah."
+  },
+  {
+    "kanji": "悲しい",
+    "hiragana": "かなしい",
+    "meaning": "Sedih",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼の話を聞いて悲しいです。 (Kare no hanashi wo kiite kanashii desu.) - Saya sedih mendengar ceritanya."
+  },
+  {
+    "kanji": "怖い",
+    "hiragana": "こわい",
+    "meaning": "Menakutkan",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この映画は怖いです。 (Kono eiga wa kowai desu.) - Film ini menakutkan."
+  },
+  {
+    "kanji": "明るい",
+    "hiragana": "あかるい",
+    "meaning": "Terang",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "部屋が明るいです。 (Heya ga akarui desu.) - Ruangan terang."
+  },
+  {
+    "kanji": "暗い",
+    "hiragana": "くらい",
+    "meaning": "Gelap",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "外は暗いです。 (Soto wa kurai desu.) - Di luar gelap."
+  },
+  {
+    "kanji": "忙しい",
+    "hiragana": "いそがしい",
+    "meaning": "Sibuk",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "今日は忙しいです。 (Kyou wa isogashii desu.) - Hari ini sibuk."
+  },
+  {
+    "kanji": "眠い",
+    "hiragana": "ねむい",
+    "meaning": "Mengantuk",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "眠いです。 (Nemui desu.) - Saya mengantuk."
+  },
+  {
+    "kanji": "痛い",
+    "hiragana": "いたい",
+    "meaning": "Sakit",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "頭が痛いです。 (Atama ga itai desu.) - Kepala saya sakit."
+  },
+  {
+    "kanji": "強い",
+    "hiragana": "つよい",
+    "meaning": "Kuat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼は強いです。 (Kare wa tsuyoi desu.) - Dia kuat."
+  },
+  {
+    "kanji": "弱い",
+    "hiragana": "よわい",
+    "meaning": "Lemah",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "私は弱いです。 (Watashi wa yowai desu.) - Saya lemah."
+  },
+  {
+    "kanji": "若い",
+    "hiragana": "わかい",
+    "meaning": "Muda",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼は若いです。 (Kare wa wakai desu.) - Dia muda."
+  },
+  {
+    "kanji": "丸い",
+    "hiragana": "まるい",
+    "meaning": "Bulat",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "このテーブルは丸いです。 (Kono teeburu wa marui desu.) - Meja ini bulat."
+  },
+  {
+    "kanji": "四角い",
+    "hiragana": "しかくい",
+    "meaning": "Persegi",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この箱は四角いです。 (Kono hako wa shikakui desu.) - Kotak ini persegi."
+  },
+  {
+    "kanji": "静か",
+    "hiragana": "しずか",
+    "meaning": "Tenang",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この町は静かです。 (Kono machi wa shizuka desu.) - Kota ini tenang."
+  },
+  {
+    "kanji": "賑やか",
+    "hiragana": "にぎやか",
+    "meaning": "Ramai",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この通りは賑やかです。 (Kono toori wa nigiyaka desu.) - Jalan ini ramai."
+  },
+  {
+    "kanji": "有名",
+    "hiragana": "ゆうめい",
+    "meaning": "Terkenal",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "富士山は有名です。 (Fujisan wa yuumei desu.) - Gunung Fuji terkenal."
+  },
+  {
+    "kanji": "親切",
+    "hiragana": "しんせつ",
+    "meaning": "Ramah",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼女は親切です。 (Kanojo wa shinsetsu desu.) - Dia (perempuan) ramah."
+  },
+  {
+    "kanji": "元気",
+    "hiragana": "げんき",
+    "meaning": "Sehat/Semangat",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "お元気ですか？ (Ogenki desu ka?) - Apakah Anda sehat?"
+  },
+  {
+    "kanji": "大丈夫",
+    "hiragana": "だいじょうぶ",
+    "meaning": "Tidak apa-apa",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "大丈夫です。 (Daijoubu desu.) - Tidak apa-apa."
+  },
+  {
+    "kanji": "大切",
+    "hiragana": "たいせつ",
+    "meaning": "Penting",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "時間は大切です。 (Jikan wa taisetsu desu.) - Waktu itu penting."
+  },
+  {
+    "kanji": "大変",
+    "hiragana": "たいへん",
+    "meaning": "Sangat/Sulit",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "これは大変です。 (Kore wa taihen desu.) - Ini sulit/sangat."
+  },
+  {
+    "kanji": "簡単",
+    "hiragana": "かんたん",
+    "meaning": "Mudah",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この問題は簡単です。 (Kono mondai wa kantan desu.) - Soal ini mudah."
+  },
+  {
+    "kanji": "便利",
+    "hiragana": "べんり",
+    "meaning": "Praktis",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "このカバンは便利です。 (Kono kaban wa benri desu.) - Tas ini praktis."
+  },
+  {
+    "kanji": "不便",
+    "hiragana": "ふべん",
+    "meaning": "Tidak praktis",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "ここは不便です。 (Koko wa fuben desu.) - Di sini tidak praktis."
+  },
+  {
+    "kanji": "綺麗",
+    "hiragana": "きれい",
+    "meaning": "Cantik/Bersih",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この花は綺麗です。 (Kono hana wa kirei desu.) - Bunga ini cantik."
+  },
+  {
+    "kanji": "汚い",
+    "hiragana": "きたない",
+    "meaning": "Kotor",
+    "type": "i-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "この部屋は汚いです。 (Kono heya wa kitanai desu.) - Kamar ini kotor."
+  },
+  {
+    "kanji": "上手",
+    "hiragana": "じょうず",
+    "meaning": "Pandai",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼は料理が上手です。 (Kare wa ryouri ga jouzu desu.) - Dia pandai memasak."
+  },
+  {
+    "kanji": "下手",
+    "hiragana": "へた",
+    "meaning": "Tidak pandai",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "私は歌が下手です。 (Watashi wa uta ga heta desu.) - Saya tidak pandai bernyanyi."
+  },
+  {
+    "kanji": "好き",
+    "hiragana": "すき",
+    "meaning": "Suka",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "私は猫が好きです。 (Watashi wa neko ga suki desu.) - Saya suka kucing."
+  },
+  {
+    "kanji": "嫌い",
+    "hiragana": "きらい",
+    "meaning": "Benci",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "彼は野菜が嫌いです。 (Kare wa yasai ga kirai desu.) - Dia benci sayuran."
+  },
+  {
+    "kanji": "暇",
+    "hiragana": "ひま",
+    "meaning": "Senggang",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "今日は暇ですか？ (Kyou wa hima desu ka?) - Apakah Anda senggang hari ini?"
+  },
+  {
+    "kanji": "色々",
+    "hiragana": "いろいろ",
+    "meaning": "Berbagai macam",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "色々な本があります。 (Iroiro na hon ga arimasu.) - Ada berbagai macam buku."
+  },
+  {
+    "kanji": "同じ",
+    "hiragana": "おなじ",
+    "meaning": "Sama",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "adjective",
+    "example": "同じです。 (Onaji desu.) - Sama."
+  },
+  {
+    "kanji": "違う",
+    "hiragana": "ちがう",
+    "meaning": "Berbeda",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "これは違います。 (Kore wa chigaimasu.) - Ini berbeda."
+  },
+  {
+    "kanji": "行く",
+    "hiragana": "いく",
+    "meaning": "Pergi",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "学校へ行きます。 (Gakkou e ikimasu.) - Saya pergi ke sekolah."
+  },
+  {
+    "kanji": "来る",
+    "hiragana": "くる",
+    "meaning": "Datang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達が来ます。 (Tomodachi ga kimasu.) - Teman datang."
+  },
+  {
+    "kanji": "帰る",
+    "hiragana": "かえる",
+    "meaning": "Pulang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "家へ帰ります。 (Ie e kaerimasu.) - Saya pulang ke rumah."
+  },
+  {
+    "kanji": "出る",
+    "hiragana": "でる",
+    "meaning": "Keluar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "部屋を出ます。 (Heya wo demasu.) - Saya keluar kamar."
+  },
+  {
+    "kanji": "入る",
+    "hiragana": "はいる",
+    "meaning": "Masuk",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "部屋に入ります。 (Heya ni hairimasu.) - Saya masuk kamar."
+  },
+  {
+    "kanji": "出かける",
+    "hiragana": "でかける",
+    "meaning": "Pergi keluar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "出かけます。 (Dekakemasu.) - Saya pergi keluar."
+  },
+  {
+    "kanji": "着く",
+    "hiragana": "つく",
+    "meaning": "Tiba",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "駅に着きました。 (Eki ni tsukimashita.) - Saya tiba di stasiun."
+  },
+  {
+    "kanji": "歩く",
+    "hiragana": "あるく",
+    "meaning": "Berjalan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "歩いて学校へ行きます。 (Aruite gakkou e ikimasu.) - Saya pergi ke sekolah dengan berjalan."
+  },
+  {
+    "kanji": "走る",
+    "hiragana": "はしる",
+    "meaning": "Berlari",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "公園を走ります。 (Kouen wo hashirimasu.) - Saya berlari di taman."
+  },
+  {
+    "kanji": "乗る",
+    "hiragana": "のる",
+    "meaning": "Naik (kendaraan)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "バスに乗ります。 (Basu ni norimasu.) - Saya naik bus."
+  },
+  {
+    "kanji": "降りる",
+    "hiragana": "おりる",
+    "meaning": "Turun (kendaraan)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "駅で降ります。 (Eki de orimasu.) - Saya turun di stasiun."
+  },
+  {
+    "kanji": "渡る",
+    "hiragana": "わたる",
+    "meaning": "Menyeberang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "道を渡ります。 (Michi wo watarimasu.) - Saya menyeberang jalan."
+  },
+  {
+    "kanji": "曲がる",
+    "hiragana": "まがる",
+    "meaning": "Berbelok",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "右に曲がります。 (Migi ni magarimasu.) - Saya belok kanan."
+  },
+  {
+    "kanji": "止まる",
+    "hiragana": "とまる",
+    "meaning": "Berhenti",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "車が止まります。 (Kuruma ga tomarimasu.) - Mobil berhenti."
+  },
+  {
+    "kanji": "泳ぐ",
+    "hiragana": "およぐ",
+    "meaning": "Berenang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "プールで泳ぎます。 (Puuru de oyogimasu.) - Saya berenang di kolam."
+  },
+  {
+    "kanji": "飛ぶ",
+    "hiragana": "とぶ",
+    "meaning": "Terbang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "鳥が飛びます。 (Tori ga tobimasu.) - Burung terbang."
+  },
+  {
+    "kanji": "登る",
+    "hiragana": "のぼる",
+    "meaning": "Mendaki",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "山に登ります。 (Yama ni noborimasu.) - Saya mendaki gunung."
+  },
+  {
+    "kanji": "食べる",
+    "hiragana": "たべる",
+    "meaning": "Makan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ご飯を食べます。 (Gohan wo tabemasu.) - Saya makan nasi."
+  },
+  {
+    "kanji": "飲む",
+    "hiragana": "のむ",
+    "meaning": "Minum",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "水を飲みます。 (Mizu wo nomimasu.) - Saya minum air."
+  },
+  {
+    "kanji": "作る",
+    "hiragana": "つくる",
+    "meaning": "Membuat",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "料理を作ります。 (Ryouri wo tsukurimasu.) - Saya membuat masakan."
+  },
+  {
+    "kanji": "買う",
+    "hiragana": "かう",
+    "meaning": "Membeli",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を買います。 (Hon wo kaimasu.) - Saya membeli buku."
+  },
+  {
+    "kanji": "売る",
+    "hiragana": "うる",
+    "meaning": "Menjual",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "この店は果物を売ります。 (Kono mise wa kudamono wo urimasu.) - Toko ini menjual buah."
+  },
+  {
+    "kanji": "払う",
+    "hiragana": "はらう",
+    "meaning": "Membayar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "お金を払います。 (Okane wo haraimasu.) - Saya membayar uang."
+  },
+  {
+    "kanji": "貸す",
+    "hiragana": "かす",
+    "meaning": "Meminjamkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達に本を貸します。 (Tomodachi ni hon wo kashimasu.) - Saya meminjamkan buku kepada teman."
+  },
+  {
+    "kanji": "借りる",
+    "hiragana": "かりる",
+    "meaning": "Meminjam",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "図書館で本を借ります。 (Toshokan de hon wo karimasu.) - Saya meminjam buku di perpustakaan."
+  },
+  {
+    "kanji": "返す",
+    "hiragana": "かえす",
+    "meaning": "Mengembalikan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を返します。 (Hon wo kaeshimasu.) - Saya mengembalikan buku."
+  },
+  {
+    "kanji": "あげる",
+    "hiragana": "あげる",
+    "meaning": "Memberi",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達にプレゼントをあげます。 (Tomodachi ni purezento wo agemasu.) - Saya memberi hadiah kepada teman."
+  },
+  {
+    "kanji": "もらう",
+    "hiragana": "もらう",
+    "meaning": "Menerima",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達からプレゼントをもらいます。 (Tomodachi kara purezento wo moraimasu.) - Saya menerima hadiah dari teman."
+  },
+  {
+    "kanji": "くれる",
+    "hiragana": "くれる",
+    "meaning": "Memberiku",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達がプレゼントをくれました。 (Tomodachi ga purezento wo kuremashita.) - Teman memberi saya hadiah."
+  },
+  {
+    "kanji": "送る",
+    "hiragana": "おくる",
+    "meaning": "Mengirim",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "手紙を送ります。 (Tegami wo okurimasu.) - Saya mengirim surat."
+  },
+  {
+    "kanji": "届く",
+    "hiragana": "とどく",
+    "meaning": "Sampai (barang)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "荷物が届きました。 (Nimotsu ga todokimashita.) - Barang sudah sampai."
+  },
+  {
+    "kanji": "見る",
+    "hiragana": "みる",
+    "meaning": "Melihat",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "テレビを見ます。 (Terebi wo mimasu.) - Saya menonton TV."
+  },
+  {
+    "kanji": "見せる",
+    "hiragana": "みせる",
+    "meaning": "Memperlihatkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "写真を見せます。 (Shashin wo misemasu.) - Saya memperlihatkan foto."
+  },
+  {
+    "kanji": "聞く",
+    "hiragana": "きく",
+    "meaning": "Mendengar/Bertanya",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "音楽を聞きます。 (Ongaku wo kikimasu.) - Saya mendengar musik."
+  },
+  {
+    "kanji": "話す",
+    "hiragana": "はなす",
+    "meaning": "Berbicara",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "日本語を話します。 (Nihongo wo hanashimasu.) - Saya berbicara bahasa Jepang."
+  },
+  {
+    "kanji": "言う",
+    "hiragana": "いう",
+    "meaning": "Berkata",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "彼はそう言いました。 (Kare wa sou iimashita.) - Dia berkata begitu."
+  },
+  {
+    "kanji": "読む",
+    "hiragana": "よむ",
+    "meaning": "Membaca",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を読みます。 (Hon wo yomimasu.) - Saya membaca buku."
+  },
+  {
+    "kanji": "書く",
+    "hiragana": "かく",
+    "meaning": "Menulis",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "手紙を書きます。 (Tegami wo kakimasu.) - Saya menulis surat."
+  },
+  {
+    "kanji": "描く",
+    "hiragana": "かく",
+    "meaning": "Menggambar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "絵を描きます。 (E wo kakimasu.) - Saya menggambar."
+  },
+  {
+    "kanji": "習う",
+    "hiragana": "ならう",
+    "meaning": "Belajar (dari guru)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "先生に日本語を習います。 (Sensei ni nihongo wo naraimasu.) - Saya belajar bahasa Jepang dari guru."
+  },
+  {
+    "kanji": "勉強する",
+    "hiragana": "べんきょうする",
+    "meaning": "Belajar",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "日本語を勉強します。 (Nihongo wo benkyou shimasu.) - Saya belajar bahasa Jepang."
+  },
+  {
+    "kanji": "教える",
+    "hiragana": "おしえる",
+    "meaning": "Mengajar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "先生が日本語を教えます。 (Sensei ga nihongo wo oshiemasu.) - Guru mengajar bahasa Jepang."
+  },
+  {
+    "kanji": "覚える",
+    "hiragana": "おぼえる",
+    "meaning": "Mengingat",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "単語を覚えます。 (Tango wo oboemasu.) - Saya mengingat kosakata."
+  },
+  {
+    "kanji": "忘れる",
+    "hiragana": "わすれる",
+    "meaning": "Lupa",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "傘を忘れました。 (Kasa wo wasuremashita.) - Saya lupa payung."
+  },
+  {
+    "kanji": "知る",
+    "hiragana": "しる",
+    "meaning": "Tahu",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "彼の名前を知っています。 (Kare no namae wo shitte imasu.) - Saya tahu namanya."
+  },
+  {
+    "kanji": "分かる",
+    "hiragana": "わかる",
+    "meaning": "Mengerti",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "日本語が分かります。 (Nihongo ga wakarimasu.) - Saya mengerti bahasa Jepang."
+  },
+  {
+    "kanji": "考える",
+    "hiragana": "かんがえる",
+    "meaning": "Berpikir",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "よく考えます。 (Yoku kangaemasu.) - Saya berpikir dengan baik."
+  },
+  {
+    "kanji": "思う",
+    "hiragana": "おもう",
+    "meaning": "Berpikir/Merasa",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "そう思います。 (Sou omoimasu.) - Saya pikir begitu."
+  },
+  {
+    "kanji": "答える",
+    "hiragana": "こたえる",
+    "meaning": "Menjawab",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "質問に答えます。 (Shitsumon ni kotaemasu.) - Saya menjawab pertanyaan."
+  },
+  {
+    "kanji": "質問する",
+    "hiragana": "しつもんする",
+    "meaning": "Bertanya",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "先生に質問します。 (Sensei ni shitsumon shimasu.) - Saya bertanya kepada guru."
+  },
+  {
+    "kanji": "働く",
+    "hiragana": "はたらく",
+    "meaning": "Bekerja",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "会社で働きます。 (Kaisha de hatarakimasu.) - Saya bekerja di perusahaan."
+  },
+  {
+    "kanji": "休む",
+    "hiragana": "やすむ",
+    "meaning": "Istirahat",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "日曜日は休みます。 (Nichiyoubi wa yasumimasu.) - Saya istirahat pada hari Minggu."
+  },
+  {
+    "kanji": "遊ぶ",
+    "hiragana": "あそぶ",
+    "meaning": "Bermain",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "公園で遊びます。 (Kouen de asobimasu.) - Saya bermain di taman."
+  },
+  {
+    "kanji": "起きる",
+    "hiragana": "おきる",
+    "meaning": "Bangun",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "朝6時に起きます。 (Asa rokuji ni okimasu.) - Saya bangun jam 6 pagi."
+  },
+  {
+    "kanji": "寝る",
+    "hiragana": "ねる",
+    "meaning": "Tidur",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "夜10時に寝ます。 (Yoru juuji ni nemasu.) - Saya tidur jam 10 malam."
+  },
+  {
+    "kanji": "座る",
+    "hiragana": "すわる",
+    "meaning": "Duduk",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "椅子に座ります。 (Isu ni suwarimasu.) - Saya duduk di kursi."
+  },
+  {
+    "kanji": "立つ",
+    "hiragana": "たつ",
+    "meaning": "Berdiri",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "立ちます。 (Tachimasu.) - Saya berdiri."
+  },
+  {
+    "kanji": "待つ",
+    "hiragana": "まつ",
+    "meaning": "Menunggu",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "バスを待ちます。 (Basu wo machimasu.) - Saya menunggu bus."
+  },
+  {
+    "kanji": "会う",
+    "hiragana": "あう",
+    "meaning": "Bertemu",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達に会います。 (Tomodachi ni aimasu.) - Saya bertemu teman."
+  },
+  {
+    "kanji": "使う",
+    "hiragana": "つかう",
+    "meaning": "Menggunakan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "パソコンを使います。 (Pasokon wo tsukaimasu.) - Saya menggunakan komputer."
+  },
+  {
+    "kanji": "持つ",
+    "hiragana": "もつ",
+    "meaning": "Memegang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "カバンを持ちます。 (Kaban wo mochimasu.) - Saya memegang tas."
+  },
+  {
+    "kanji": "置く",
+    "hiragana": "おく",
+    "meaning": "Meletakkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を机に置きます。 (Hon wo tsukue ni okimasu.) - Saya meletakkan buku di meja."
+  },
+  {
+    "kanji": "取る",
+    "hiragana": "とる",
+    "meaning": "Mengambil",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ペンを取ります。 (Pen wo torimasu.) - Saya mengambil pulpen."
+  },
+  {
+    "kanji": "撮る",
+    "hiragana": "とる",
+    "meaning": "Memotret",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "写真を撮ります。 (Shashin wo torimasu.) - Saya memotret."
+  },
+  {
+    "kanji": "押す",
+    "hiragana": "おす",
+    "meaning": "Mendorong/Menekan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ボタンを押します。 (Botan wo oshimasu.) - Saya menekan tombol."
+  },
+  {
+    "kanji": "引く",
+    "hiragana": "ひく",
+    "meaning": "Menarik",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ドアを引きます。 (Doa wo hikimasu.) - Saya menarik pintu."
+  },
+  {
+    "kanji": "開ける",
+    "hiragana": "あける",
+    "meaning": "Membuka",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "窓を開けます。 (Mado wo akemasu.) - Saya membuka jendela."
+  },
+  {
+    "kanji": "閉める",
+    "hiragana": "しめる",
+    "meaning": "Menutup",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ドアを閉めます。 (Doa wo shimemasu.) - Saya menutup pintu."
+  },
+  {
+    "kanji": "開く",
+    "hiragana": "あく",
+    "meaning": "Terbuka",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ドアが開きます。 (Doa ga akimasu.) - Pintu terbuka."
+  },
+  {
+    "kanji": "閉まる",
+    "hiragana": "しまる",
+    "meaning": "Tertutup",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ドアが閉まります。 (Doa ga shimarimasu.) - Pintu tertutup."
+  },
+  {
+    "kanji": "付ける",
+    "hiragana": "つける",
+    "meaning": "Menyalakan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "電気を付けます。 (Denki wo tsukemasu.) - Saya menyalakan lampu."
+  },
+  {
+    "kanji": "消す",
+    "hiragana": "けす",
+    "meaning": "Mematikan/Menghapus",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "電気を消します。 (Denki wo keshimasu.) - Saya mematikan lampu."
+  },
+  {
+    "kanji": "点く",
+    "hiragana": "つく",
+    "meaning": "Menyala",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "電気が点きます。 (Denki ga tsukimasu.) - Lampu menyala."
+  },
+  {
+    "kanji": "切る",
+    "hiragana": "きる",
+    "meaning": "Memotong",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "野菜を切ります。 (Yasai wo kirimasu.) - Saya memotong sayuran."
+  },
+  {
+    "kanji": "着る",
+    "hiragana": "きる",
+    "meaning": "Memakai (baju)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "シャツを着ます。 (Shatsu wo kimasu.) - Saya memakai kemeja."
+  },
+  {
+    "kanji": "脱ぐ",
+    "hiragana": "ぬぐ",
+    "meaning": "Melepas (baju)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "靴を脱ぎます。 (Kutsu wo nugimasu.) - Saya melepas sepatu."
+  },
+  {
+    "kanji": "履く",
+    "hiragana": "はく",
+    "meaning": "Memakai (celana/sepatu)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ズボンを履きます。 (Zubon wo hakimasu.) - Saya memakai celana."
+  },
+  {
+    "kanji": "被る",
+    "hiragana": "かぶる",
+    "meaning": "Memakai (topi)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "帽子を被ります。 (Boushi wo kaburimasu.) - Saya memakai topi."
+  },
+  {
+    "kanji": "掛ける",
+    "hiragana": "かける",
+    "meaning": "Menggantung",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "服をハンガーに掛けます。 (Fuku wo hangaa ni kakemasu.) - Saya menggantung baju di gantungan."
+  },
+  {
+    "kanji": "洗う",
+    "hiragana": "あらう",
+    "meaning": "Mencuci",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "手を洗います。 (Te wo araimasu.) - Saya mencuci tangan."
+  },
+  {
+    "kanji": "掃除する",
+    "hiragana": "そうじする",
+    "meaning": "Membersihkan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "部屋を掃除します。 (Heya wo souji shimasu.) - Saya membersihkan kamar."
+  },
+  {
+    "kanji": "干す",
+    "hiragana": "ほす",
+    "meaning": "Menjemur",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "洗濯物を干します。 (Sentakumono wo hoshimasu.) - Saya menjemur cucian."
+  },
+  {
+    "kanji": "住む",
+    "hiragana": "すむ",
+    "meaning": "Tinggal",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "東京に住んでいます。 (Toukyou ni sunde imasu.) - Saya tinggal di Tokyo."
+  },
+  {
+    "kanji": "要る",
+    "hiragana": "いる",
+    "meaning": "Butuh",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "お金が要ります。 (Okane ga irimasu.) - Saya butuh uang."
+  },
+  {
+    "kanji": "ある",
+    "hiragana": "ある",
+    "meaning": "Ada (benda)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "机の上に本があります。 (Tsukue no ue ni hon ga arimasu.) - Ada buku di atas meja."
+  },
+  {
+    "kanji": "いる",
+    "hiragana": "いる",
+    "meaning": "Ada (makhluk hidup)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "部屋に猫がいます。 (Heya ni neko ga imasu.) - Ada kucing di kamar."
+  },
+  {
+    "kanji": "する",
+    "hiragana": "する",
+    "meaning": "Melakukan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "何をしますか？ (Nani wo shimasu ka?) - Apa yang Anda lakukan?"
+  },
+  {
+    "kanji": "なる",
+    "hiragana": "なる",
+    "meaning": "Menjadi",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "医者になりたいです。 (Isha ni naritai desu.) - Saya ingin menjadi dokter."
+  },
+  {
+    "kanji": "出来る",
+    "hiragana": "できる",
+    "meaning": "Bisa",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "日本語が出来ます。 (Nihongo ga dekimasu.) - Saya bisa bahasa Jepang."
+  },
+  {
+    "kanji": "始まる",
+    "hiragana": "はじまる",
+    "meaning": "Dimulai",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "授業が始まります。 (Jugyou ga hajimarimasu.) - Pelajaran dimulai."
+  },
+  {
+    "kanji": "終わる",
+    "hiragana": "おわる",
+    "meaning": "Berakhir",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "授業が終わります。 (Jugyou ga owarimasu.) - Pelajaran berakhir."
+  },
+  {
+    "kanji": "始める",
+    "hiragana": "はじめる",
+    "meaning": "Memulai",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "勉強を始めます。 (Benkyou wo hajimemasu.) - Saya memulai belajar."
+  },
+  {
+    "kanji": "続ける",
+    "hiragana": "つづける",
+    "meaning": "Melanjutkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "走り続けます。 (Hashiri tsudzukemasu.) - Saya terus berlari."
+  },
+  {
+    "kanji": "変わる",
+    "hiragana": "かわる",
+    "meaning": "Berubah",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "天気が変わります。 (Tenki ga kawarimasu.) - Cuaca berubah."
+  },
+  {
+    "kanji": "決める",
+    "hiragana": "きめる",
+    "meaning": "Memutuskan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "行くことを決めました。 (Iku koto wo kimemashita.) - Saya memutuskan untuk pergi."
+  },
+  {
+    "kanji": "入れる",
+    "hiragana": "いれる",
+    "meaning": "Memasukkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "箱に本を入れます。 (Hako ni hon wo iremasu.) - Saya memasukkan buku ke dalam kotak."
+  },
+  {
+    "kanji": "出す",
+    "hiragana": "だす",
+    "meaning": "Mengeluarkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "財布を出します。 (Saifu wo dashimasu.) - Saya mengeluarkan dompet."
+  },
+  {
+    "kanji": "並ぶ",
+    "hiragana": "ならぶ",
+    "meaning": "Berbaris",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "列に並びます。 (Retsu ni narabimasu.) - Saya berbaris dalam antrian."
+  },
+  {
+    "kanji": "並べる",
+    "hiragana": "ならべる",
+    "meaning": "Menyusun",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を並べます。 (Hon wo narabemasu.) - Saya menyusun buku."
+  },
+  {
+    "kanji": "集める",
+    "hiragana": "あつめる",
+    "meaning": "Mengumpulkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "切手を集めます。 (Kitte wo atsumemasu.) - Saya mengumpulkan perangko."
+  },
+  {
+    "kanji": "捨てる",
+    "hiragana": "すてる",
+    "meaning": "Membuang",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ゴミを捨てます。 (Gomi wo sutemasu.) - Saya membuang sampah."
+  },
+  {
+    "kanji": "拾う",
+    "hiragana": "ひろう",
+    "meaning": "Memungut",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ペンを拾います。 (Pen wo hiroimasu.) - Saya memungut pulpen."
+  },
+  {
+    "kanji": "落とす",
+    "hiragana": "おとす",
+    "meaning": "Menjatuhkan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "本を落としました。 (Hon wo otoshimashita.) - Saya menjatuhkan buku."
+  },
+  {
+    "kanji": "落ちる",
+    "hiragana": "おちる",
+    "meaning": "Jatuh",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "りんごが落ちました。 (Ringo ga ochimashita.) - Apel jatuh."
+  },
+  {
+    "kanji": "壊す",
+    "hiragana": "こわす",
+    "meaning": "Merusak",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "時計を壊しました。 (Tokei wo kowashimashita.) - Saya merusak jam."
+  },
+  {
+    "kanji": "壊れる",
+    "hiragana": "こわれる",
+    "meaning": "Rusak",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "パソコンが壊れました。 (Pasokon ga kowaremashita.) - Komputer rusak."
+  },
+  {
+    "kanji": "直す",
+    "hiragana": "なおす",
+    "meaning": "Memperbaiki",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "自転車を直します。 (Jitensha wo naoshimasu.) - Saya memperbaiki sepeda."
+  },
+  {
+    "kanji": "治る",
+    "hiragana": "なおる",
+    "meaning": "Sembuh",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "風邪が治りました。 (Kaze ga naorimashita.) - Flu saya sembuh."
+  },
+  {
+    "kanji": "死ぬ",
+    "hiragana": "しぬ",
+    "meaning": "Mati",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "魚が死にました。 (Sakana ga shinimashita.) - Ikan mati."
+  },
+  {
+    "kanji": "生まれる",
+    "hiragana": "うまれる",
+    "meaning": "Lahir",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "私は東京で生まれました。 (Watashi wa Toukyou de umaremashita.) - Saya lahir di Tokyo."
+  },
+  {
+    "kanji": "咲く",
+    "hiragana": "さく",
+    "meaning": "Mekar",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "桜が咲きます。 (Sakura ga sakimasu.) - Bunga sakura mekar."
+  },
+  {
+    "kanji": "鳴く",
+    "hiragana": "なく",
+    "meaning": "Bersuara (hewan)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "鳥が鳴きます。 (Tori ga nakimasu.) - Burung berkicau."
+  },
+  {
+    "kanji": "泣く",
+    "hiragana": "なく",
+    "meaning": "Menangis",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "子供が泣いています。 (Kodomo ga naite imasu.) - Anak menangis."
+  },
+  {
+    "kanji": "笑う",
+    "hiragana": "わらう",
+    "meaning": "Tertawa",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "彼は笑っています。 (Kare wa waratte imasu.) - Dia tertawa."
+  },
+  {
+    "kanji": "怒る",
+    "hiragana": "おこる",
+    "meaning": "Marah",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "先生が怒りました。 (Sensei ga okorimashita.) - Guru marah."
+  },
+  {
+    "kanji": "困る",
+    "hiragana": "こまる",
+    "meaning": "Kesulitan",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "困っています。 (Komatte imasu.) - Saya kesulitan."
+  },
+  {
+    "kanji": "疲れる",
+    "hiragana": "つかれる",
+    "meaning": "Lelah",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "今日は疲れました。 (Kyou wa tsukaremashita.) - Saya lelah hari ini."
+  },
+  {
+    "kanji": "歌う",
+    "hiragana": "うたう",
+    "meaning": "Bernyanyi",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "歌を歌います。 (Uta wo utaimasu.) - Saya bernyanyi."
+  },
+  {
+    "kanji": "踊る",
+    "hiragana": "おどる",
+    "meaning": "Menari",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ダンスを踊ります。 (Dansu wo odorimasu.) - Saya menari."
+  },
+  {
+    "kanji": "弾く",
+    "hiragana": "ひく",
+    "meaning": "Memainkan (instrumen)",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ピアノを弾きます。 (Piano wo hikimasu.) - Saya memainkan piano."
+  },
+  {
+    "kanji": "吹く",
+    "hiragana": "ふく",
+    "meaning": "Meniup",
+    "type": "verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "風が吹きます。 (Kaze ga fukimasu.) - Angin bertiup."
+  },
+  {
+    "kanji": "電話する",
+    "hiragana": "でんわする",
+    "meaning": "Menelepon",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達に電話します。 (Tomodachi ni denwa shimasu.) - Saya menelepon teman."
+  },
+  {
+    "kanji": "結婚する",
+    "hiragana": "けっこんする",
+    "meaning": "Menikah",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "彼は来年結婚します。 (Kare wa rainen kekkon shimasu.) - Dia menikah tahun depan."
+  },
+  {
+    "kanji": "散歩する",
+    "hiragana": "さんぽする",
+    "meaning": "Jalan-jalan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "公園を散歩します。 (Kouen wo sanpo shimasu.) - Saya jalan-jalan di taman."
+  },
+  {
+    "kanji": "運動する",
+    "hiragana": "うんどうする",
+    "meaning": "Berolahraga",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "毎日運動します。 (Mainichi undou shimasu.) - Saya berolahraga setiap hari."
+  },
+  {
+    "kanji": "旅行する",
+    "hiragana": "りょこうする",
+    "meaning": "Bepergian",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "夏に旅行します。 (Natsu ni ryokou shimasu.) - Saya bepergian di musim panas."
+  },
+  {
+    "kanji": "練習する",
+    "hiragana": "れんしゅうする",
+    "meaning": "Berlatih",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ピアノを練習します。 (Piano wo renshuu shimasu.) - Saya berlatih piano."
+  },
+  {
+    "kanji": "約束する",
+    "hiragana": "やくそくする",
+    "meaning": "Berjanji",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達と約束します。 (Tomodachi to yakusoku shimasu.) - Saya berjanji dengan teman."
+  },
+  {
+    "kanji": "紹介する",
+    "hiragana": "しょうかいする",
+    "meaning": "Memperkenalkan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "友達を紹介します。 (Tomodachi wo shoukai shimasu.) - Saya memperkenalkan teman."
+  },
+  {
+    "kanji": "説明する",
+    "hiragana": "せつめいする",
+    "meaning": "Menjelaskan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ルールを説明します。 (Ruuru wo setsumei shimasu.) - Saya menjelaskan aturan."
+  },
+  {
+    "kanji": "心配する",
+    "hiragana": "しんぱいする",
+    "meaning": "Khawatir",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "彼のことを心配します。 (Kare no koto wo shinpai shimasu.) - Saya khawatir tentang dia."
+  },
+  {
+    "kanji": "準備する",
+    "hiragana": "じゅんびする",
+    "meaning": "Mempersiapkan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "試験の準備をします。 (Shiken no junbi wo shimasu.) - Saya mempersiapkan ujian."
+  },
+  {
+    "kanji": "予約する",
+    "hiragana": "よやくする",
+    "meaning": "Memesan",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "ホテルを予約します。 (Hoteru wo yoyaku shimasu.) - Saya memesan hotel."
+  },
+  {
+    "kanji": "コピーする",
+    "hiragana": "コピーする",
+    "meaning": "Menyalin",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "書類をコピーします。 (Shorui wo kopii shimasu.) - Saya menyalin dokumen."
+  },
+  {
+    "kanji": "シャワーする",
+    "hiragana": "シャワーする",
+    "meaning": "Mandi shower",
+    "type": "suru-verb",
+    "level": "n5",
+    "theme": "verb",
+    "example": "シャワーを浴びます。 (Shawaa wo abimasu.) - Saya mandi shower."
+  },
+  {
+    "kanji": "映画",
+    "hiragana": "えいが",
+    "meaning": "Film",
+    "type": "noun",
+    "level": "n5",
+    "theme": "entertainment",
+    "example": "映画を見ます。 (Eiga wo mimasu.) - Saya menonton film."
+  },
+  {
+    "kanji": "音楽",
+    "hiragana": "おんがく",
+    "meaning": "Musik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "entertainment",
+    "example": "音楽を聞きます。 (Ongaku wo kikimasu.) - Saya mendengar musik."
+  },
+  {
+    "kanji": "歌",
+    "hiragana": "うた",
+    "meaning": "Lagu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "entertainment",
+    "example": "歌を歌います。 (Uta wo utaimasu.) - Saya bernyanyi."
+  },
+  {
+    "kanji": "ダンス",
+    "hiragana": "ダンス",
+    "meaning": "Tarian",
+    "type": "noun",
+    "level": "n5",
+    "theme": "entertainment",
+    "example": "ダンスをします。 (Dansu wo shimasu.) - Saya menari."
+  },
+  {
+    "kanji": "スポーツ",
+    "hiragana": "スポーツ",
+    "meaning": "Olahraga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "sports",
+    "example": "スポーツが好きです。 (Supootsu ga suki desu.) - Saya suka olahraga."
+  },
+  {
+    "kanji": "サッカー",
+    "hiragana": "サッカー",
+    "meaning": "Sepak bola",
+    "type": "noun",
+    "level": "n5",
+    "theme": "sports",
+    "example": "サッカーをします。 (Sakkaa wo shimasu.) - Saya bermain sepak bola."
+  },
+  {
+    "kanji": "野球",
+    "hiragana": "やきゅう",
+    "meaning": "Bisbol",
+    "type": "noun",
+    "level": "n5",
+    "theme": "sports",
+    "example": "野球を見ます。 (Yakyuu wo mimasu.) - Saya menonton bisbol."
+  },
+  {
+    "kanji": "テニス",
+    "hiragana": "テニス",
+    "meaning": "Tenis",
+    "type": "noun",
+    "level": "n5",
+    "theme": "sports",
+    "example": "テニスをします。 (Tenisu wo shimasu.) - Saya bermain tenis."
+  },
+  {
+    "kanji": "旅行",
+    "hiragana": "りょこう",
+    "meaning": "Perjalanan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "travel",
+    "example": "旅行に行きます。 (Ryokou ni ikimasu.) - Saya pergi bepergian."
+  },
+  {
+    "kanji": "仕事",
+    "hiragana": "しごと",
+    "meaning": "Pekerjaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "仕事を探しています。 (Shigoto wo sagashite imasu.) - Saya mencari pekerjaan."
+  },
+  {
+    "kanji": "授業",
+    "hiragana": "じゅぎょう",
+    "meaning": "Pelajaran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "授業があります。 (Jugyou ga arimasu.) - Ada pelajaran."
+  },
+  {
+    "kanji": "宿題",
+    "hiragana": "しゅくだい",
+    "meaning": "PR",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "宿題をします。 (Shukudai wo shimasu.) - Saya mengerjakan PR."
+  },
+  {
+    "kanji": "試験",
+    "hiragana": "しけん",
+    "meaning": "Ujian",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "試験があります。 (Shiken ga arimasu.) - Ada ujian."
+  },
+  {
+    "kanji": "テスト",
+    "hiragana": "テスト",
+    "meaning": "Tes",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "テストを受けます。 (Tesuto wo ukemasu.) - Saya mengikuti tes."
+  },
+  {
+    "kanji": "問題",
+    "hiragana": "もんだい",
+    "meaning": "Masalah/Soal",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "問題を解きます。 (Mondai wo tokimasu.) - Saya memecahkan soal."
+  },
+  {
+    "kanji": "答え",
+    "hiragana": "こたえ",
+    "meaning": "Jawaban",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "答えを書きます。 (Kotae wo kakimasu.) - Saya menulis jawaban."
+  },
+  {
+    "kanji": "意味",
+    "hiragana": "いみ",
+    "meaning": "Arti",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "この言葉の意味は何ですか？ (Kono kotoba no imi wa nan desu ka?) - Apa arti kata ini?"
+  },
+  {
+    "kanji": "言葉",
+    "hiragana": "ことば",
+    "meaning": "Kata/Bahasa",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "新しい言葉を覚えます。 (Atarashii kotoba wo oboemasu.) - Saya mengingat kata baru."
+  },
+  {
+    "kanji": "文",
+    "hiragana": "ぶん",
+    "meaning": "Kalimat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "文を作ります。 (Bun wo tsukurimasu.) - Saya membuat kalimat."
+  },
+  {
+    "kanji": "漢字",
+    "hiragana": "かんじ",
+    "meaning": "Kanji",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "漢字を勉強します。 (Kanji wo benkyou shimasu.) - Saya belajar kanji."
+  },
+  {
+    "kanji": "ひらがな",
+    "hiragana": "ひらがな",
+    "meaning": "Hiragana",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "ひらがなを書きます。 (Hiragana wo kakimasu.) - Saya menulis hiragana."
+  },
+  {
+    "kanji": "カタカナ",
+    "hiragana": "カタカナ",
+    "meaning": "Katakana",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "カタカナを読みます。 (Katakana wo yomimasu.) - Saya membaca katakana."
+  },
+  {
+    "kanji": "日本語",
+    "hiragana": "にほんご",
+    "meaning": "Bahasa Jepang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "日本語を話します。 (Nihongo wo hanashimasu.) - Saya berbicara bahasa Jepang."
+  },
+  {
+    "kanji": "英語",
+    "hiragana": "えいご",
+    "meaning": "Bahasa Inggris",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "英語が分かりますか？ (Eigo ga wakarimasu ka?) - Apakah Anda mengerti bahasa Inggris?"
+  },
+  {
+    "kanji": "外国語",
+    "hiragana": "がいこくご",
+    "meaning": "Bahasa asing",
+    "type": "noun",
+    "level": "n5",
+    "theme": "language",
+    "example": "外国語を勉強します。 (Gaikokugo wo benkyou shimasu.) - Saya belajar bahasa asing."
+  },
+  {
+    "kanji": "番号",
+    "hiragana": "ばんごう",
+    "meaning": "Nomor",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "電話番号を教えてください。 (Denwa bangou wo oshiete kudasai.) - Tolong beri tahu nomor telepon."
+  },
+  {
+    "kanji": "電気",
+    "hiragana": "でんき",
+    "meaning": "Listrik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "電気をつけます。 (Denki wo tsukemasu.) - Saya menyalakan listrik."
+  },
+  {
+    "kanji": "ガス",
+    "hiragana": "ガス",
+    "meaning": "Gas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "ガスを使います。 (Gasu wo tsukaimasu.) - Saya menggunakan gas."
+  },
+  {
+    "kanji": "エアコン",
+    "hiragana": "エアコン",
+    "meaning": "AC",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "エアコンをつけます。 (Eakon wo tsukemasu.) - Saya menyalakan AC."
+  },
+  {
+    "kanji": "冷蔵庫",
+    "hiragana": "れいぞうこ",
+    "meaning": "Kulkas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "冷蔵庫に食べ物があります。 (Reizouko ni tabemono ga arimasu.) - Ada makanan di kulkas."
+  },
+  {
+    "kanji": "洗濯機",
+    "hiragana": "せんたくき",
+    "meaning": "Mesin cuci",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "洗濯機で洗います。 (Sentakuki de araimasu.) - Saya mencuci dengan mesin cuci."
+  },
+  {
+    "kanji": "掃除機",
+    "hiragana": "そうじき",
+    "meaning": "Penghisap debu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "掃除機をかけます。 (Soujiki wo kakemasu.) - Saya menggunakan penghisap debu."
+  },
+  {
+    "kanji": "ストーブ",
+    "hiragana": "ストーブ",
+    "meaning": "Pemanas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "ストーブをつけます。 (Sutoobu wo tsukemasu.) - Saya menyalakan pemanas."
+  },
+  {
+    "kanji": "ベッド",
+    "hiragana": "ベッド",
+    "meaning": "Tempat tidur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "ベッドで寝ます。 (Beddo de nemasu.) - Saya tidur di tempat tidur."
+  },
+  {
+    "kanji": "布団",
+    "hiragana": "ふとん",
+    "meaning": "Futon",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "布団を敷きます。 (Futon wo shikimasu.) - Saya menyiapkan futon."
+  },
+  {
+    "kanji": "枕",
+    "hiragana": "まくら",
+    "meaning": "Bantal",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "枕を使います。 (Makura wo tsukaimasu.) - Saya memakai bantal."
+  },
+  {
+    "kanji": "タオル",
+    "hiragana": "タオル",
+    "meaning": "Handuk",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "タオルを干します。 (Taworu wo hoshimasu.) - Saya menjemur handuk."
+  },
+  {
+    "kanji": "石鹸",
+    "hiragana": "せっけん",
+    "meaning": "Sabun",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "石鹸で手を洗います。 (Sekken de te wo araimasu.) - Saya mencuci tangan dengan sabun."
+  },
+  {
+    "kanji": "シャンプー",
+    "hiragana": "シャンプー",
+    "meaning": "Sampo",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "シャンプーを使います。 (Shanpuu wo tsukaimasu.) - Saya memakai sampo."
+  },
+  {
+    "kanji": "歯ブラシ",
+    "hiragana": "はブラシ",
+    "meaning": "Sikat gigi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "歯ブラシで歯を磨きます。 (Haburashi de ha wo migakimasu.) - Saya menggosok gigi dengan sikat gigi."
+  },
+  {
+    "kanji": "歯磨き粉",
+    "hiragana": "はみがきこ",
+    "meaning": "Pasta gigi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "歯磨き粉を使います。 (Hamigakiko wo tsukaimasu.) - Saya memakai pasta gigi."
+  },
+  {
+    "kanji": "鏡",
+    "hiragana": "かがみ",
+    "meaning": "Cermin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "鏡を見ます。 (Kagami wo mimasu.) - Saya melihat cermin."
+  },
+  {
+    "kanji": "薬",
+    "hiragana": "くすり",
+    "meaning": "Obat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "薬を飲みます。 (Kusuri wo nomimasu.) - Saya minum obat."
+  },
+  {
+    "kanji": "病気",
+    "hiragana": "びょうき",
+    "meaning": "Penyakit",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "病気になりました。 (Byouki ni narimashita.) - Saya sakit."
+  },
+  {
+    "kanji": "熱",
+    "hiragana": "ねつ",
+    "meaning": "Demam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "熱があります。 (Netsu ga arimasu.) - Saya demam."
+  },
+  {
+    "kanji": "風邪",
+    "hiragana": "かぜ",
+    "meaning": "Masuk angin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "風邪をひきました。 (Kaze wo hikimashita.) - Saya masuk angin."
+  },
+  {
+    "kanji": "頭痛",
+    "hiragana": "ずつう",
+    "meaning": "Sakit kepala",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "頭痛がします。 (Zutsuu ga shimasu.) - Saya sakit kepala."
+  },
+  {
+    "kanji": "体温",
+    "hiragana": "たいおん",
+    "meaning": "Suhu tubuh",
+    "type": "noun",
+    "level": "n5",
+    "theme": "health",
+    "example": "体温を測ります。 (Taion wo hakarimasu.) - Saya mengukur suhu tubuh."
+  },
+  {
+    "kanji": "声",
+    "hiragana": "こえ",
+    "meaning": "Suara",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "声が大きいです。 (Koe ga ookii desu.) - Suaranya keras."
+  },
+  {
+    "kanji": "音",
+    "hiragana": "おと",
+    "meaning": "Bunyi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "音が聞こえます。 (Oto ga kikoemasu.) - Saya mendengar bunyi."
+  },
+  {
+    "kanji": "匂い",
+    "hiragana": "におい",
+    "meaning": "Bau",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "いい匂いがします。 (Ii nioi ga shimasu.) - Ada bau harum."
+  },
+  {
+    "kanji": "味",
+    "hiragana": "あじ",
+    "meaning": "Rasa",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "味がいいです。 (Aji ga ii desu.) - Rasanya enak."
+  },
+  {
+    "kanji": "形",
+    "hiragana": "かたち",
+    "meaning": "Bentuk",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "この形は何ですか？ (Kono katachi wa nan desu ka?) - Bentuk apa ini?"
+  },
+  {
+    "kanji": "大きさ",
+    "hiragana": "おおきさ",
+    "meaning": "Ukuran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "大きさを測ります。 (Ookisa wo hakarimasu.) - Saya mengukur ukuran."
+  },
+  {
+    "kanji": "長さ",
+    "hiragana": "ながさ",
+    "meaning": "Panjang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "長さを測ります。 (Nagasa wo hakarimasu.) - Saya mengukur panjang."
+  },
+  {
+    "kanji": "重さ",
+    "hiragana": "おもさ",
+    "meaning": "Berat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "重さを測ります。 (Omosa wo hakarimasu.) - Saya mengukur berat."
+  },
+  {
+    "kanji": "力",
+    "hiragana": "ちから",
+    "meaning": "Kekuatan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "力が強いです。 (Chikara ga tsuyoi desu.) - Kekuatannya kuat."
+  },
+  {
+    "kanji": "お祭り",
+    "hiragana": "おまつり",
+    "meaning": "Festival",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "お祭りに行きます。 (Omatsuri ni ikimasu.) - Saya pergi ke festival."
+  },
+  {
+    "kanji": "お正月",
+    "hiragana": "おしょうがつ",
+    "meaning": "Tahun Baru",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "お正月は家族と過ごします。 (Oshougatsu wa kazoku to sugoshimasu.) - Saya menghabiskan Tahun Baru dengan keluarga."
+  },
+  {
+    "kanji": "誕生日",
+    "hiragana": "たんじょうび",
+    "meaning": "Ulang tahun",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "今日は私の誕生日です。 (Kyou wa watashi no tanjoubi desu.) - Hari ini ulang tahun saya."
+  },
+  {
+    "kanji": "クリスマス",
+    "hiragana": "クリスマス",
+    "meaning": "Natal",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "クリスマスにプレゼントをもらいます。 (Kurisumasu ni purezento wo moraimasu.) - Saya menerima hadiah pada Natal."
+  },
+  {
+    "kanji": "パーティー",
+    "hiragana": "パーティー",
+    "meaning": "Pesta",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "パーティーを開きます。 (Paatii wo hirakimasu.) - Saya mengadakan pesta."
+  },
+  {
+    "kanji": "プレゼント",
+    "hiragana": "プレゼント",
+    "meaning": "Hadiah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "event",
+    "example": "プレゼントを買います。 (Purezento wo kaimasu.) - Saya membeli hadiah."
+  },
+  {
+    "kanji": "カード",
+    "hiragana": "カード",
+    "meaning": "Kartu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "カードを書きます。 (Kaado wo kakimasu.) - Saya menulis kartu."
+  },
+  {
+    "kanji": "ケーキ",
+    "hiragana": "ケーキ",
+    "meaning": "Kue",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ケーキを食べます。 (Keeki wo tabemasu.) - Saya makan kue."
+  },
+  {
+    "kanji": "アイスクリーム",
+    "hiragana": "アイスクリーム",
+    "meaning": "Es krim",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "アイスクリームが好きです。 (Aisukuriimu ga suki desu.) - Saya suka es krim."
+  },
+  {
+    "kanji": "チョコレート",
+    "hiragana": "チョコレート",
+    "meaning": "Coklat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "チョコレートを食べます。 (Chokoreeto wo tabemasu.) - Saya makan coklat."
+  },
+  {
+    "kanji": "お菓子",
+    "hiragana": "おかし",
+    "meaning": "Kue/Permen",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "お菓子を買います。 (Okashi wo kaimasu.) - Saya membeli kue."
+  },
+  {
+    "kanji": "弁当",
+    "hiragana": "べんとう",
+    "meaning": "Bento",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "弁当を作ります。 (Bentou wo tsukurimasu.) - Saya membuat bento."
+  },
+  {
+    "kanji": "朝",
+    "hiragana": "あさ",
+    "meaning": "Pagi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "朝ご飯を食べます。 (Asagohan wo tabemasu.) - Saya sarapan."
+  },
+  {
+    "kanji": "プール",
+    "hiragana": "プール",
+    "meaning": "Kolam renang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "プールで泳ぎます。 (Puuru de oyogimasu.) - Saya berenang di kolam renang."
+  },
+  {
+    "kanji": "体育館",
+    "hiragana": "たいいくかん",
+    "meaning": "Gimnasium",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "体育館で運動します。 (Taiikukan de undou shimasu.) - Saya berolahraga di gimnasium."
+  },
+  {
+    "kanji": "教室",
+    "hiragana": "きょうしつ",
+    "meaning": "Ruang kelas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "教室で勉強します。 (Kyoushitsu de benkyou shimasu.) - Saya belajar di ruang kelas."
+  },
+  {
+    "kanji": "食堂",
+    "hiragana": "しょくどう",
+    "meaning": "Kantin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "食堂でご飯を食べます。 (Shokudou de gohan wo tabemasu.) - Saya makan di kantin."
+  },
+  {
+    "kanji": "会議室",
+    "hiragana": "かいぎしつ",
+    "meaning": "Ruang rapat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "会議室で会議をします。 (Kaigishitsu de kaigi wo shimasu.) - Saya mengadakan rapat di ruang rapat."
+  },
+  {
+    "kanji": "事務所",
+    "hiragana": "じむしょ",
+    "meaning": "Kantor",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "事務所で働きます。 (Jimusho de hatarakimasu.) - Saya bekerja di kantor."
+  },
+  {
+    "kanji": "受付",
+    "hiragana": "うけつけ",
+    "meaning": "Resepsionis",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "受付で名前を書きます。 (Uketsuke de namae wo kakimasu.) - Saya menulis nama di resepsionis."
+  },
+  {
+    "kanji": "入口",
+    "hiragana": "いりぐち",
+    "meaning": "Pintu masuk",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "入口はどこですか？ (Iriguchi wa doko desu ka?) - Di mana pintu masuk?"
+  },
+  {
+    "kanji": "出口",
+    "hiragana": "でぐち",
+    "meaning": "Pintu keluar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "出口はこちらです。 (Deguchi wa kochira desu.) - Pintu keluar di sini."
+  },
+  {
+    "kanji": "階",
+    "hiragana": "かい",
+    "meaning": "Lantai",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "何階ですか？ (Nan-kai desu ka?) - Lantai berapa?"
+  },
+  {
+    "kanji": "一階",
+    "hiragana": "いっかい",
+    "meaning": "Lantai 1",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "一階にレストランがあります。 (Ikkai ni resutoran ga arimasu.) - Ada restoran di lantai 1."
+  },
+  {
+    "kanji": "二階",
+    "hiragana": "にかい",
+    "meaning": "Lantai 2",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "二階に教室があります。 (Nikai ni kyoushitsu ga arimasu.) - Ada ruang kelas di lantai 2."
+  },
+  {
+    "kanji": "地下",
+    "hiragana": "ちか",
+    "meaning": "Bawah tanah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "地下に駐車場があります。 (Chika ni chuushajou ga arimasu.) - Ada tempat parkir di bawah tanah."
+  },
+  {
+    "kanji": "屋上",
+    "hiragana": "おくじょう",
+    "meaning": "Atap",
+    "type": "noun",
+    "level": "n5",
+    "theme": "house",
+    "example": "屋上に上ります。 (Okujou ni noborimasu.) - Saya naik ke atap."
+  },
+  {
+    "kanji": "席",
+    "hiragana": "せき",
+    "meaning": "Tempat duduk",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "席に座ります。 (Seki ni suwarimasu.) - Saya duduk di tempat duduk."
+  },
+  {
+    "kanji": "黒板",
+    "hiragana": "こくばん",
+    "meaning": "Papan tulis",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "黒板に字を書きます。 (Kokuban ni ji wo kakimasu.) - Saya menulis huruf di papan tulis."
+  },
+  {
+    "kanji": "チョーク",
+    "hiragana": "チョーク",
+    "meaning": "Kapur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "チョークで書きます。 (Chooku de kakimasu.) - Saya menulis dengan kapur."
+  },
+  {
+    "kanji": "消しゴム",
+    "hiragana": "けしゴム",
+    "meaning": "Penghapus",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "消しゴムで消します。 (Keshigomu de keshimasu.) - Saya menghapus dengan penghapus."
+  },
+  {
+    "kanji": "定規",
+    "hiragana": "じょうぎ",
+    "meaning": "Penggaris",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "定規で線を引きます。 (Jougi de sen wo hikimasu.) - Saya menarik garis dengan penggaris."
+  },
+  {
+    "kanji": "ハサミ",
+    "hiragana": "ハサミ",
+    "meaning": "Gunting",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "ハサミで切ります。 (Hasami de kirimasu.) - Saya memotong dengan gunting."
+  },
+  {
+    "kanji": "のり",
+    "hiragana": "のり",
+    "meaning": "Lem",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "のりで貼ります。 (Nori de harimasu.) - Saya menempel dengan lem."
+  },
+  {
+    "kanji": "テープ",
+    "hiragana": "テープ",
+    "meaning": "Selotip",
+    "type": "noun",
+    "level": "n5",
+    "theme": "school",
+    "example": "テープを貼ります。 (Teepu wo harimasu.) - Saya menempelkan selotip."
+  },
+  {
+    "kanji": "封筒",
+    "hiragana": "ふうとう",
+    "meaning": "Amplop",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "封筒に手紙を入れます。 (Fuutou ni tegami wo iremasu.) - Saya memasukkan surat ke dalam amplop."
+  },
+  {
+    "kanji": "切手",
+    "hiragana": "きって",
+    "meaning": "Perangko",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "切手を貼ります。 (Kitte wo harimasu.) - Saya menempelkan perangko."
+  },
+  {
+    "kanji": "葉書",
+    "hiragana": "はがき",
+    "meaning": "Kartu pos",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "葉書を出します。 (Hagaki wo dashimasu.) - Saya mengirim kartu pos."
+  },
+  {
+    "kanji": "荷物",
+    "hiragana": "にもつ",
+    "meaning": "Barang bawaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "travel",
+    "example": "荷物を持ちます。 (Nimotsu wo mochimasu.) - Saya membawa barang."
+  },
+  {
+    "kanji": "箱",
+    "hiragana": "はこ",
+    "meaning": "Kotak",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "箱に入れます。 (Hako ni iremasu.) - Saya memasukkan ke dalam kotak."
+  },
+  {
+    "kanji": "袋",
+    "hiragana": "ふくろ",
+    "meaning": "Tas/Kantong",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "袋に入れます。 (Fukuro ni iremasu.) - Saya memasukkan ke dalam tas."
+  },
+  {
+    "kanji": "瓶",
+    "hiragana": "びん",
+    "meaning": "Botol",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "瓶に水を入れます。 (Bin ni mizu wo iremasu.) - Saya memasukkan air ke dalam botol."
+  },
+  {
+    "kanji": "缶",
+    "hiragana": "かん",
+    "meaning": "Kaleng",
+    "type": "noun",
+    "level": "n5",
+    "theme": "object",
+    "example": "缶を開けます。 (Kan wo akemasu.) - Saya membuka kaleng."
+  },
+  {
+    "kanji": "皿",
+    "hiragana": "さら",
+    "meaning": "Piring",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "皿に食べ物を置きます。 (Sara ni tabemono wo okimasu.) - Saya meletakkan makanan di piring."
+  },
+  {
+    "kanji": "茶碗",
+    "hiragana": "ちゃわん",
+    "meaning": "Mangkuk nasi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "茶碗にご飯を入れます。 (Chawan ni gohan wo iremasu.) - Saya memasukkan nasi ke dalam mangkuk."
+  },
+  {
+    "kanji": "コップ",
+    "hiragana": "コップ",
+    "meaning": "Gelas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "コップに水を入れます。 (Koppu ni mizu wo iremasu.) - Saya memasukkan air ke dalam gelas."
+  },
+  {
+    "kanji": "箸",
+    "hiragana": "はし",
+    "meaning": "Sumpit",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "箸で食べます。 (Hashi de tabemasu.) - Saya makan dengan sumpit."
+  },
+  {
+    "kanji": "スプーン",
+    "hiragana": "スプーン",
+    "meaning": "Sendok",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "スプーンを使います。 (Supuun wo tsukaimasu.) - Saya memakai sendok."
+  },
+  {
+    "kanji": "フォーク",
+    "hiragana": "フォーク",
+    "meaning": "Garpu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "フォークで食べます。 (Fooku de tabemasu.) - Saya makan dengan garpu."
+  },
+  {
+    "kanji": "ナイフ",
+    "hiragana": "ナイフ",
+    "meaning": "Pisau",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "ナイフで切ります。 (Naifu de kirimasu.) - Saya memotong dengan pisau."
+  },
+  {
+    "kanji": "コンロ",
+    "hiragana": "コンロ",
+    "meaning": "Kompor",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "コンロで料理をします。 (Konro de ryouri wo shimasu.) - Saya memasak dengan kompor."
+  },
+  {
+    "kanji": "鍋",
+    "hiragana": "なべ",
+    "meaning": "Panci",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "鍋でスープを作ります。 (Nabe de suupu wo tsukurimasu.) - Saya membuat sup dengan panci."
+  },
+  {
+    "kanji": "フライパン",
+    "hiragana": "フライパン",
+    "meaning": "Wajan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "フライパンで卵を焼きます。 (Furaipan de tamago wo yakimasu.) - Saya menggoreng telur dengan wajan."
+  },
+  {
+    "kanji": "電子レンジ",
+    "hiragana": "でんしレンジ",
+    "meaning": "Microwave",
+    "type": "noun",
+    "level": "n5",
+    "theme": "kitchen",
+    "example": "電子レンジで温めます。 (Denshi renji de atatamemasu.) - Saya memanaskan dengan microwave."
+  },
+  {
+    "kanji": "ご飯",
+    "hiragana": "ごはん",
+    "meaning": "Nasi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ご飯を食べます。 (Gohan wo tabemasu.) - Saya makan nasi."
+  },
+  {
+    "kanji": "味噌汁",
+    "hiragana": "みそしる",
+    "meaning": "Sup miso",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "味噌汁を飲みます。 (Miso shiru wo nomimasu.) - Saya minum sup miso."
+  },
+  {
+    "kanji": "ラーメン",
+    "hiragana": "ラーメン",
+    "meaning": "Ramen",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ラーメンを食べます。 (Raamen wo tabemasu.) - Saya makan ramen."
+  },
+  {
+    "kanji": "うどん",
+    "hiragana": "うどん",
+    "meaning": "Udon",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "うどんを食べます。 (Udon wo tabemasu.) - Saya makan udon."
+  },
+  {
+    "kanji": "そば",
+    "hiragana": "そば",
+    "meaning": "Soba",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "そばを食べます。 (Soba wo tabemasu.) - Saya makan soba."
+  },
+  {
+    "kanji": "寿司",
+    "hiragana": "すし",
+    "meaning": "Sushi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "寿司を食べます。 (Sushi wo tabemasu.) - Saya makan sushi."
+  },
+  {
+    "kanji": "刺身",
+    "hiragana": "さしみ",
+    "meaning": "Sashimi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "刺身が好きです。 (Sashimi ga suki desu.) - Saya suka sashimi."
+  },
+  {
+    "kanji": "天ぷら",
+    "hiragana": "てんぷら",
+    "meaning": "Tempura",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "天ぷらを注文します。 (Tenpura wo chuumon shimasu.) - Saya memesan tempura."
+  },
+  {
+    "kanji": "焼き肉",
+    "hiragana": "やきにく",
+    "meaning": "Yakiniku",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "焼き肉を食べに行きます。 (Yakiniku wo tabe ni ikimasu.) - Saya pergi makan yakiniku."
+  },
+  {
+    "kanji": "カレー",
+    "hiragana": "カレー",
+    "meaning": "Kari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "カレーを作ります。 (Karee wo tsukurimasu.) - Saya membuat kari."
+  },
+  {
+    "kanji": "サラダ",
+    "hiragana": "サラダ",
+    "meaning": "Salad",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "サラダを食べます。 (Sarada wo tabemasu.) - Saya makan salad."
+  },
+  {
+    "kanji": "サンドイッチ",
+    "hiragana": "サンドイッチ",
+    "meaning": "Sandwich",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "サンドイッチを買います。 (Sandoicchi wo kaimasu.) - Saya membeli sandwich."
+  },
+  {
+    "kanji": "ハンバーガー",
+    "hiragana": "ハンバーガー",
+    "meaning": "Hamburger",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ハンバーガーを食べます。 (Hanbaagaa wo tabemasu.) - Saya makan hamburger."
+  },
+  {
+    "kanji": "ピザ",
+    "hiragana": "ピザ",
+    "meaning": "Pizza",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ピザを注文します。 (Piza wo chuumon shimasu.) - Saya memesan pizza."
+  },
+  {
+    "kanji": "スープ",
+    "hiragana": "スープ",
+    "meaning": "Sup",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "スープを飲みます。 (Suupu wo nomimasu.) - Saya minum sup."
+  },
+  {
+    "kanji": "豆腐",
+    "hiragana": "とうふ",
+    "meaning": "Tahu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "豆腐を食べます。 (Toufu wo tabemasu.) - Saya makan tahu."
+  },
+  {
+    "kanji": "納豆",
+    "hiragana": "なっとう",
+    "meaning": "Natto",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "納豆は好きですか？ (Nattou wa suki desu ka?) - Apakah Anda suka natto?"
+  },
+  {
+    "kanji": "漬物",
+    "hiragana": "つけもの",
+    "meaning": "Acar",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "漬物を食べます。 (Tsukemono wo tabemasu.) - Saya makan acar."
+  },
+  {
+    "kanji": "玉ねぎ",
+    "hiragana": "たまねぎ",
+    "meaning": "Bawang bombay",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "玉ねぎを切ります。 (Tamanegi wo kirimasu.) - Saya memotong bawang bombay."
+  },
+  {
+    "kanji": "人参",
+    "hiragana": "にんじん",
+    "meaning": "Wortel",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "人参を買います。 (Ninjin wo kaimasu.) - Saya membeli wortel."
+  },
+  {
+    "kanji": "じゃがいも",
+    "hiragana": "じゃがいも",
+    "meaning": "Kentang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "じゃがいもを食べます。 (Jagaimo wo tabemasu.) - Saya makan kentang."
+  },
+  {
+    "kanji": "トマト",
+    "hiragana": "トマト",
+    "meaning": "Tomat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "トマトが嫌いです。 (Tomato ga kirai desu.) - Saya benci tomat."
+  },
+  {
+    "kanji": "きゅうり",
+    "hiragana": "きゅうり",
+    "meaning": "Timun",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "きゅうりを買います。 (Kyuuri wo kaimasu.) - Saya membeli timun."
+  },
+  {
+    "kanji": "キャベツ",
+    "hiragana": "キャベツ",
+    "meaning": "Kol",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "キャベツを切ります。 (Kyabetsu wo kirimasu.) - Saya memotong kol."
+  },
+  {
+    "kanji": "レタス",
+    "hiragana": "レタス",
+    "meaning": "Selada",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "レタスを洗います。 (Retasu wo araimasu.) - Saya mencuci selada."
+  },
+  {
+    "kanji": "いちご",
+    "hiragana": "いちご",
+    "meaning": "Stroberi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "いちごを食べます。 (Ichigo wo tabemasu.) - Saya makan stroberi."
+  },
+  {
+    "kanji": "ぶどう",
+    "hiragana": "ぶどう",
+    "meaning": "Anggur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ぶどうを買いました。 (Budou wo kaimashita.) - Saya membeli anggur."
+  },
+  {
+    "kanji": "桃",
+    "hiragana": "もも",
+    "meaning": "Persik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "桃が好きです。 (Momo ga suki desu.) - Saya suka persik."
+  },
+  {
+    "kanji": "梨",
+    "hiragana": "なし",
+    "meaning": "Pir",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "梨を食べます。 (Nashi wo tabemasu.) - Saya makan pir."
+  },
+  {
+    "kanji": "スイカ",
+    "hiragana": "スイカ",
+    "meaning": "Semangka",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "スイカを切ります。 (Suika wo kirimasu.) - Saya memotong semangka."
+  },
+  {
+    "kanji": "メロン",
+    "hiragana": "メロン",
+    "meaning": "Melon",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "メロンは高いです。 (Meron wa takai desu.) - Melon mahal."
+  },
+  {
+    "kanji": "鶏肉",
+    "hiragana": "とりにく",
+    "meaning": "Daging ayam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "鶏肉を食べます。 (Toriniku wo tabemasu.) - Saya makan daging ayam."
+  },
+  {
+    "kanji": "牛肉",
+    "hiragana": "ぎゅうにく",
+    "meaning": "Daging sapi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "牛肉を焼きます。 (Gyūniku wo yakimasu.) - Saya memanggang daging sapi."
+  },
+  {
+    "kanji": "豚肉",
+    "hiragana": "ぶたにく",
+    "meaning": "Daging babi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "豚肉を買います。 (Butaniku wo kaimasu.) - Saya membeli daging babi."
+  },
+  {
+    "kanji": "エビ",
+    "hiragana": "エビ",
+    "meaning": "Udang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "エビを食べます。 (Ebi wo tabemasu.) - Saya makan udang."
+  },
+  {
+    "kanji": "イカ",
+    "hiragana": "イカ",
+    "meaning": "Cumi-cumi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "イカを切ります。 (Ika wo kirimasu.) - Saya memotong cumi-cumi."
+  },
+  {
+    "kanji": "タコ",
+    "hiragana": "タコ",
+    "meaning": "Gurita",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "タコを食べます。 (Tako wo tabemasu.) - Saya makan gurita."
+  },
+  {
+    "kanji": "貝",
+    "hiragana": "かい",
+    "meaning": "Kerang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "貝を買います。 (Kai wo kaimasu.) - Saya membeli kerang."
+  },
+  {
+    "kanji": "紅茶",
+    "hiragana": "こうちゃ",
+    "meaning": "Teh hitam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "紅茶を飲みます。 (Koucha wo nomimasu.) - Saya minum teh hitam."
+  },
+  {
+    "kanji": "緑茶",
+    "hiragana": "りょくちゃ",
+    "meaning": "Teh hijau",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "緑茶が好きです。 (Ryokucha ga suki desu.) - Saya suka teh hijau."
+  },
+  {
+    "kanji": "ウーロン茶",
+    "hiragana": "ウーロンちゃ",
+    "meaning": "Teh oolong",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ウーロン茶を飲みます。 (Uuroncha wo nomimasu.) - Saya minum teh oolong."
+  },
+  {
+    "kanji": "ワイン",
+    "hiragana": "ワイン",
+    "meaning": "Anggur (wine)",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ワインを飲みます。 (Wain wo nomimasu.) - Saya minum anggur."
+  },
+  {
+    "kanji": "ウイスキー",
+    "hiragana": "ウイスキー",
+    "meaning": "Wiski",
+    "type": "noun",
+    "level": "n5",
+    "theme": "food",
+    "example": "ウイスキーを飲みます。 (Uisukii wo nomimasu.) - Saya minum wiski."
+  },
+  {
+    "kanji": "それ",
+    "hiragana": "それ",
+    "meaning": "Itu",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "それは本ですか？ (Sore wa hon desu ka?) - Apakah itu buku?"
+  },
+  {
+    "kanji": "これ",
+    "hiragana": "これ",
+    "meaning": "Ini",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "これは私のペンです。 (Kore wa watashi no pen desu.) - Ini pulpen saya."
+  },
+  {
+    "kanji": "あれ",
+    "hiragana": "あれ",
+    "meaning": "Itu (jauh)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "あれは山です。 (Are wa yama desu.) - Itu gunung."
+  },
+  {
+    "kanji": "この",
+    "hiragana": "この",
+    "meaning": "Ini (adj)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "この本は面白いです。 (Kono hon wa omoshiroi desu.) - Buku ini menarik."
+  },
+  {
+    "kanji": "その",
+    "hiragana": "その",
+    "meaning": "Itu (adj)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "その車は高いです。 (Sono kuruma wa takai desu.) - Mobil itu mahal."
+  },
+  {
+    "kanji": "あの",
+    "hiragana": "あの",
+    "meaning": "Itu (adj, jauh)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "あの人誰ですか？ (Ano hito wa dare desu ka?) - Siapa orang itu?"
+  },
+  {
+    "kanji": "ここ",
+    "hiragana": "ここ",
+    "meaning": "Di sini",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "ここは学校です。 (Koko wa gakkou desu.) - Di sini adalah sekolah."
+  },
+  {
+    "kanji": "そこ",
+    "hiragana": "そこ",
+    "meaning": "Di situ",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "そこに何がありますか？ (Soko ni nani ga arimasu ka?) - Ada apa di situ?"
+  },
+  {
+    "kanji": "あそこ",
+    "hiragana": "あそこ",
+    "meaning": "Di sana",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "あそこに駅があります。 (Asoko ni eki ga arimasu.) - Ada stasiun di sana."
+  },
+  {
+    "kanji": "こちら",
+    "hiragana": "こちら",
+    "meaning": "Sini (sopan)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "こちらへどうぞ。 (Kochira e douzo.) - Silakan ke sini."
+  },
+  {
+    "kanji": "そちら",
+    "hiragana": "そちら",
+    "meaning": "Situ (sopan)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "そちらはどこですか？ (Sochira wa doko desu ka?) - Di mana situ?"
+  },
+  {
+    "kanji": "あちら",
+    "hiragana": "あちら",
+    "meaning": "Sana (sopan)",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "あちらに先生がいます。 (Achira ni sensei ga imasu.) - Ada guru di sana."
+  },
+  {
+    "kanji": "こう",
+    "hiragana": "こう",
+    "meaning": "Seperti ini",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "こうしてください。 (Kou shite kudasai.) - Tolong lakukan seperti ini."
+  },
+  {
+    "kanji": "そう",
+    "hiragana": "そう",
+    "meaning": "Seperti itu",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "そう思います。 (Sou omoimasu.) - Saya pikir begitu."
+  },
+  {
+    "kanji": "ああ",
+    "hiragana": "ああ",
+    "meaning": "Seperti itu (jauh)",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "demonstrative",
+    "example": "ああいう人もいます。 (Aa iu hito mo imasu.) - Ada juga orang seperti itu."
+  },
+  {
+    "kanji": "また",
+    "hiragana": "また",
+    "meaning": "Lagi",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "time",
+    "example": "また明日会いましょう。 (Mata ashita aimashou.) - Mari bertemu lagi besok."
+  },
+  {
+    "kanji": "まだ",
+    "hiragana": "まだ",
+    "meaning": "Masih",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "time",
+    "example": "まだ宿題をしていません。 (Mada shukudai wo shite imasen.) - Saya belum mengerjakan PR."
+  },
+  {
+    "kanji": "もう",
+    "hiragana": "もう",
+    "meaning": "Sudah",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "time",
+    "example": "もう帰りました。 (Mou kaerimashita.) - Saya sudah pulang."
+  },
+  {
+    "kanji": "もっと",
+    "hiragana": "もっと",
+    "meaning": "Lebih",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "もっと勉強しなければなりません。 (Motto benkyou shinakereba narimasen.) - Saya harus belajar lebih."
+  },
+  {
+    "kanji": "とても",
+    "hiragana": "とても",
+    "meaning": "Sangat",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "この映画はとても面白いです。 (Kono eiga wa totemo omoshiroi desu.) - Film ini sangat menarik."
+  },
+  {
+    "kanji": "少し",
+    "hiragana": "すこし",
+    "meaning": "Sedikit",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "少し休みます。 (Sukoshi yasumimasu.) - Saya istirahat sebentar."
+  },
+  {
+    "kanji": "ちょっと",
+    "hiragana": "ちょっと",
+    "meaning": "Sedikit",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "ちょっと待ってください。 (Chotto matte kudasai.) - Tolong tunggu sebentar."
+  },
+  {
+    "kanji": "たくさん",
+    "hiragana": "たくさん",
+    "meaning": "Banyak",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "たくさん食べました。 (Takusan tabemashita.) - Saya makan banyak."
+  },
+  {
+    "kanji": "全部",
+    "hiragana": "ぜんぶ",
+    "meaning": "Semua",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "全部ください。 (Zenbu kudasai.) - Tolong beri semuanya."
+  },
+  {
+    "kanji": "全然",
+    "hiragana": "ぜんぜん",
+    "meaning": "Sama sekali tidak",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "全然分かりません。 (Zenzen wakarimasen.) - Saya sama sekali tidak mengerti."
+  },
+  {
+    "kanji": "本当に",
+    "hiragana": "ほんとうに",
+    "meaning": "Benar-benar",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "本当にありがとう。 (Hontou ni arigatou.) - Terima kasih banyak."
+  },
+  {
+    "kanji": "絶対",
+    "hiragana": "ぜったい",
+    "meaning": "Pasti",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "certainty",
+    "example": "絶対行きます。 (Zettai ikimasu.) - Saya pasti pergi."
+  },
+  {
+    "kanji": "多分",
+    "hiragana": "たぶん",
+    "meaning": "Mungkin",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "certainty",
+    "example": "多分、雨が降ります。 (Tabun, ame ga furimasu.) - Mungkin akan hujan."
+  },
+  {
+    "kanji": "きっと",
+    "hiragana": "きっと",
+    "meaning": "Pasti",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "certainty",
+    "example": "きっとうまくいきます。 (Kitto umaku ikimasu.) - Pasti akan berhasil."
+  },
+  {
+    "kanji": "必ず",
+    "hiragana": "かならず",
+    "meaning": "Pasti",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "certainty",
+    "example": "必ず連絡します。 (Kanarazu renraku shimasu.) - Saya pasti akan menghubungi."
+  },
+  {
+    "kanji": "普通",
+    "hiragana": "ふつう",
+    "meaning": "Biasa",
+    "type": "na-adjective",
+    "level": "n5",
+    "theme": "general",
+    "example": "普通、朝7時に起きます。 (Futsuu, asa shichiji ni okimasu.) - Biasanya saya bangun jam 7 pagi."
+  },
+  {
+    "kanji": "特に",
+    "hiragana": "とくに",
+    "meaning": "Terutama",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "特に冬が好きです。 (Tokuni fuyu ga suki desu.) - Saya terutama suka musim dingin."
+  },
+  {
+    "kanji": "初めて",
+    "hiragana": "はじめて",
+    "meaning": "Pertama kali",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "time",
+    "example": "初めて日本に行きました。 (Hajimete Nihon ni ikimashita.) - Saya pergi ke Jepang untuk pertama kali."
+  },
+  {
+    "kanji": "最初",
+    "hiragana": "さいしょ",
+    "meaning": "Awal",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "最初は難しかったです。 (Saisho wa muzukashikatta desu.) - Awalnya sulit."
+  },
+  {
+    "kanji": "最後",
+    "hiragana": "さいご",
+    "meaning": "Akhir",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "最後まで頑張ります。 (Saigo made ganbarimasu.) - Saya akan berusaha sampai akhir."
+  },
+  {
+    "kanji": "一番",
+    "hiragana": "いちばん",
+    "meaning": "Paling",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "これが一番好きです。 (Kore ga ichiban suki desu.) - Ini yang paling saya suka."
+  },
+  {
+    "kanji": "一緒に",
+    "hiragana": "いっしょに",
+    "meaning": "Bersama",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "relationship",
+    "example": "一緒に行きましょう。 (Issho ni ikimashou.) - Mari pergi bersama."
+  },
+  {
+    "kanji": "自分",
+    "hiragana": "じぶん",
+    "meaning": "Diri sendiri",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "general",
+    "example": "自分でやりました。 (Jibun de yarimashita.) - Saya melakukannya sendiri."
+  },
+  {
+    "kanji": "皆",
+    "hiragana": "みんな",
+    "meaning": "Semua orang",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "general",
+    "example": "みんな元気です。 (Minna genki desu.) - Semua orang sehat."
+  },
+  {
+    "kanji": "誰か",
+    "hiragana": "だれか",
+    "meaning": "Seseorang",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "誰か来ましたか？ (Dareka kimashita ka?) - Apakah ada seseorang datang?"
+  },
+  {
+    "kanji": "何か",
+    "hiragana": "なにか",
+    "meaning": "Sesuatu",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "何か食べますか？ (Nanika tabemasu ka?) - Apakah Anda makan sesuatu?"
+  },
+  {
+    "kanji": "どこか",
+    "hiragana": "どこか",
+    "meaning": "Di suatu tempat",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "どこか行きましたか？ (Dokoka ikimashita ka?) - Apakah Anda pergi ke suatu tempat?"
+  },
+  {
+    "kanji": "いつか",
+    "hiragana": "いつか",
+    "meaning": "Suatu saat",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "いつか日本に行きたいです。 (Itsuka Nihon ni ikitai desu.) - Saya ingin pergi ke Jepang suatu saat."
+  },
+  {
+    "kanji": "誰も",
+    "hiragana": "だれも",
+    "meaning": "Tidak ada siapa pun",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "誰もいません。 (Dare mo imasen.) - Tidak ada siapa pun."
+  },
+  {
+    "kanji": "何も",
+    "hiragana": "なにも",
+    "meaning": "Tidak ada apa-apa",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "何もありません。 (Nani mo arimasen.) - Tidak ada apa-apa."
+  },
+  {
+    "kanji": "どこも",
+    "hiragana": "どこも",
+    "meaning": "Tidak ada tempat",
+    "type": "pronoun",
+    "level": "n5",
+    "theme": "question",
+    "example": "どこも行きません。 (Doko mo ikimasen.) - Saya tidak pergi ke mana pun."
+  },
+  {
+    "kanji": "いつも",
+    "hiragana": "いつも",
+    "meaning": "Selalu",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "frequency",
+    "example": "いつも7時に起きます。 (Itsumo shichiji ni okimasu.) - Saya selalu bangun jam 7."
+  },
+  {
+    "kanji": "時々",
+    "hiragana": "ときどき",
+    "meaning": "Kadang-kadang",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "frequency",
+    "example": "時々映画を見ます。 (Tokidoki eiga wo mimasu.) - Saya kadang-kadang menonton film."
+  },
+  {
+    "kanji": "よく",
+    "hiragana": "よく",
+    "meaning": "Sering",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "frequency",
+    "example": "よく行きます。 (Yoku ikimasu.) - Saya sering pergi."
+  },
+  {
+    "kanji": "あまり",
+    "hiragana": "あまり",
+    "meaning": "Tidak terlalu",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "あまり食べません。 (Amari tabemasen.) - Saya tidak terlalu makan."
+  },
+  {
+    "kanji": "ほとんど",
+    "hiragana": "ほとんど",
+    "meaning": "Hampir",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "ほとんど終わりました。 (Hotondo owarimashita.) - Hampir selesai."
+  },
+  {
+    "kanji": "だんだん",
+    "hiragana": "だんだん",
+    "meaning": "Perlahan-lahan",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "だんだん暖かくなります。 (Dandan atatakaku narimasu.) - Semakin hangat perlahan."
+  },
+  {
+    "kanji": "すぐ",
+    "hiragana": "すぐ",
+    "meaning": "Segera",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "time",
+    "example": "すぐに来てください。 (Sugu ni kite kudasai.) - Tolong datang segera."
+  },
+  {
+    "kanji": "ゆっくり",
+    "hiragana": "ゆっくり",
+    "meaning": "Pelan-pelan",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "ゆっくり話してください。 (Yukkuri hanashite kudasai.) - Tolong bicara pelan-pelan."
+  },
+  {
+    "kanji": "早く",
+    "hiragana": "はやく",
+    "meaning": "Cepat",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "早く起きます。 (Hayaku okimasu.) - Saya bangun cepat."
+  },
+  {
+    "kanji": "遅く",
+    "hiragana": "おそく",
+    "meaning": "Lambat",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "遅く帰ります。 (Osoku kaerimasu.) - Saya pulang lambat."
+  },
+  {
+    "kanji": "一人で",
+    "hiragana": "ひとりで",
+    "meaning": "Sendirian",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "general",
+    "example": "一人で行きます。 (Hitori de ikimasu.) - Saya pergi sendirian."
+  },
+  {
+    "kanji": "二人",
+    "hiragana": "ふたり",
+    "meaning": "Dua orang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "二人で行きます。 (Futari de ikimasu.) - Kami berdua pergi."
+  },
+  {
+    "kanji": "三人",
+    "hiragana": "さんにん",
+    "meaning": "Tiga orang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "number",
+    "example": "三人で食べます。 (San nin de tabemasu.) - Kami bertiga makan."
+  },
+  {
+    "kanji": "大勢",
+    "hiragana": "おおぜい",
+    "meaning": "Banyak orang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "大勢の人が来ました。 (Oozei no hito ga kimashita.) - Banyak orang datang."
+  },
+  {
+    "kanji": "そして",
+    "hiragana": "そして",
+    "meaning": "Dan kemudian",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "朝起きて、そして顔を洗います。 (Asa okite, soshite kao wo araimasu.) - Saya bangun pagi, dan kemudian mencuci wajah."
+  },
+  {
+    "kanji": "でも",
+    "hiragana": "でも",
+    "meaning": "Tetapi",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "疲れました。でも、まだ仕事があります。 (Tsukaremashita. Demo, mada shigoto ga arimasu.) - Saya lelah. Tetapi masih ada pekerjaan."
+  },
+  {
+    "kanji": "しかし",
+    "hiragana": "しかし",
+    "meaning": "Namun",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "雨が降っています。しかし、行きます。 (Ame ga futte imasu. Shikashi, ikimasu.) - Sedang hujan. Namun, saya pergi."
+  },
+  {
+    "kanji": "だから",
+    "hiragana": "だから",
+    "meaning": "Karena itu",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "勉強しました。だから、試験に合格しました。 (Benkyou shimashita. Dakara, shiken ni goukaku shimashita.) - Saya belajar. Karena itu, saya lulus ujian."
+  },
+  {
+    "kanji": "それから",
+    "hiragana": "それから",
+    "meaning": "Setelah itu",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "買い物に行きます。それから、映画を見ます。 (Kaimono ni ikimasu. Sore kara, eiga wo mimasu.) - Saya pergi belanja. Setelah itu, menonton film."
+  },
+  {
+    "kanji": "それで",
+    "hiragana": "それで",
+    "meaning": "Oleh karena itu",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "雨が降りました。それで、試合は中止です。 (Ame ga furimashita. Sore de, shiai wa chuushi desu.) - Hujan turun. Oleh karena itu, pertandingan dibatalkan."
+  },
+  {
+    "kanji": "ところで",
+    "hiragana": "ところで",
+    "meaning": "Ngomong-ngomong",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "ところで、明日の予定は？ (Tokoro de, ashita no yotei wa?) - Ngomong-ngomong, rencana besok?"
+  },
+  {
+    "kanji": "じゃ",
+    "hiragana": "じゃ",
+    "meaning": "Kalau begitu",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "じゃ、また明日。 (Ja, mata ashita.) - Kalau begitu, sampai besok."
+  },
+  {
+    "kanji": "では",
+    "hiragana": "では",
+    "meaning": "Kalau begitu (formal)",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "では、始めます。 (De wa, hajimemasu.) - Kalau begitu, saya mulai."
+  },
+  {
+    "kanji": "または",
+    "hiragana": "または",
+    "meaning": "Atau",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "コーヒーまたは紅茶をください。 (Koohii matawa koucha wo kudasai.) - Tolong beri kopi atau teh."
+  },
+  {
+    "kanji": "もし",
+    "hiragana": "もし",
+    "meaning": "Jika",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "もし雨が降ったら、行きません。 (Moshi ame ga futtara, ikimasen.) - Jika hujan, saya tidak pergi."
+  },
+  {
+    "kanji": "ただ",
+    "hiragana": "ただ",
+    "meaning": "Hanya",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "degree",
+    "example": "ただの友達です。 (Tada no tomodachi desu.) - Hanya teman biasa."
+  },
+  {
+    "kanji": "けれども",
+    "hiragana": "けれども",
+    "meaning": "Tetapi",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "行きたいけれども、時間がありません。 (Ikitai keredomo, jikan ga arimasen.) - Saya ingin pergi, tetapi tidak ada waktu."
+  },
+  {
+    "kanji": "ところが",
+    "hiragana": "ところが",
+    "meaning": "Namun ternyata",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "彼は来ると言いました。ところが、来ませんでした。 (Kare wa kuru to iimashita. Tokoro ga, kimasen deshita.) - Dia bilang akan datang. Namun ternyata, tidak datang."
+  },
+  {
+    "kanji": "すると",
+    "hiragana": "すると",
+    "meaning": "Kemudian",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "寒くなりました。すると、雪が降り始めました。 (Samuku narimashita. Suruto, yuki ga furi hajimemashita.) - Menjadi dingin. Kemudian, salju mulai turun."
+  },
+  {
+    "kanji": "つまり",
+    "hiragana": "つまり",
+    "meaning": "Dengan kata lain",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "conjunction",
+    "example": "つまり、彼は来ないのです。 (Tsumari, kare wa konai no desu.) - Dengan kata lain, dia tidak datang."
+  },
+  {
+    "kanji": "例えば",
+    "hiragana": "たとえば",
+    "meaning": "Misalnya",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "general",
+    "example": "例えば、これはペンです。 (Tatoeba, kore wa pen desu.) - Misalnya, ini pulpen."
+  },
+  {
+    "kanji": "はい",
+    "hiragana": "はい",
+    "meaning": "Ya",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "はい、分かりました。 (Hai, wakarimashita.) - Ya, saya mengerti."
+  },
+  {
+    "kanji": "いいえ",
+    "hiragana": "いいえ",
+    "meaning": "Tidak",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "いいえ、大丈夫です。 (Iie, daijoubu desu.) - Tidak, tidak apa-apa."
+  },
+  {
+    "kanji": "ええ",
+    "hiragana": "ええ",
+    "meaning": "Ya (kasual)",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ええ、そうですね。 (Ee, sou desu ne.) - Ya, benar."
+  },
+  {
+    "kanji": "うん",
+    "hiragana": "うん",
+    "meaning": "Ya (sangat kasual)",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "うん、行くよ。 (Un, iku yo.) - Ya, aku pergi."
+  },
+  {
+    "kanji": "いや",
+    "hiragana": "いや",
+    "meaning": "Tidak (kasual)",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "いや、いいです。 (Iya, ii desu.) - Tidak, tidak usah."
+  },
+  {
+    "kanji": "どうぞ",
+    "hiragana": "どうぞ",
+    "meaning": "Silakan",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "どうぞお入りください。 (Douzo o-hairi kudasai.) - Silakan masuk."
+  },
+  {
+    "kanji": "どうも",
+    "hiragana": "どうも",
+    "meaning": "Terima kasih (kasual)",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "どうもありがとう。 (Doumo arigatou.) - Terima kasih."
+  },
+  {
+    "kanji": "すみません",
+    "hiragana": "すみません",
+    "meaning": "Maaf/Permisi",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "すみません、トイレはどこですか？ (Sumimasen, toire wa doko desu ka?) - Permisi, di mana toilet?"
+  },
+  {
+    "kanji": "ごめんなさい",
+    "hiragana": "ごめんなさい",
+    "meaning": "Maaf",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ごめんなさい、遅れました。 (Gomennasai, okuremashita.) - Maaf, saya terlambat."
+  },
+  {
+    "kanji": "ありがとう",
+    "hiragana": "ありがとう",
+    "meaning": "Terima kasih",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ありがとうございます。 (Arigatou gozaimasu.) - Terima kasih."
+  },
+  {
+    "kanji": "おはよう",
+    "hiragana": "おはよう",
+    "meaning": "Selamat pagi",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "おはようございます。 (Ohayou gozaimasu.) - Selamat pagi."
+  },
+  {
+    "kanji": "こんにちは",
+    "hiragana": "こんにちは",
+    "meaning": "Selamat siang",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "こんにちは。お元気ですか？ (Konnichiwa. O-genki desu ka?) - Selamat siang. Bagaimana kabar Anda?"
+  },
+  {
+    "kanji": "こんばんは",
+    "hiragana": "こんばんは",
+    "meaning": "Selamat malam",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "こんばんは。 (Konbanwa.) - Selamat malam."
+  },
+  {
+    "kanji": "さようなら",
+    "hiragana": "さようなら",
+    "meaning": "Selamat tinggal",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "さようなら。 (Sayounara.) - Selamat tinggal."
+  },
+  {
+    "kanji": "じゃあね",
+    "hiragana": "じゃあね",
+    "meaning": "Sampai jumpa",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "じゃあね、また明日。 (Jaa ne, mata ashita.) - Sampai jumpa, besok."
+  },
+  {
+    "kanji": "またね",
+    "hiragana": "またね",
+    "meaning": "Sampai ketemu lagi",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "またね。 (Mata ne.) - Sampai ketemu lagi."
+  },
+  {
+    "kanji": "お休みなさい",
+    "hiragana": "おやすみなさい",
+    "meaning": "Selamat tidur",
+    "type": "interjection",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "おやすみなさい。 (Oyasuminasai.) - Selamat tidur."
+  },
+  {
+    "kanji": "いただきます",
+    "hiragana": "いただきます",
+    "meaning": "Selamat makan",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "いただきます。 (Itadakimasu.) - Selamat makan (diucapkan sebelum makan)."
+  },
+  {
+    "kanji": "ごちそうさま",
+    "hiragana": "ごちそうさま",
+    "meaning": "Terima kasih atas makanannya",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ごちそうさまでした。 (Gochisousama deshita.) - Terima kasih atas makanannya (setelah makan)."
+  },
+  {
+    "kanji": "お元気ですか",
+    "hiragana": "おげんきですか",
+    "meaning": "Apa kabar",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "お元気ですか？ (O-genki desu ka?) - Apa kabar?"
+  },
+  {
+    "kanji": "初めまして",
+    "hiragana": "はじめまして",
+    "meaning": "Salam kenal",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "はじめまして。 (Hajimemashite.) - Salam kenal."
+  },
+  {
+    "kanji": "よろしく",
+    "hiragana": "よろしく",
+    "meaning": "Mohon kerjasamanya",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "よろしくお願いします。 (Yoroshiku onegai shimasu.) - Mohon kerjasamanya."
+  },
+  {
+    "kanji": "お願いします",
+    "hiragana": "おねがいします",
+    "meaning": "Tolong",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "お願いします。 (Onegai shimasu.) - Tolong."
+  },
+  {
+    "kanji": "失礼します",
+    "hiragana": "しつれいします",
+    "meaning": "Permisi",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "失礼します。 (Shitsurei shimasu.) - Permisi (saat masuk/keluar)."
+  },
+  {
+    "kanji": "ただいま",
+    "hiragana": "ただいま",
+    "meaning": "Aku pulang",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ただいま。 (Tadaima.) - Aku pulang."
+  },
+  {
+    "kanji": "お帰りなさい",
+    "hiragana": "おかえりなさい",
+    "meaning": "Selamat datang kembali",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "おかえりなさい。 (Okaerinasai.) - Selamat datang kembali."
+  },
+  {
+    "kanji": "行ってきます",
+    "hiragana": "いってきます",
+    "meaning": "Aku pergi dulu",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "行ってきます。 (Ittekimasu.) - Aku pergi dulu."
+  },
+  {
+    "kanji": "行ってらっしゃい",
+    "hiragana": "いってらっしゃい",
+    "meaning": "Hati-hati di jalan",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "行ってらっしゃい。 (Itterasshai.) - Hati-hati di jalan."
+  },
+  {
+    "kanji": "お疲れ様",
+    "hiragana": "おつかれさま",
+    "meaning": "Terima kasih atas kerja kerasnya",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "お疲れ様でした。 (Otsukaresama deshita.) - Terima kasih atas kerja kerasnya."
+  },
+  {
+    "kanji": "頑張って",
+    "hiragana": "がんばって",
+    "meaning": "Semangat",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "頑張ってください。 (Ganbatte kudasai.) - Semangat (tolong)."
+  },
+  {
+    "kanji": "気を付けて",
+    "hiragana": "きをつけて",
+    "meaning": "Hati-hati",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "気をつけて行ってください。 (Ki wo tsukete itte kudasai.) - Tolong pergi dengan hati-hati."
+  },
+  {
+    "kanji": "お大事に",
+    "hiragana": "おだいじに",
+    "meaning": "Semoga lekas sembuh",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "お大事に。 (Odaijini.) - Semoga lekas sembuh."
+  },
+  {
+    "kanji": "いらっしゃいませ",
+    "hiragana": "いらっしゃいませ",
+    "meaning": "Selamat datang (toko)",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "いらっしゃいませ。 (Irasshaimase.) - Selamat datang (di toko)."
+  },
+  {
+    "kanji": "ちょっと待って",
+    "hiragana": "ちょっとまって",
+    "meaning": "Tunggu sebentar",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "ちょっと待って。 (Chotto matte.) - Tunggu sebentar."
+  },
+  {
+    "kanji": "大丈夫",
+    "hiragana": "だいじょうぶ",
+    "meaning": "Tidak apa-apa",
+    "type": "expression",
+    "level": "n5",
+    "theme": "greeting",
+    "example": "大丈夫です。 (Daijoubu desu.) - Tidak apa-apa."
+  },
+  {
+    "kanji": "日本",
+    "hiragana": "にほん",
+    "meaning": "Jepang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "私は日本に行きたいです。 (Watashi wa Nihon ni ikitai desu.) - Saya ingin pergi ke Jepang."
+  },
+  {
+    "kanji": "中国",
+    "hiragana": "ちゅうごく",
+    "meaning": "Tiongkok",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "中国から来ました。 (Chuugoku kara kimashita.) - Saya datang dari Tiongkok."
+  },
+  {
+    "kanji": "韓国",
+    "hiragana": "かんこく",
+    "meaning": "Korea",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "韓国料理が好きです。 (Kankoku ryouri ga suki desu.) - Saya suka masakan Korea."
+  },
+  {
+    "kanji": "アメリカ",
+    "hiragana": "アメリカ",
+    "meaning": "Amerika",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "アメリカに友達がいます。 (Amerika ni tomodachi ga imasu.) - Saya punya teman di Amerika."
+  },
+  {
+    "kanji": "イギリス",
+    "hiragana": "イギリス",
+    "meaning": "Inggris",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "イギリスへ行きます。 (Igirisu e ikimasu.) - Saya pergi ke Inggris."
+  },
+  {
+    "kanji": "フランス",
+    "hiragana": "フランス",
+    "meaning": "Prancis",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "フランス語を勉強しています。 (Furansugo wo benkyou shite imasu.) - Saya belajar bahasa Prancis."
+  },
+  {
+    "kanji": "ドイツ",
+    "hiragana": "ドイツ",
+    "meaning": "Jerman",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "ドイツの車が好きです。 (Doitsu no kuruma ga suki desu.) - Saya suka mobil Jerman."
+  },
+  {
+    "kanji": "イタリア",
+    "hiragana": "イタリア",
+    "meaning": "Italia",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "イタリア料理を食べます。 (Itaria ryouri wo tabemasu.) - Saya makan masakan Italia."
+  },
+  {
+    "kanji": "スペイン",
+    "hiragana": "スペイン",
+    "meaning": "Spanyol",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "スペインに行ったことがあります。 (Supein ni itta koto ga arimasu.) - Saya pernah pergi ke Spanyol."
+  },
+  {
+    "kanji": "ロシア",
+    "hiragana": "ロシア",
+    "meaning": "Rusia",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "ロシアは寒いです。 (Roshia wa samui desu.) - Rusia dingin."
+  },
+  {
+    "kanji": "インドネシア",
+    "hiragana": "インドネシア",
+    "meaning": "Indonesia",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "インドネシア人は優しいです。 (Indoneshia-jin wa yasashii desu.) - Orang Indonesia ramah."
+  },
+  {
+    "kanji": "タイ",
+    "hiragana": "タイ",
+    "meaning": "Thailand",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "タイ料理が大好きです。 (Tai ryouri ga daisuki desu.) - Saya sangat suka masakan Thailand."
+  },
+  {
+    "kanji": "ベトナム",
+    "hiragana": "ベトナム",
+    "meaning": "Vietnam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "ベトナムのコーヒーは美味しいです。 (Betonamu no koohii wa oishii desu.) - Kopi Vietnam enak."
+  },
+  {
+    "kanji": "インド",
+    "hiragana": "インド",
+    "meaning": "India",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "インドの人口は多いです。 (Indo no jinkou wa ooi desu.) - Populasi India banyak."
+  },
+  {
+    "kanji": "オーストラリア",
+    "hiragana": "オーストラリア",
+    "meaning": "Australia",
+    "type": "noun",
+    "level": "n5",
+    "theme": "country",
+    "example": "オーストラリアに住んでいます。 (Oosutoraria ni sunde imasu.) - Saya tinggal di Australia."
+  },
+  {
+    "kanji": "東京",
+    "hiragana": "とうきょう",
+    "meaning": "Tokyo",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "東京へ行きます。 (Toukyou e ikimasu.) - Saya pergi ke Tokyo."
+  },
+  {
+    "kanji": "大阪",
+    "hiragana": "おおさか",
+    "meaning": "Osaka",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "大阪は食べ物が美味しいです。 (Oosaka wa tabemono ga oishii desu.) - Osaka makanannya enak."
+  },
+  {
+    "kanji": "京都",
+    "hiragana": "きょうと",
+    "meaning": "Kyoto",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "京都に神社がたくさんあります。 (Kyouto ni jinja ga takusan arimasu.) - Ada banyak kuil di Kyoto."
+  },
+  {
+    "kanji": "北海道",
+    "hiragana": "ほっかいどう",
+    "meaning": "Hokkaido",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "北海道は寒いです。 (Hokkaidou wa samui desu.) - Hokkaido dingin."
+  },
+  {
+    "kanji": "沖縄",
+    "hiragana": "おきなわ",
+    "meaning": "Okinawa",
+    "type": "noun",
+    "level": "n5",
+    "theme": "place",
+    "example": "沖縄は暑いです。 (Okinawa wa atsui desu.) - Okinawa panas."
+  },
+  {
+    "kanji": "日本人",
+    "hiragana": "にほんじん",
+    "meaning": "Orang Jepang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "彼は日本人です。 (Kare wa nihonjin desu.) - Dia orang Jepang."
+  },
+  {
+    "kanji": "外国人",
+    "hiragana": "がいこくじん",
+    "meaning": "Orang asing",
+    "type": "noun",
+    "level": "n5",
+    "theme": "people",
+    "example": "外国人がたくさんいます。 (Gaikokujin ga takusan imasu.) - Ada banyak orang asing."
+  },
+  {
+    "kanji": "先輩",
+    "hiragana": "せんぱい",
+    "meaning": "Senior",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "先輩は優しいです。 (Senpai wa yasashii desu.) - Senior itu baik."
+  },
+  {
+    "kanji": "後輩",
+    "hiragana": "こうはい",
+    "meaning": "Junior",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "後輩を助けます。 (Kouhai wo tasukemasu.) - Saya membantu junior."
+  },
+  {
+    "kanji": "同僚",
+    "hiragana": "どうりょう",
+    "meaning": "Rekan kerja",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "同僚と食事に行きます。 (Douryou to shokuji ni ikimasu.) - Saya pergi makan dengan rekan kerja."
+  },
+  {
+    "kanji": "上司",
+    "hiragana": "じょうし",
+    "meaning": "Atasan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "上司に報告します。 (Joushi ni houkoku shimasu.) - Saya melapor kepada atasan."
+  },
+  {
+    "kanji": "部下",
+    "hiragana": "ぶか",
+    "meaning": "Bawahan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "部下を指導します。 (Buka wo shidou shimasu.) - Saya membimbing bawahan."
+  },
+  {
+    "kanji": "社長",
+    "hiragana": "しゃちょう",
+    "meaning": "Direktur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "社長は忙しいです。 (Shachou wa isogashii desu.) - Direktur sibuk."
+  },
+  {
+    "kanji": "課長",
+    "hiragana": "かちょう",
+    "meaning": "Kepala bagian",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "課長に連絡します。 (Kachou ni renraku shimasu.) - Saya menghubungi kepala bagian."
+  },
+  {
+    "kanji": "係",
+    "hiragana": "かかり",
+    "meaning": "Petugas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "係の人が来ました。 (Kakari no hito ga kimashita.) - Petugas datang."
+  },
+  {
+    "kanji": "アルバイト",
+    "hiragana": "アルバイト",
+    "meaning": "Kerja paruh waktu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "アルバイトをしています。 (Arubaito wo shite imasu.) - Saya bekerja paruh waktu."
+  },
+  {
+    "kanji": "給料",
+    "hiragana": "きゅうりょう",
+    "meaning": "Gaji",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "給料をもらいました。 (Kyuuryou wo moraimashita.) - Saya menerima gaji."
+  },
+  {
+    "kanji": "会議",
+    "hiragana": "かいぎ",
+    "meaning": "Rapat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "会議があります。 (Kaigi ga arimasu.) - Ada rapat."
+  },
+  {
+    "kanji": "出張",
+    "hiragana": "しゅっちょう",
+    "meaning": "Dinas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "出張に行きます。 (Shucchou ni ikimasu.) - Saya pergi dinas."
+  },
+  {
+    "kanji": "休み",
+    "hiragana": "やすみ",
+    "meaning": "Libur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "work",
+    "example": "明日は休みです。 (Ashita wa yasumi desu.) - Besok libur."
+  },
+  {
+    "kanji": "夏休み",
+    "hiragana": "なつやすみ",
+    "meaning": "Liburan musim panas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "夏休みに海へ行きます。 (Natsuyasumi ni umi e ikimasu.) - Saya pergi ke laut saat liburan musim panas."
+  },
+  {
+    "kanji": "冬休み",
+    "hiragana": "ふゆやすみ",
+    "meaning": "Liburan musim dingin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "冬休みは家で過ごします。 (Fuyuyasumi wa ie de sugoshimasu.) - Saya menghabiskan liburan musim dingin di rumah."
+  },
+  {
+    "kanji": "春休み",
+    "hiragana": "はるやすみ",
+    "meaning": "Liburan musim semi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "春休みに旅行します。 (Haruyasumi ni ryokou shimasu.) - Saya bepergian saat liburan musim semi."
+  },
+  {
+    "kanji": "ゴールデンウィーク",
+    "hiragana": "ゴールデンウィーク",
+    "meaning": "Golden Week",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "ゴールデンウィークにどこかへ行きますか？ (Goorudenwiiku ni dokoka e ikimasu ka?) - Apakah Anda pergi ke suatu tempat saat Golden Week?"
+  },
+  {
+    "kanji": "正月",
+    "hiragana": "しょうがつ",
+    "meaning": "Tahun Baru",
+    "type": "noun",
+    "level": "n5",
+    "theme": "time",
+    "example": "正月におせちを食べます。 (Shougatsu ni osechi wo tabemasu.) - Saya makan osechi saat Tahun Baru."
+  },
+  {
+    "kanji": "春",
+    "hiragana": "はる",
+    "meaning": "Musim semi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "season",
+    "example": "春は暖かいです。 (Haru wa atatakai desu.) - Musim semi hangat."
+  },
+  {
+    "kanji": "夏",
+    "hiragana": "なつ",
+    "meaning": "Musim panas",
+    "type": "noun",
+    "level": "n5",
+    "theme": "season",
+    "example": "夏は暑いです。 (Natsu wa atsui desu.) - Musim panas panas."
+  },
+  {
+    "kanji": "秋",
+    "hiragana": "あき",
+    "meaning": "Musim gugur",
+    "type": "noun",
+    "level": "n5",
+    "theme": "season",
+    "example": "秋は紅葉がきれいです。 (Aki wa kouyou ga kirei desu.) - Musim gugur daunnya indah."
+  },
+  {
+    "kanji": "冬",
+    "hiragana": "ふゆ",
+    "meaning": "Musim dingin",
+    "type": "noun",
+    "level": "n5",
+    "theme": "season",
+    "example": "冬は寒いです。 (Fuyu wa samui desu.) - Musim dingin dingin."
+  },
+  {
+    "kanji": "季節",
+    "hiragana": "きせつ",
+    "meaning": "Musim",
+    "type": "noun",
+    "level": "n5",
+    "theme": "season",
+    "example": "季節の変化が好きです。 (Kisetsu no henka ga suki desu.) - Saya suka perubahan musim."
+  },
+  {
+    "kanji": "曇り",
+    "hiragana": "くもり",
+    "meaning": "Berawan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "weather",
+    "example": "今日は曇りです。 (Kyou wa kumori desu.) - Hari ini berawan."
+  },
+  {
+    "kanji": "晴れ",
+    "hiragana": "はれ",
+    "meaning": "Cerah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "weather",
+    "example": "明日は晴れです。 (Ashita wa hare desu.) - Besok cerah."
+  },
+  {
+    "kanji": "台風",
+    "hiragana": "たいふう",
+    "meaning": "Topan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "weather",
+    "example": "台風が来ます。 (Taifuu ga kimasu.) - Topan datang."
+  },
+  {
+    "kanji": "地震",
+    "hiragana": "じしん",
+    "meaning": "Gempa bumi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "disaster",
+    "example": "地震がありました。 (Jishin ga arimashita.) - Ada gempa bumi."
+  },
+  {
+    "kanji": "火事",
+    "hiragana": "かじ",
+    "meaning": "Kebakaran",
+    "type": "noun",
+    "level": "n5",
+    "theme": "disaster",
+    "example": "火事が起こりました。 (Kaji ga okorimashita.) - Terjadi kebakaran."
+  },
+  {
+    "kanji": "事故",
+    "hiragana": "じこ",
+    "meaning": "Kecelakaan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "disaster",
+    "example": "事故が起きました。 (Jiko ga okimashita.) - Terjadi kecelakaan."
+  },
+  {
+    "kanji": "戦争",
+    "hiragana": "せんそう",
+    "meaning": "Perang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "戦争は恐ろしいです。 (Sensou wa osoroshii desu.) - Perang itu mengerikan."
+  },
+  {
+    "kanji": "平和",
+    "hiragana": "へいわ",
+    "meaning": "Damai",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "平和が大切です。 (Heiwa ga taisetsu desu.) - Perdamaian itu penting."
+  },
+  {
+    "kanji": "世界",
+    "hiragana": "せかい",
+    "meaning": "Dunia",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "世界地図があります。 (Sekai chizu ga arimasu.) - Ada peta dunia."
+  },
+  {
+    "kanji": "社会",
+    "hiragana": "しゃかい",
+    "meaning": "Masyarakat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "社会に出ます。 (Shakai ni demasu.) - Saya masuk masyarakat."
+  },
+  {
+    "kanji": "政治",
+    "hiragana": "せいじ",
+    "meaning": "Politik",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "政治に関心があります。 (Seiji ni kanshin ga arimasu.) - Saya tertarik pada politik."
+  },
+  {
+    "kanji": "経済",
+    "hiragana": "けいざい",
+    "meaning": "Ekonomi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "経済が成長しています。 (Keizai ga seichou shite imasu.) - Ekonomi berkembang."
+  },
+  {
+    "kanji": "文化",
+    "hiragana": "ぶんか",
+    "meaning": "Budaya",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "日本の文化に興味があります。 (Nihon no bunka ni kyoumi ga arimasu.) - Saya tertarik pada budaya Jepang."
+  },
+  {
+    "kanji": "歴史",
+    "hiragana": "れきし",
+    "meaning": "Sejarah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "society",
+    "example": "歴史を勉強します。 (Rekishi wo benkyou shimasu.) - Saya belajar sejarah."
+  },
+  {
+    "kanji": "科学",
+    "hiragana": "かがく",
+    "meaning": "Sains",
+    "type": "noun",
+    "level": "n5",
+    "theme": "science",
+    "example": "科学が進歩しました。 (Kagaku ga shinpo shimashita.) - Sains telah maju."
+  },
+  {
+    "kanji": "技術",
+    "hiragana": "ぎじゅつ",
+    "meaning": "Teknologi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "science",
+    "example": "技術が発展しています。 (Gijutsu ga hatten shite imasu.) - Teknologi berkembang."
+  },
+  {
+    "kanji": "自然",
+    "hiragana": "しぜん",
+    "meaning": "Alam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "自然が好きです。 (Shizen ga suki desu.) - Saya suka alam."
+  },
+  {
+    "kanji": "環境",
+    "hiragana": "かんきょう",
+    "meaning": "Lingkungan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "環境を守ります。 (Kankyou wo mamorimasu.) - Saya melindungi lingkungan."
+  },
+  {
+    "kanji": "動物",
+    "hiragana": "どうぶつ",
+    "meaning": "Hewan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "動物が好きです。 (Doubutsu ga suki desu.) - Saya suka hewan."
+  },
+  {
+    "kanji": "植物",
+    "hiragana": "しょくぶつ",
+    "meaning": "Tumbuhan",
+    "type": "noun",
+    "level": "n5",
+    "theme": "nature",
+    "example": "植物を育てます。 (Shokubutsu wo sodatemasu.) - Saya menanam tumbuhan."
+  },
+  {
+    "kanji": "虫",
+    "hiragana": "むし",
+    "meaning": "Serangga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "虫が嫌いです。 (Mushi ga kirai desu.) - Saya benci serangga."
+  },
+  {
+    "kanji": "蝶",
+    "hiragana": "ちょう",
+    "meaning": "Kupu-kupu",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "蝶が飛んでいます。 (Chou ga tonde imasu.) - Kupu-kupu terbang."
+  },
+  {
+    "kanji": "蚊",
+    "hiragana": "か",
+    "meaning": "Nyamuk",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "蚊に刺されました。 (Ka ni sasaremashita.) - Saya digigit nyamuk."
+  },
+  {
+    "kanji": "象",
+    "hiragana": "ぞう",
+    "meaning": "Gajah",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "象は大きいです。 (Zou wa ookii desu.) - Gajah besar."
+  },
+  {
+    "kanji": "馬",
+    "hiragana": "うま",
+    "meaning": "Kuda",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "馬に乗ります。 (Uma ni norimasu.) - Saya naik kuda."
+  },
+  {
+    "kanji": "牛",
+    "hiragana": "うし",
+    "meaning": "Sapi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "牛が草を食べています。 (Ushi ga kusa wo tabete imasu.) - Sapi sedang makan rumput."
+  },
+  {
+    "kanji": "豚",
+    "hiragana": "ぶた",
+    "meaning": "Babi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "豚は可愛いです。 (Buta wa kawaii desu.) - Babi itu lucu."
+  },
+  {
+    "kanji": "羊",
+    "hiragana": "ひつじ",
+    "meaning": "Domba",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "羊がたくさんいます。 (Hitsuji ga takusan imasu.) - Ada banyak domba."
+  },
+  {
+    "kanji": "猿",
+    "hiragana": "さる",
+    "meaning": "Monyet",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "猿が木に登っています。 (Saru ga ki ni nobotte imasu.) - Monyet naik pohon."
+  },
+  {
+    "kanji": "熊",
+    "hiragana": "くま",
+    "meaning": "Beruang",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "熊は強いです。 (Kuma wa tsuyoi desu.) - Beruang kuat."
+  },
+  {
+    "kanji": "虎",
+    "hiragana": "とら",
+    "meaning": "Harimau",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "虎は危険です。 (Tora wa kiken desu.) - Harimau berbahaya."
+  },
+  {
+    "kanji": "蛇",
+    "hiragana": "へび",
+    "meaning": "Ular",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "蛇を見ました。 (Hebi wo mimashita.) - Saya melihat ular."
+  },
+  {
+    "kanji": "亀",
+    "hiragana": "かめ",
+    "meaning": "Kura-kura",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "亀は長生きです。 (Kame wa nagaiki desu.) - Kura-kura berumur panjang."
+  },
+  {
+    "kanji": "鳩",
+    "hiragana": "はと",
+    "meaning": "Merpati",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "鳩が公園にいます。 (Hato ga kouen ni imasu.) - Ada merpati di taman."
+  },
+  {
+    "kanji": "鶏",
+    "hiragana": "にわとり",
+    "meaning": "Ayam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "animal",
+    "example": "鶏が鳴いています。 (Niwatori ga naite imasu.) - Ayam berkokok."
+  },
+  {
+    "kanji": "番組",
+    "hiragana": "ばんぐみ",
+    "meaning": "Program TV",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "テレビ番組を見ます。 (Terebi bangumi wo mimasu.) - Saya menonton program TV."
+  },
+  {
+    "kanji": "ニュース",
+    "hiragana": "ニュース",
+    "meaning": "Berita",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "ニュースを聞きます。 (Nyūsu wo kikimasu.) - Saya mendengar berita."
+  },
+  {
+    "kanji": "ドラマ",
+    "hiragana": "ドラマ",
+    "meaning": "Drama",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "日本のドラマが好きです。 (Nihon no dorama ga suki desu.) - Saya suka drama Jepang."
+  },
+  {
+    "kanji": "アニメ",
+    "hiragana": "アニメ",
+    "meaning": "Anime",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "アニメを見ます。 (Anime wo mimasu.) - Saya menonton anime."
+  },
+  {
+    "kanji": "漫画",
+    "hiragana": "まんが",
+    "meaning": "Manga",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "漫画を読みます。 (Manga wo yomimasu.) - Saya membaca manga."
+  },
+  {
+    "kanji": "小説",
+    "hiragana": "しょうせつ",
+    "meaning": "Novel",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "小説を書いています。 (Shousetsu wo kaite imasu.) - Saya sedang menulis novel."
+  },
+  {
+    "kanji": "物語",
+    "hiragana": "ものがたり",
+    "meaning": "Cerita",
+    "type": "noun",
+    "level": "n5",
+    "theme": "media",
+    "example": "物語を話します。 (Monogatari wo hanashimasu.) - Saya bercerita."
+  },
+  {
+    "kanji": "ゲーム",
+    "hiragana": "ゲーム",
+    "meaning": "Game",
+    "type": "noun",
+    "level": "n5",
+    "theme": "entertainment",
+    "example": "ゲームをします。 (Geemu wo shimasu.) - Saya bermain game."
+  },
+  {
+    "kanji": "趣味",
+    "hiragana": "しゅみ",
+    "meaning": "Hobi",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "趣味は何ですか？ (Shumi wa nan desu ka?) - Apa hobi Anda?"
+  },
+  {
+    "kanji": "興味",
+    "hiragana": "きょうみ",
+    "meaning": "Minat",
+    "type": "noun",
+    "level": "n5",
+    "theme": "general",
+    "example": "歴史に興味があります。 (Rekishi ni kyoumi ga arimasu.) - Saya tertarik pada sejarah."
+  },
+  {
+    "kanji": "約",
+    "hiragana": "やく",
+    "meaning": "Kira-kira",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "約100人です。 (Yaku hyaku-nin desu.) - Sekitar 100 orang."
+  },
+  {
+    "kanji": "程",
+    "hiragana": "ほど",
+    "meaning": "Sekitar",
+    "type": "adverb",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "10分ほどかかります。 (Juppun hodo kakarimasu.) - Butuh sekitar 10 menit."
+  },
+  {
+    "kanji": "以上",
+    "hiragana": "いじょう",
+    "meaning": "Di atas/Lebih dari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "18歳以上です。 (Juuhassai ijou desu.) - Di atas 18 tahun."
+  },
+  {
+    "kanji": "以下",
+    "hiragana": "いか",
+    "meaning": "Di bawah/Kurang dari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "10以下です。 (Juu ika desu.) - Kurang dari 10."
+  },
+  {
+    "kanji": "以内",
+    "hiragana": "いない",
+    "meaning": "Dalam/Kurang dari",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "1週間以内に返します。 (Isshuukan inai ni kaeshimasu.) - Saya kembalikan dalam 1 minggu."
+  },
+  {
+    "kanji": "以外",
+    "hiragana": "いがい",
+    "meaning": "Selain",
+    "type": "noun",
+    "level": "n5",
+    "theme": "quantity",
+    "example": "彼以外は来ません。 (Kare igai wa kimasen.) - Selain dia, tidak ada yang datang."
+  },
+  {
+    "kanji": "間に",
+    "hiragana": "あいだに",
+    "meaning": "Selama",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "time",
+    "example": "雨が降っている間に帰ります。 (Ame ga futte iru aida ni kaerimasu.) - Saya pulang selama hujan turun."
+  },
+  {
+    "kanji": "前に",
+    "hiragana": "まえに",
+    "meaning": "Sebelum",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "time",
+    "example": "食べる前に手を洗います。 (Taberu mae ni te wo araimasu.) - Saya mencuci tangan sebelum makan."
+  },
+  {
+    "kanji": "後で",
+    "hiragana": "あとで",
+    "meaning": "Setelah",
+    "type": "conjunction",
+    "level": "n5",
+    "theme": "time",
+    "example": "後で行きます。 (Ato de ikimasu.) - Saya pergi nanti."
+  },
+  {
+    "kanji": "中に",
+    "hiragana": "なかに",
+    "meaning": "Di dalam",
+    "type": "noun",
+    "level": "n5",
+    "theme": "direction",
+    "example": "箱の中に何がありますか？ (Hako no naka ni nani ga arimasu ka?) - Ada apa di dalam kotak?"
+  }
 ]

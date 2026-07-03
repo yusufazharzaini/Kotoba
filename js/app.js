@@ -5,17 +5,11 @@
 (function() {
   'use strict';
 
-  // ================================================================
-  //  KONSTANTA
-  // ================================================================
   const ITEMS_PER_PAGE = 20;
-  const DEFAULT_LEVEL = 'N5'; // Level default yang dimuat pertama kali
+  const DEFAULT_LEVEL = 'N5';
 
-  // ================================================================
-  //  STATE
-  // ================================================================
   let vocabData = [];
-  let currentFilterLevel = DEFAULT_LEVEL; // default N5
+  let currentFilterLevel = DEFAULT_LEVEL;
   let currentFilterType = 'all';
   let currentFilterTheme = 'all';
   let currentSearch = '';
@@ -24,9 +18,7 @@
   let currentQuizWord = null;
   let isLoading = false;
 
-  // ================================================================
-  //  DOM REFS
-  // ================================================================
+  // DOM refs
   const cardGrid = document.getElementById('cardGrid');
   const paginationEl = document.getElementById('pagination');
   const progressFill = document.getElementById('progressFill');
@@ -43,12 +35,9 @@
   const nextQuizBtn = document.getElementById('nextQuizBtn');
   const loadingIndicator = document.getElementById('loadingIndicator');
 
-  // ================================================================
-  //  HELPERS - FILTER & DATA
-  // ================================================================
+  // ===== Filter =====
   function getFilteredData() {
     let result = [...vocabData];
-
     if (currentFilterLevel !== 'all') {
       result = result.filter(v => v.level === currentFilterLevel);
     }
@@ -58,7 +47,6 @@
     if (currentFilterTheme !== 'all') {
       result = result.filter(v => v.theme === currentFilterTheme);
     }
-
     const q = currentSearch.trim().toLowerCase();
     if (q !== '') {
       result = result.filter(v =>
@@ -68,13 +56,10 @@
         v.example.toLowerCase().includes(q)
       );
     }
-
     return result;
   }
 
-  // ================================================================
-  //  RENDER - CARDS & PAGINATION
-  // ================================================================
+  // ===== Render =====
   function render() {
     const filtered = getFilteredData();
     const totalItems = filtered.length;
@@ -87,7 +72,6 @@
     const end = start + ITEMS_PER_PAGE;
     const pageItems = filtered.slice(start, end);
 
-    // --- Render cards ---
     cardGrid.innerHTML = '';
 
     if (pageItems.length === 0) {
@@ -141,7 +125,7 @@
       });
     }
 
-    // --- Know buttons ---
+    // Know buttons
     document.querySelectorAll('.know-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -161,12 +145,9 @@
     updateStats();
   }
 
-  // ================================================================
-  //  PAGINATION UI
-  // ================================================================
+  // ===== Pagination =====
   function renderPagination(totalPages, totalItems) {
     paginationEl.innerHTML = '';
-
     if (totalPages <= 1) {
       paginationEl.innerHTML = `<span class="page-info">${totalItems} kosakata</span>`;
       return;
@@ -175,9 +156,7 @@
     const prevBtn = document.createElement('button');
     prevBtn.textContent = '‹';
     prevBtn.disabled = currentPage === 1;
-    prevBtn.addEventListener('click', () => {
-      if (currentPage > 1) { currentPage--; render(); }
-    });
+    prevBtn.addEventListener('click', () => { if (currentPage > 1) { currentPage--; render(); } });
     paginationEl.appendChild(prevBtn);
 
     const maxVisible = 5;
@@ -226,9 +205,7 @@
     const nextBtn = document.createElement('button');
     nextBtn.textContent = '›';
     nextBtn.disabled = currentPage === totalPages;
-    nextBtn.addEventListener('click', () => {
-      if (currentPage < totalPages) { currentPage++; render(); }
-    });
+    nextBtn.addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; render(); } });
     paginationEl.appendChild(nextBtn);
 
     const info = document.createElement('span');
@@ -239,9 +216,7 @@
     paginationEl.appendChild(info);
   }
 
-  // ================================================================
-  //  STATS & PROGRESS
-  // ================================================================
+  // ===== Stats =====
   function updateStats() {
     const total = vocabData.length;
     const known = knownWords.filter(k => vocabData.some(v => v.kanji === k)).length;
@@ -256,9 +231,7 @@
     progressText.textContent = `${known} dari ${total} kata dikuasai (dari level yang dimuat)`;
   }
 
-  // ================================================================
-  //  LOAD DATA & RE-RENDER (Asycn)
-  // ================================================================
+  // ===== Load & Render =====
   async function loadAndRender(level) {
     if (isLoading) return;
     isLoading = true;
@@ -270,7 +243,6 @@
       } else {
         await window.loadLevelData(level);
       }
-      // Ambil data terbaru dari global
       vocabData = window.getVocabData();
       render();
       loadQuiz();
@@ -291,40 +263,31 @@
     }
   }
 
-  // ================================================================
-  //  FILTER HANDLERS (dengan lazy loading)
-  // ================================================================
+  // ===== Filters =====
   function setupFilters() {
-    // --- Level ---
+    // Level
     document.querySelectorAll('[data-level]').forEach(btn => {
       btn.addEventListener('click', async () => {
         const level = btn.dataset.level;
-
-        // Jika data belum dimuat, muat dulu
         if (level !== 'all' && !window.isLevelLoaded(level)) {
           await loadAndRender(level);
         } else if (level === 'all') {
-          // Cek apakah semua level sudah dimuat
           const allLevels = ['N5', 'N4', 'N3', 'N2', 'N1', 'Tambahan'];
           const allLoaded = allLevels.every(l => window.isLevelLoaded(l));
           if (!allLoaded) {
             await loadAndRender('all');
           }
         }
-
-        // Update UI filter
         document.querySelectorAll('[data-level]').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-
-        // Update state & render
         currentFilterLevel = level;
         currentPage = 1;
         render();
-        loadQuiz(); // refresh kuis dengan data baru
+        loadQuiz();
       });
     });
 
-    // --- Type ---
+    // Type
     document.querySelectorAll('[data-type]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
@@ -335,7 +298,7 @@
       });
     });
 
-    // --- Theme ---
+    // Theme
     document.querySelectorAll('[data-theme]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-theme]').forEach(b => b.classList.remove('active'));
@@ -346,16 +309,14 @@
       });
     });
 
-    // --- Search ---
+    // Search
     function doSearch() {
       currentSearch = searchInput.value;
       currentPage = 1;
       render();
     }
     searchBtn.addEventListener('click', doSearch);
-    searchInput.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') doSearch();
-    });
+    searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
     searchInput.addEventListener('input', () => {
       if (searchInput.value === '') {
         currentSearch = '';
@@ -365,12 +326,9 @@
     });
   }
 
-  // ================================================================
-  //  QUIZ
-  // ================================================================
+  // ===== Quiz =====
   function loadQuiz() {
     quizFeedback.textContent = '\u00A0';
-
     const pool = getFilteredData();
     if (pool.length === 0) {
       quizWord.textContent = '—';
@@ -411,18 +369,14 @@
     });
   }
 
-  // ================================================================
-  //  NAV HAMBURGER
-  // ================================================================
+  // ===== Nav =====
   function setupNav() {
     document.getElementById('hamburger').addEventListener('click', () => {
       document.getElementById('navLinks').classList.toggle('open');
     });
   }
 
-  // ================================================================
-  //  HERO PARALLAX
-  // ================================================================
+  // ===== Hero Parallax =====
   function setupHeroParallax() {
     const heroVisual = document.querySelector('.hero-visual');
     if (!heroVisual) return;
@@ -436,9 +390,7 @@
     });
   }
 
-  // ================================================================
-  //  STORAGE SYNC
-  // ================================================================
+  // ===== Storage Sync =====
   function setupStorageSync() {
     window.addEventListener('storage', (e) => {
       if (e.key === 'knownWords') {
@@ -449,14 +401,10 @@
     });
   }
 
-  // ================================================================
-  //  DYNAMIC FILTER GENERATION (Theme)
-  // ================================================================
+  // ===== Generate Theme Filters =====
   function generateThemeFilters() {
     const container = document.getElementById('themeFilterContainer');
     if (!container) return;
-
-    // Hapus tombol yang ada (kecuali label)
     const label = container.querySelector('.group-label');
     container.innerHTML = '';
     if (label) container.appendChild(label);
@@ -477,40 +425,26 @@
     });
   }
 
-  // ================================================================
-  //  INIT - ASYNC
-  // ================================================================
+  // ===== INIT =====
   async function init() {
     try {
-      // Tampilkan loading
       if (loadingIndicator) loadingIndicator.style.display = 'block';
-
-      // Muat data default (N5)
       await window.loadLevelData(DEFAULT_LEVEL);
       vocabData = window.getVocabData();
-
-      // Sembunyikan loading
       if (loadingIndicator) loadingIndicator.style.display = 'none';
 
-      // Generate filter tema (harus setelah data siap)
       generateThemeFilters();
-
-      // Setup komponen
       setupFilters();
       setupNav();
       setupHeroParallax();
       setupStorageSync();
 
-      // Render awal
       render();
       updateStats();
       loadQuiz();
-
-      // Event kuis
       nextQuizBtn.addEventListener('click', loadQuiz);
 
       console.log(`✅ GoiMaster siap! ${vocabData.length} kosakata dimuat (${DEFAULT_LEVEL})`);
-
     } catch (error) {
       console.error('Init error:', error);
       if (loadingIndicator) {
@@ -525,7 +459,6 @@
     }
   }
 
-  // Jalankan saat DOM siap
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

@@ -1,0 +1,8 @@
+[
+  { "kanji": "萌え", "hiragana": "もえ", "meaning": "Moe (perasaan suka)", "type": "その他", "level": "Tambahan", "theme": "Budaya Pop", "example": "萌えキャラ。" },
+  { "kanji": "イケメン", "hiragana": "いけめん", "meaning": "Pria tampan", "type": "その他", "level": "Tambahan", "theme": "Budaya Pop", "example": "イケメン俳優。" },
+  { "kanji": "アニメ", "hiragana": "あにめ", "meaning": "Anime", "type": "名詞", "level": "Tambahan", "theme": "Budaya Pop", "example": "アニメを見る。" },
+  { "kanji": "カラオケ", "hiragana": "からおけ", "meaning": "Karaoke", "type": "名詞", "level": "Tambahan", "theme": "Budaya Pop", "example": "カラオケに行く。" },
+  { "kanji": "写真", "hiragana": "しゃしん", "meaning": "Foto", "type": "名詞", "level": "Tambahan", "theme": "Hobi", "example": "写真を撮る。" },
+  { "kanji": "お土産", "hiragana": "おみやげ", "meaning": "Oleh-oleh", "type": "名詞", "level": "Tambahan", "theme": "Wisata", "example": "お土産を買う。" }
+]

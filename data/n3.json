@@ -1,0 +1,10 @@
+[
+  { "kanji": "環境", "hiragana": "かんきょう", "meaning": "Lingkungan", "type": "名詞", "level": "N3", "theme": "Alam", "example": "環境を守る。" },
+  { "kanji": "開発", "hiragana": "かいはつ", "meaning": "Pengembangan", "type": "名詞", "level": "N3", "theme": "Bisnis", "example": "新商品を開発する。" },
+  { "kanji": "意識", "hiragana": "いしき", "meaning": "Kesadaran", "type": "名詞", "level": "N3", "theme": "Psikologi", "example": "意識を高める。" },
+  { "kanji": "悩む", "hiragana": "なやむ", "meaning": "Bingung / khawatir", "type": "動詞", "level": "N3", "theme": "Perasaan", "example": "将来に悩む。" },
+  { "kanji": "育つ", "hiragana": "そだつ", "meaning": "Tumbuh", "type": "動詞", "level": "N3", "theme": "Aktivitas", "example": "子供が育つ。" },
+  { "kanji": "豊か", "hiragana": "ゆたか", "meaning": "Makmur / kaya", "type": "形容詞", "level": "N3", "theme": "Sifat", "example": "豊かな生活。" },
+  { "kanji": "複雑", "hiragana": "ふくざつ", "meaning": "Kompleks", "type": "形容詞", "level": "N3", "theme": "Sifat", "example": "複雑な問題。" },
+  { "kanji": "貿易", "hiragana": "ぼうえき", "meaning": "Perdagangan", "type": "名詞", "level": "N3", "theme": "Bisnis", "example": "国際貿易。" }
+]

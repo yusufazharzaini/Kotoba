@@ -1,0 +1,8 @@
+[
+  { "kanji": "現象", "hiragana": "げんしょう", "meaning": "Fenomena", "type": "名詞", "level": "N2", "theme": "Sains", "example": "自然現象。" },
+  { "kanji": "実施", "hiragana": "じっし", "meaning": "Pelaksanaan", "type": "名詞", "level": "N2", "theme": "Bisnis", "example": "計画を実施する。" },
+  { "kanji": "崩れる", "hiragana": "くずれる", "meaning": "Runtuh / hancur", "type": "動詞", "level": "N2", "theme": "Alam", "example": "建物が崩れる。" },
+  { "kanji": "伴う", "hiragana": "ともなう", "meaning": "Menyertai", "type": "動詞", "level": "N2", "theme": "Aktivitas", "example": "危険を伴う。" },
+  { "kanji": "膨大", "hiragana": "ぼうだい", "meaning": "Sangat besar", "type": "形容詞", "level": "N2", "theme": "Sifat", "example": "膨大なデータ。" },
+  { "kanji": "繊細", "hiragana": "せんさい", "meaning": "Halus / sensitif", "type": "形容詞", "level": "N2", "theme": "Sifat", "example": "繊細な感覚。" }
+]

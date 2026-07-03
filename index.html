@@ -1,0 +1,169 @@
+<!-- ============================================================ -->
+<!--  index.html  -->
+<!-- ============================================================ -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>語彙 | Belajar Kosakata Jepang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== BACKGROUND ===== -->
+  <div class="bg-shapes">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+    <div class="shape s3"></div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav>
+      <div class="logo">
+        <span class="mark jp">語</span>
+        Goi<span style="color:var(--accent-3)">Master</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#belajar">Belajar</a></li>
+        <li><a href="#quiz">Kuis</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#" class="btn btn-primary" style="display:inline-block;">Mulai Gratis</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-tag">🌸 Belajar Kosakata Jepang</div>
+      <h1>Kuasai <span class="highlight">Kosakata Jepang</span> dengan Cara yang Menyenangkan</h1>
+      <p>Flashcard interaktif 3D, kuis harian, dan pelacakan progres — semua dirancang agar kamu tetap konsisten belajar bahasa Jepang setiap hari.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="document.getElementById('belajar').scrollIntoView({behavior:'smooth'})">Mulai Belajar</button>
+        <button class="btn btn-outline" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">Coba Kuis</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="float-card c1">
+        <div class="word jp">猫</div>
+        <div class="reading jp">ねこ</div>
+        <div class="meaning">Kucing</div>
+      </div>
+      <div class="float-card c2">
+        <div class="word jp">水</div>
+        <div class="reading jp">みず</div>
+        <div class="meaning">Air</div>
+      </div>
+      <div class="float-card c3">
+        <div class="word jp">友達</div>
+        <div class="reading jp">ともだち</div>
+        <div class="meaning">Teman</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS (Tambah Theme) ===== -->
+  <div class="stats">
+    <div class="stat-card"><div class="num" id="statTotal">0</div><div class="label">Total Kosakata</div></div>
+    <div class="stat-card"><div class="num" id="statKnown">0</div><div class="label">Sudah Dikuasai</div></div>
+    <div class="stat-card"><div class="num" id="statLevels">0</div><div class="label">Level</div></div>
+    <div class="stat-card"><div class="num" id="statThemes">0</div><div class="label">Tema</div></div>
+  </div>
+
+  <!-- ===== FLASHCARD SECTION ===== -->
+  <section id="belajar" class="section-inner">
+    <div class="section-head">
+      <h2>Flashcard Kosakata</h2>
+      <p>Klik kartu untuk membalik dan melihat arti serta contoh kalimatnya.</p>
+    </div>
+
+    <!-- LOADING INDICATOR -->
+    <div id="loadingIndicator" style="text-align:center; padding:40px; display:none;">
+      <div style="font-size:2rem; margin-bottom:16px;">⏳</div>
+      <p style="color:var(--text-dim);">Memuat ribuan kosakata...</p>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <!-- Level -->
+      <div class="group">
+        <span class="group-label">Level</span>
+        <button class="filter-btn level-all active" data-level="all">Semua</button>
+        <button class="filter-btn level-N5" data-level="N5">N5</button>
+        <button class="filter-btn level-N4" data-level="N4">N4</button>
+        <button class="filter-btn level-N3" data-level="N3">N3</button>
+        <button class="filter-btn level-N2" data-level="N2">N2</button>
+        <button class="filter-btn level-N1" data-level="N1">N1</button>
+        <button class="filter-btn level-Tambahan" data-level="Tambahan">Tambahan</button>
+      </div>
+
+      <!-- Type -->
+      <div class="group">
+        <span class="group-label">Tipe</span>
+        <button class="filter-btn type-all active" data-type="all">Semua</button>
+        <button class="filter-btn" data-type="名詞">名詞</button>
+        <button class="filter-btn" data-type="動詞">動詞</button>
+        <button class="filter-btn" data-type="形容詞">形容詞</button>
+        <button class="filter-btn" data-type="副詞">副詞</button>
+        <button class="filter-btn" data-type="その他">その他</button>
+      </div>
+
+      <!-- Theme (akan di-generate oleh JS) -->
+      <div class="group" id="themeFilterContainer">
+        <span class="group-label">Tema</span>
+        <!-- Dinamis diisi oleh JS -->
+      </div>
+
+      <!-- Search -->
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Cari kosakata..." />
+        <button id="searchBtn">Cari</button>
+      </div>
+    </div>
+
+    <!-- PROGRESS -->
+    <div class="progress-wrap" id="progress">
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+      </div>
+      <div class="progress-text" id="progressText">0 dari 0 kata dikuasai</div>
+    </div>
+
+    <!-- CARD GRID -->
+    <div class="card-grid" id="cardGrid"></div>
+
+    <!-- PAGINATION -->
+    <div class="pagination" id="pagination"></div>
+  </section>
+
+  <!-- ===== QUIZ SECTION ===== -->
+  <section id="quiz" class="section-inner">
+    <div class="section-head">
+      <h2>Uji Pemahamanmu</h2>
+      <p>Pilih arti yang tepat untuk kata di bawah ini.</p>
+    </div>
+    <div class="quiz-box">
+      <div class="quiz-word jp" id="quizWord">猫</div>
+      <div class="quiz-feedback" id="quizFeedback">&nbsp;</div>
+      <div class="quiz-options" id="quizOptions"></div>
+      <button class="btn btn-primary" id="nextQuizBtn">Soal Berikutnya</button>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    © 2026 GoiMaster — Belajar kosakata bahasa Jepang, sedikit demi sedikit setiap hari.
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

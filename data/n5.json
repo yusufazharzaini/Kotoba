@@ -1,0 +1,17 @@
+[
+  { "kanji": "猫", "hiragana": "ねこ", "meaning": "Kucing", "type": "名詞", "level": "N5", "theme": "Hewan", "example": "猫が好きです。" },
+  { "kanji": "犬", "hiragana": "いぬ", "meaning": "Anjing", "type": "名詞", "level": "N5", "theme": "Hewan", "example": "犬と散歩する。" },
+  { "kanji": "水", "hiragana": "みず", "meaning": "Air", "type": "名詞", "level": "N5", "theme": "Alam", "example": "水を飲みます。" },
+  { "kanji": "友達", "hiragana": "ともだち", "meaning": "Teman", "type": "名詞", "level": "N5", "theme": "Manusia", "example": "友達と遊ぶ。" },
+  { "kanji": "学校", "hiragana": "がっこう", "meaning": "Sekolah", "type": "名詞", "level": "N5", "theme": "Tempat", "example": "学校へ行きます。" },
+  { "kanji": "食べる", "hiragana": "たべる", "meaning": "Makan", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "ご飯を食べる。" },
+  { "kanji": "飲む", "hiragana": "のむ", "meaning": "Minum", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "水を飲む。" },
+  { "kanji": "行く", "hiragana": "いく", "meaning": "Pergi", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "学校へ行く。" },
+  { "kanji": "見る", "hiragana": "みる", "meaning": "Melihat", "type": "動詞", "level": "N5", "theme": "Aktivitas", "example": "テレビを見る。" },
+  { "kanji": "大きい", "hiragana": "おおきい", "meaning": "Besar", "type": "形容詞", "level": "N5", "theme": "Sifat", "example": "大きい家。" },
+  { "kanji": "小さい", "hiragana": "ちいさい", "meaning": "Kecil", "type": "形容詞", "level": "N5", "theme": "Sifat", "example": "小さい猫。" },
+  { "kanji": "空", "hiragana": "そら", "meaning": "Langit", "type": "名詞", "level": "N5", "theme": "Alam", "example": "空が青い。" },
+  { "kanji": "山", "hiragana": "やま", "meaning": "Gunung", "type": "名詞", "level": "N5", "theme": "Alam", "example": "山に登る。" },
+  { "kanji": "川", "hiragana": "かわ", "meaning": "Sungai", "type": "名詞", "level": "N5", "theme": "Alam", "example": "川で泳ぐ。" },
+  { "kanji": "花", "hiragana": "はな", "meaning": "Bunga", "type": "名詞", "level": "N5", "theme": "Alam", "example": "花がきれい。" }
+]

@@ -1,0 +1,12 @@
+[
+  { "kanji": "電車", "hiragana": "でんしゃ", "meaning": "Kereta listrik", "type": "名詞", "level": "N4", "theme": "Transportasi", "example": "電車で行く。" },
+  { "kanji": "美しい", "hiragana": "うつくしい", "meaning": "Indah / cantik", "type": "形容詞", "level": "N4", "theme": "Sifat", "example": "美しい景色。" },
+  { "kanji": "図書館", "hiragana": "としょかん", "meaning": "Perpustakaan", "type": "名詞", "level": "N4", "theme": "Tempat", "example": "図書館で勉強する。" },
+  { "kanji": "働く", "hiragana": "はたらく", "meaning": "Bekerja", "type": "動詞", "level": "N4", "theme": "Aktivitas", "example": "毎日働く。" },
+  { "kanji": "急ぐ", "hiragana": "いそぐ", "meaning": "Buru-buru", "type": "動詞", "level": "N4", "theme": "Aktivitas", "example": "急いで行く。" },
+  { "kanji": "静か", "hiragana": "しずか", "meaning": "Tenang", "type": "形容詞", "level": "N4", "theme": "Sifat", "example": "静かな部屋。" },
+  { "kanji": "賑やか", "hiragana": "にぎやか", "meaning": "Ramai", "type": "形容詞", "level": "N4", "theme": "Sifat", "example": "賑やかな街。" },
+  { "kanji": "銀行", "hiragana": "ぎんこう", "meaning": "Bank", "type": "名詞", "level": "N4", "theme": "Tempat", "example": "銀行へ行く。" },
+  { "kanji": "薬局", "hiragana": "やっきょく", "meaning": "Apotek", "type": "名詞", "level": "N4", "theme": "Tempat", "example": "薬局で薬を買う。" },
+  { "kanji": "大切", "hiragana": "たいせつ", "meaning": "Penting", "type": "形容詞", "level": "N4", "theme": "Sifat", "example": "大切な人。" }
+]
